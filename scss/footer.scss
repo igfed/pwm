@@ -1,0 +1,186 @@
+
+.footer {
+  color: $white; background-color: $footer-bg-color;
+  padding: 68px 0 0 0;
+
+  // mobile (small & medium)
+  @media screen and (max-width: 64em) { padding-top: 24px; }
+  .columns.nopadding { padding: 0px; }
+
+  .backtotop-row,
+  .footer-copyright { 
+    @include grid-row($width: 1244px);
+    padding-left: 22px; padding-right: 22px;
+  }
+
+  // Back to Top
+  .footer-backTop {
+    border-bottom: 1px solid #ffffff;   
+    padding-bottom: 8px; margin-bottom: 70px;
+
+    > .backTop-link {
+      display: inline-block; width: 56px; height: 56px; border-radius: 50%;
+      border: 2px solid $footer-bg-color; text-align: center;
+
+      &:hover { border: 2px solid $white; }
+      // Small setting   
+    }
+    
+    // large
+    //@media only screen and (min-width: 64.063em) { margin-left: 22px; margin-right: 22px; }
+    // small only
+    @media only screen and (max-width: 64.063em) { 
+      margin: 0 0 40px;
+      .backTop-icon.fr-text { margin-right: -9px; } // fix this later
+      .backTop-icon { margin-right: -14px; }
+    }
+  } 
+
+  // Tabs & Accordion
+  .tab-row {
+    @include grid-row($width: 1000px);
+
+    .footer-tabs {
+      background-color: #0d263c;
+
+      .tab-header, .footer-tab-list { margin-left: 25%; }
+
+      .tab-header { 
+        font-size: 16px; color: $white; text-transform: uppercase; margin-bottom: 35px;
+        font-family: "whitney_semiboldregular"; line-height: normal;
+      }
+      .footer-tab-list {
+        list-style-type: none; 
+        margin-bottom: 20px;
+      }
+      
+      .footer-tab-list > li { margin-bottom: 24px; }
+
+      .footer-tab-list .footer-tab-item {
+          color: $white; font-size: 16px; font-family: "whitney_bookregular";
+          &:hover { text-decoration: underline; }
+          &:visited { color: #fff; }
+        }
+    }
+
+    .footer-accordion-menu, .accordion-submenu {
+      background: none;
+      border:none; margin: 0; 
+    }
+
+    .footer-accordion-item {
+      margin-left: 20px; margin-right: 20px;
+
+      // Part 1 - menu link
+      .menu-link {
+        border-bottom: 1px solid $bluewood;
+        padding: 20px 0px; border: none;
+        font-size: 14px; color: $white;
+        border-bottom: 1px solid $bluewood;
+        text-transform: uppercase;
+        font-family: "whitney_semiboldregular";
+        &:focus, &:hover { background: none; }
+
+        &::before {
+          border: none; content: "";
+          background: url("http://investorsgroup.com/en/images/corp/svg/expandArrow.png") no-repeat;
+          background-size: 16px; height: 16px; width: 16px;
+          margin-top: 0px; right: 0px;
+        }
+      }
+      
+      &.is-active > .menu-link::before { 
+        content: "";
+        background-image: url("http://investorsgroup.com/en/images/corp/svg/collapseArrow.png");
+        background-size: 16px;
+      }
+
+      // Part 2 - submenu ul
+      .accordion-submenu {
+        padding: 4px 0 18px 0;      
+        li {  list-style-type: none; } 
+        &:last-of-type { border-bottom: 1px solid #263c50; }
+      }
+
+      // Part 2 - submenu link
+      .submenu-link { 
+        display: block; border: none;
+        font-size: 16px; color: $white;
+        padding: 16px;
+        line-height: normal;
+        font-family: "whitney_bookregular";
+
+        &:before { 
+          content: "\00a0";
+          width: 18px;
+          display: inline-block;
+          border-left: 2px solid $footer-bg-color;
+        }
+        &:hover { 
+          background: $bluewood;
+          &:before {
+            border-color: $white;
+          } 
+        }
+      }
+    }
+  } // EndOf: Tab-row
+
+  // Social Media
+  .social-media-row {
+    @include grid-row($width: 300px);
+    padding-top: 36px;
+    padding-bottom: 36px;
+
+    @media only screen and (max-width: 64.063em) {
+      padding-bottom: 14px;
+    }
+
+    .menu { @include menu-expand; }
+
+    .social-media-link {
+      display: inline-block; width: 48px; height: 48px; border-radius: 50%;
+      border: 2px solid $footer-bg-color; text-align: center; padding: 0px;
+      position: relative;
+      
+      > img {
+        position: absolute;
+        top: 25%; left: 25%;
+      }
+
+      &:hover { border: 2px solid $white; }
+    }
+  }
+
+  // Footer
+  .footer-copyright { 
+
+    .dt-copyright-menu a,
+    .mb-copyright-menu a,
+    .menu-text {
+      font-size: 12px; font-family: "whitney_bookregular";
+      color: $cadet-blue; font-weight: normal; line-height: 1.6;
+      padding: 3px 18px;
+    }
+
+    .dt-copyright-menu a:hover,
+    .mb-copyright-menu a:hover {
+      color: $white; text-decoration: underline; 
+    }
+
+    .dt-copyright-menu,
+    .mb-copyright-menu {
+      padding-top: 10px; padding-bottom: 10px;
+      line-height: normal;
+      border-top: 1px solid $rhino;
+
+      li { 
+        border-right: 1px solid $rhino;
+
+        &:last-child {
+          border-right: none;
+        }
+      }
+    }
+  }
+}

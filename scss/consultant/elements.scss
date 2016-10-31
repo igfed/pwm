@@ -1,0 +1,52 @@
+a {
+	color: $igBlue;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
+
+h1 {
+    @include font('tp_02a');
+	margin-top: 0;
+	margin-bottom: 4.7rem;
+
+	@media #{$small-only} {
+		text-align: center;
+	}
+
+	+ p {
+		margin-top: -1.6rem;
+		margin-bottom: 0;
+    	@include font('tp_09a');
+
+		@media #{$small-only} {
+			text-align: center;
+			margin-bottom: 5rem;
+			margin-top: -2.6rem;
+		}
+
+    	a {
+			margin-top: -.2rem;
+			margin-bottom: 7.8rem;
+			display: block;
+			text-decoration: underline;
+
+			strong {
+				@include font('tp_09a2');
+			}
+
+			@media #{$small-only} {
+				display: inline;
+			}
+    	}
+	}
+}
+
+h2 {
+    @include font('tp_08a');
+}
+
+h3 {
+    @include font('tp_h3');
+}

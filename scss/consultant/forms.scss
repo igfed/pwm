@@ -1,0 +1,215 @@
+input[type=text], input[type=password] {
+	background-color: transparent;
+	border-color: $igBlue;
+	border-width: 0 0 2px;
+	border-style: solid;
+	box-shadow: none;
+	height: 4rem;
+	line-height: 4rem;
+	padding: 0 0 0 1.5rem;
+	text-transform:	none;
+	margin-top: .8rem 0 .7rem;
+	color: $igBlue;
+
+	&::-webkit-input-placeholder {
+		color: #666666;
+	}
+
+	&:-ms-input-placeholder {
+		color: #666666;
+	}
+
+	&::-moz-placeholder {
+		color: #666666;
+		opacity: 1;
+	}
+}
+
+label {
+	margin-bottom: .7rem;
+	background-color: transparent;
+	border-color: $igBlue;
+	border-width: 0 0 2px;
+	border-style: solid;
+	position: relative;
+
+	.fa {
+		display: none;
+		bottom: 0.8rem;
+	    font-size: 2rem;
+	    position: absolute;
+	    right: 1.3rem;
+		color: $errorRed;
+	}
+
+	input[type=text], input[type=password] {
+		margin-bottom: 0;
+	    border: 1px solid transparent;
+		border-radius: 6px 6px 3px 3px;
+
+		&:focus {
+		    border-color: $igBlue;
+		}
+
+		&.error {
+			+ .fa {
+				display: block;
+			}
+		}
+	}
+
+	span {
+		position: relative;
+		display: inline-block;
+    	padding-bottom: 0.8rem;
+    	transition: top 0.1s ease-in-out;
+		top: 0;
+	}
+
+	&:not(.is-editing) {
+		span {
+			top: 4.2rem;
+			color: #666666;
+		}
+	}
+}
+
+label {
+	&.error {
+		padding: .1rem .2rem;
+		margin: 0;
+		@include font("tp_inform");
+		color: $errorRed;
+		border: none;
+	}
+}
+
+select {
+	margin: 0;
+	height: auto;
+    border-color: $igBlue;
+    border-style: none none solid;
+    border-width: medium medium 2px;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='24' viewBox='0 0 32 24'><polygon points='0,0 32,0 16,24' style='fill: rgb%2813, 38, 60%29'></polygon></svg>")
+}
+
+.guided-form {
+	padding-left: .4rem;
+	padding-right: .4rem;
+	margin-bottom: 3.5rem;
+	display: flex;
+
+	@media #{$small-only} {
+		display: block;
+		margin-bottom: 2.3rem;
+	}
+
+	@include horizontal-separator("> div + div");
+
+	p {
+		padding: .1rem .2rem;
+		@include font("tp_inform");
+	}
+
+	form {
+		@media #{$small-only} {
+			margin-bottom: 2.5rem;
+		}
+
+		> .row {
+			&:nth-child(even) {
+				margin-bottom: 4.2rem;
+
+				@media #{$small-only} {
+					margin-bottom: 0;
+				}
+			}
+
+			&:last-child {
+				margin-bottom: .5rem;
+
+				p {
+					margin-bottom: 0;
+				}
+			}
+
+			p {
+				margin-bottom: .3rem;
+			}
+		}
+
+		.columns {
+			@media #{$small-only} {
+				padding: 0;
+			}
+		}
+	}
+
+	.outline-btn {
+		margin-top: 3rem;
+		margin-bottom: 2.5rem;
+
+		@media #{$small-only} {
+			margin-top: 6.7rem;
+			margin-bottom: 1.1rem;
+		}
+	}
+
+	> div.columns {
+		&:first-child {
+			@media #{$medium-up} {
+				padding-right: 5.2rem;
+			}
+		}
+
+		&:last-child {
+			margin-top: 3.3rem;
+
+			@media #{$medium-up} {
+				padding-left: 2.9rem;
+			}
+
+			&::before {
+				left: -1rem;
+			}
+
+			ul {
+				list-style: none;
+				margin: 0;
+
+				@media #{$small-only} {
+					margin-right: -0.625rem;
+					margin-left: -0.625rem;
+				}
+
+				li + li {
+					margin-top: 2.2rem;
+
+					@media #{$small-only} {
+						&:last-child {
+							padding-bottom: 1.8rem;
+							border-bottom: 1px solid $borderGrey;
+						}
+					}
+				}
+			}
+
+			h2.info-toggle-trigger {
+				margin-bottom: 1.7rem;
+
+				@media #{$small-only} {
+					border-top: 1px solid $borderGrey;
+					border-bottom: 1px solid $borderGrey;
+					padding-top: 1.4rem;
+					padding-bottom: 1.4rem;
+					margin-right: -0.625rem;
+					margin-left: -0.625rem;
+
+					.fa-chevron-down {
+						right: 0;
+					}
+				}
+			}
+		}
+	}
+}

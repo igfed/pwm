@@ -1,0 +1,353 @@
+$footer-bg-color: #0d263c;
+$white: #fff;
+$rhino: #263c50;
+$cadet-blue: #acb7c0;
+$bluewood: #314659;
+$mineShaft: #282828;
+$blackHaze: #e5e8e8;
+$iron: #dbdfe2;
+$footer-bg-color: #0d263c;
+$white: #fff;
+$rhino: #263c50;
+$cadet-blue: #acb7c0;
+$bluewood: #314659;
+
+
+.header-wrap {
+  border-bottom: 1px solid #cbcccc;
+  .nopadding { padding: 0px; }
+  
+  // 0: Common topbar row
+  .utility-topbar-row,
+  .main-topbar-row {
+    // 0: Common topbar menu
+    .utility-topbar,
+    .main-topbar {
+        padding: 0px; font-size: 14px;
+        font-family: "whitney_bookregular";
+        background-color: $blackHaze;
+
+        // remove default background color
+        > ul { background-color: $blackHaze; }
+        
+        // main-link with Arrow
+        ul.dropdown.menu > li {
+          display: inline-block;
+          &.is-dropdown-submenu-parent > a::after {
+            top: 15px; width: 14px; border-style: none;
+            height: 10px; margin: 0px;
+            background: url("http://investorsgroup.com/en/images/corp/svg/expandArrow.png") no-repeat;
+            background-position: 0 0; background-size: 14px;
+          }
+        }
+
+        // main-link
+        .main-topbar-link {
+          padding: 12px 0px 7px 0; height: auto; color: $mineShaft;        
+          border-bottom: 3px solid $blackHaze;
+          &:hover { border-color: $mineShaft; }
+          &.with-subitems { padding-right: 27px; }
+        }
+
+        // Divider - pipe
+        .divider-menu-link {
+          background-color: $blackHaze;
+          &:before {
+            content: "\00a0"; background-color: #d2d4d4;
+            width: 1px; height: 24px; display: block;
+            margin: 0 20px;
+          }        
+        }
+
+        // Submenu 
+        .utility-topbar-submenu,
+        .main-topbar-submenu {
+          padding: 15px 0 19px 0; min-width: 200px;
+          border-top: 1px solid #c9cbcb; overflow: hidden;
+          background-color: $blackHaze;
+          
+          border-bottom-right-radius: 4px;
+          border-bottom-left-radius: 4px;
+          -moz-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+          -khtml-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+          -webkit-box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+
+          .is-submenu-item > .main-topbar-sublink {
+            line-height: 1.2; font-family: "whitney_bookregular";
+            color: $mineShaft; padding: 0 16px; font-size: 16px;
+            &:before {
+              content: "\00a0"; background-color: $blackHaze;
+              display: inline-block; width: 2px; 
+              margin: 10px 10px 10px 0;
+            }
+          
+            &:hover,
+            &.active {
+              background-color: $white;
+              &:before { background-color: $mineShaft; }
+            }
+          }
+          > li.opens-right > .is-dropdown-submenu  {
+            left: 20px;
+          }
+        }
+        .dropdown.menu > li.opens-right > .is-dropdown-submenu {
+            left: -50px;
+        }
+
+    }
+  }
+    
+  // 1: Topbar A
+  .utility-topbar-row { 
+    @include grid-row($width: 100%);
+    .utility-topbar-wrap { background-color: $blackHaze; }
+    .utility-topbar { max-width: 1244px; margin: 0 auto; padding: 0 22px; }
+  }
+  
+  // 2: Topbar B
+  .main-topbar-row {
+    @include grid-row($width: 1244px);
+    padding: 0 22px; background-color: $white;
+    @media screen and (max-width: 64em) { padding: 16px 22px 9px; }
+    
+    // Main - Topbar
+    .main-topbar ul.dropdown { background-color: $white; position: relative; }
+    .main-topbar input { max-width: calc(100% - 150px); margin-right: 0px; } // Remove default max-width
+    .main-topbar {
+      font-family: "whitney_scmedium"; text-transform: uppercase;
+      background-color: $white;
+      
+      // main-link with Arrow
+      ul.dropdown.menu > li.is-dropdown-submenu-parent > a::after { top: 30px; }
+      
+      // main-link
+      .main-topbar-link { padding: 27px 0 27px; border-color: $white; }
+      
+      // Divider - pipe
+      .divider-menu-link {
+        background-color: $white;
+        &:before { height: 30px; margin: 0 30px; }        
+      }
+
+      // Submenu-dropdown
+      .main-topbar-submenu {
+        background-color: $white;   
+        .is-submenu-item > .main-topbar-sublink {
+          text-transform: none;
+          white-space: nowrap; min-width: 250px;
+
+          &:before { background-color: $white; }
+          &:hover,
+          &.active { background-color: $blackHaze; }
+        } 
+        .divider-submenu-link {
+          height: 1px; background-color: $blackHaze; 
+          display: block; margin: 0 12px;
+        }
+      }
+      
+      // Find An Advisor
+      .findAdvisor {
+        margin: 0 64px 0 30px;
+        .main-topbar-link { 
+          padding: 7px 27px;
+          border: 1px solid #b4b4b4; border-radius: 5px;
+          &:hover { 
+            border-color: $mineShaft; color: #fff; 
+            background-color: $mineShaft;
+          }
+        }
+      }
+
+      .form-input-search {
+        .search-input {
+          padding: 0 0 0 34px; margin: 0px;
+          font-family: "whitney_bookregular"; text-transform: lowercase; font-size: 16px;
+          border: none; outline: none; box-shadow: none;
+          background-image: url("http://investorsgroup.com/en/images/corp/svg/search-icon-in-search-box.png");
+          background-repeat: no-repeat; background-size: 20px; background-position: 0 9px;
+          width: 34px; 
+          -webkit-transition: width 0.4s ease-in-out;
+          transition: width 0.4s ease-in-out 0s;
+          position: absolute;
+          right: 0; top: 13px;
+          height: 40px;
+          padding-top:  4px; cursor: pointer;
+          &:focus {
+            width: 100%;
+            position: absolute;
+            border-bottom: 1px solid #a9a9a9;
+            margin-right: 150px; 
+
+            + .search-input-close::after {
+                content: '\00a0'; cursor: pointer;
+                background-image: url("http://investorsgroup.com/en/images/corp/svg/closeBtn_Form.png");
+                background-repeat: no-repeat; background-size: 24px; 
+                background-position: 0px;
+                width: 24px; height: 24px; display: inline-block;
+                position: relative; top: -4px; left: -10px; z-index: 200;
+            }
+
+          }
+        }
+      }
+
+      .dropdown.menu > li.opens-right > .is-dropdown-submenu {
+        left: -85px;
+      }
+    }
+
+    // MOBILE View
+    // LOGO
+    .ig-brand-link { 
+      //width:220px; 
+      //display: inline-block;
+     // height: 48px;
+       }
+    .ig-brand-logo {
+      width: 220px; height: 33px;
+      //max-width: 220px; max-height: 33px;
+      @media screen and (min-width: 64em) { margin-top: 16px; }
+    }
+    .ig-brand-slogan {
+      font-size: 12px; margin-bottom: 0px;
+      line-height: 1.4; font-family: "whitney_bookregular";
+    }
+    
+    // Hamburger Icon
+    .title-bar {
+      background-color: $white; padding: 0px;
+      .menu-icon { margin: 0; }
+      .menu-icon::after { 
+        background-color: $mineShaft; 
+        box-shadow: 0 7px 0 $mineShaft,0 14px 0 $mineShaft;
+      }
+    }
+  }  
+  
+  // Mobile View
+  // #1 : Close Button
+  .closeBtn-wrap {
+    padding: 20px 20px 35px 20px;
+    text-align: right;
+    button.closeBtn--accordion {
+      background-image: url("http://www.investorsgroup.com/en/images/corp/svg/closeBtn_Form.png");
+      background-repeat: no-repeat; background-size: 25px;
+      cursor: pointer; display: inline-block;
+      height: 25px; width: 25px; 
+      &:hover, &:focus { 
+        background-color: #fff; 
+        outline: none;
+      }
+    }
+  }
+
+  // #2 : Form
+  .mb-search-form { border-bottom: 1px solid $mineShaft; margin: 0 32px 18px 32px; }
+  .mb-search-input {
+    border: none; box-shadow: none;
+    font-family: "whitney_scmedium"; color: $mineShaft; font-size: 16px; text-transform: lowercase;
+    background-image: url("http://investorsgroup.com/en/images/corp/svg/search-icon-in-search-box.png");
+    background-repeat: no-repeat; background-size: 20px; background-position: 0;
+    padding: 0 0 0 34px;
+    margin: 0 0 8px 0px;
+
+    &:focus {
+      background-image: url("http://investorsgroup.com/en/images/corp/svg/search-icon-in-search-box.png");
+      background-repeat: no-repeat; background-size: 20px; background-position: 0;
+      background-color: #fff; box-shadow: none; 
+      font-family: "whitney_bookregular"; font-size: 16px;
+    }
+  }
+  .mb-search-form.active .mb-search-reset {
+    padding: 0px; margin: 0px;
+    font-size: 16px; line-height: normal;
+    border-left: 1px solid #dfdfdf; opacity: 0.8;
+    padding-left: 7px; display: inline-block;
+    background-image: url("http://investorsgroup.com/en/images/corp/svg/find_an_advisor_close.png");
+    background-repeat: no-repeat; background-position: 7px 4px;
+    width: 21px; height: 20px; background-color: #fff; margin-top: 4px;
+    &:focus { outline: none;}
+  }
+
+  // #3a : Accordion-menu  
+  .header-accordion-menu {
+    // Common 
+    .menu-link,
+    .submenu-link {
+      font-size: 14px; text-transform: uppercase;
+      font-family: "whitney_scmedium"; color: $mineShaft;
+      padding: 20px 0px;
+      
+       &:before { 
+        content: "\00a0"; width: 2px;
+        margin: 0 10px 0 21px; display: inline-block;
+        border-left: 2px solid $blackHaze; //$footer-bg-color;
+      }
+      &:hover {
+        background-color: $white;
+        &:before { border-color: $mineShaft; } 
+      }
+    }
+
+    // Menu-link
+    .menu-link {
+      &:before { border-color: $white; } // override line hover
+      &:hover { background: $blackHaze; 
+        &:before { border-color: $mineShaft; }
+      }
+      &:focus { outline: none; }
+      &.lang { text-align: center; }
+    }  
+    
+    // Submenu-link
+    .submenu-link {
+      font-family: "whitney_bookregular";
+      text-transform: none; font-size: 16px;
+      padding: 12px 0; color: $mineShaft;
+      &:before { margin: 0 20px 0 50px; }
+    }
+    
+    // divider
+    .main-link-divider {
+      border-bottom: 1px solid $iron;
+      margin: -1px 30px 0 30px;
+      &:last-child { border-bottom: none; }
+    }
+
+    // arrow
+    .is-accordion-submenu-parent > a::after {
+      border: none; content: "";
+      background: url("http://investorsgroup.com/en/images/corp/svg/expandArrow.png") no-repeat;
+      background-size: 16px; height: 10px; width: 16px;
+      margin-top: 0px; right: 32px; top: 22px;
+    }
+  }
+
+  // #3b : Accordion-submenu 
+  .header-accordion-submenu {
+    padding: 14px 0; margin: 0px;
+    background-color: $blackHaze;  
+    .main-link-divider {
+      margin: 0 70px 0 70px;
+      border-color: $iron;
+    }
+  }
+}
+  
+// mobile navigation
+@media only screen and (max-width: 64.063em) {
+  .body-content .header-accordion-wrap {
+    position: absolute; height: 100vh; 
+    top: 0px; right: 0; left: 0; bottom: 0;
+    z-index: 1000; background: #fff;
+  }
+
+  .body-content.active {
+    .section {
+      display: none;
+    }
+  }
+}

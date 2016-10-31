@@ -1,0 +1,295 @@
+& {
+	font-size: 62.5%;
+    color: $pwmBlack;
+}
+
+$WL: 'whitney_lightregular';
+$WBK: 'whitney_bookregular';
+$WBKSC: 'whitney_bookscregular';
+$WM: "whitney_medium";
+$WMSC: 'whitney_scmedium';
+$WSB: 'whitney_semiboldregular';
+
+@mixin font($face) {
+    @if $face == 'tp_01' {
+        font-family: $WL;
+        font-size:4rem;
+        line-height:2.5rem;
+        color:$pwmBlack;
+
+        @media #{$large-up} {
+            font-size:7.2rem;
+            line-height:8.2rem;
+            letter-spacing: 1px;
+        }
+        @media #{$small-only} {
+            font-size:2.8rem;
+            letter-spacing: 1px;
+        }
+    } @else if $face == 'tp_02' {
+        font-family: $WL;
+        font-size:2.8rem;
+        line-height:3.7rem;
+        color:$pwmBlack;
+
+        @media #{$large-up} {
+            font-size:5.2rem;
+            line-height: 7.2rem;
+        }
+    } @else if $face == 'tp_03' {
+        font-family: $WBK;
+        font-size:2.4rem;
+        line-height: 3rem;
+        color:$pwmBlack;
+
+        @media #{$large-up} {
+            font-size:3.6rem;
+            line-height: 4.6rem;
+        }
+    } @else if $face == 'tp_04' {
+        font-family: $WMSC;
+        font-size:1.8rem;
+        line-height:1.8rem;
+        color:$pwmBlack;
+        text-transform: lowercase;
+
+        @media #{$medium-up} {
+            font-size:2.4rem;
+            line-height:2.5rem;
+        }
+    } @else if $face == 'tp_05' {
+        font-family: $WBK;
+        font-size:1.4rem;
+        line-height:2.4rem;
+        color:$pwmBlack;
+        text-transform: lowercase;
+
+        @media #{$medium-up} {
+            font-size:3.6rem;
+        }
+    } @else if $face == 'tp_06' {
+        font-family: $WMSC;
+        font-size:1.8rem;
+        line-height:2.4rem;
+        color:$pwmBlack;
+        text-transform: lowercase;
+
+        @media #{$large-up} {
+            font-size:2.2rem;
+        }
+
+        @media #{$small-only} {
+            font-size:1.6rem;
+        }
+    } @else if $face == 'tp_07' {
+        font-family: $WL;
+        font-size:1.6rem;
+        line-height:2.4rem;
+        color:$pwmBlack;
+
+        @media #{$large-up} {
+            font-size:2.8rem;
+            line-height:4.1rem;
+        }
+    } @else if $face == 'tp_08' {
+        font-family: $WBK;
+        font-size:1.6rem;
+        color:$pwmBlack;
+
+        @media #{$large-up} {
+            font-size:2.2rem;
+        }
+    } @else if $face == 'tp_09' {
+        font-family: $WBK;
+        font-size:1.6rem;
+        color:$pwmBlack;
+
+        @media #{$large-up} {
+            font-size:1.8rem;
+            line-height:2.8rem;
+        }
+        @media #{$small-only} {
+            font-size:1.4rem;
+            line-height:1.9rem;
+        }
+    } @else if $face == 'tp_10' {
+        @include font('tp_09');
+
+        & {
+            font-family: $WSB;
+        }
+    } @else if $face == 'tp_11' {
+        font-family: $WL;
+        font-size:9rem;
+        color:$pwmBronze;
+        line-height:10.0rem;
+
+        @media #{$large-up} {
+            font-size:14.5rem;
+            line-height:15.5rem;
+        }
+    } @else if $face == 'tp_12' {
+        font-family: $WBK;
+        font-size:1.2rem;
+        color: #646464;
+
+        @media #{$large-up} {
+            font-size:1.4rem;
+        }
+    } @else if $face == 'tp_20' {
+        font-family: $WMSC;
+        font-size:1.4rem;
+        color: $pwmBlack;
+        text-transform: lowercase;
+        letter-spacing: 1px;
+
+        @media #{$large-up} {
+            font-size:1.6rem;
+        }
+    } @else if $face == 'tp_21' {
+        @include font('tp_20');
+
+        & {
+            color:$pwmBlack;
+        }
+    } @else if $face == 'tp_22' {
+        @include font('tp_20');
+
+        & {
+            color:$pwmBlack;
+        }
+    } @else if $face == 'tp_23' {
+        font-family: $WMSC;
+        font-size:1.6rem;
+        line-height:2.4rem;
+        color:$pwmBlack;
+
+        @media #{$large-up} {
+            font-size:1.8rem;
+            line-height:2.8rem;
+        }
+    } @else if $face == 'tp_24' {
+        font-family: $WSB;
+        font-size:1.6rem;
+        line-height:2.4rem;
+        color:$pwmBlack;
+        text-transform: lowercase;
+
+        @media #{$medium-up} {
+            font-size:1.8rem;
+            line-height:2.8rem;
+        }
+    } @else if $face == 'tp_25' {
+        font-family: $WMSC;
+        font-size:1.6rem;
+        color:#666666;
+
+        @media #{$large-up} {
+            font-size:1.6rem;
+        }
+    } @else if $face == 'tp_26' {
+        font-family: $WBK;
+        font-size:1.6rem;
+        color: #0D263C;
+
+        @media #{$large-up} {
+            font-size:1.6rem;
+        }
+    } @else if $face == 'tp_27' {
+        font-family: $WL;
+        font-size:1.4rem;
+        color: $errorRed;
+
+        @media #{$large-up} {
+            font-size:1.4rem;
+        }
+    } @else if $face == 'tp_28' {
+        font-family: $WBK;
+        font-size:1.4rem;
+        color: #767676;
+
+        @media #{$large-up} {
+            font-size:1.6rem;
+        }
+    }
+}
+
+.tp_01 {
+    @include font('tp_01');
+}
+
+.tp_02 {
+    @include font('tp_02');
+}
+
+.tp_03 {
+    @include font('tp_03');
+}
+
+.tp_04 {
+    @include font('tp_04');
+}
+
+.tp_05 {
+    @include font('tp_05');
+}
+
+.tp_06 {
+    @include font('tp_06');
+}
+
+.tp_07 {
+    @include font('tp_07');
+}
+
+.tp_08 {
+    @include font('tp_08');
+}
+
+.tp_09 {
+    @include font('tp_09');
+}
+
+.tp_10 {
+    @include font('tp_10');
+}
+
+.tp_11 {
+    @include font('tp_11');
+}
+
+.tp_12{
+    @include font('tp_12');
+}
+
+.tp_20 {
+    @include font('tp_20');
+}
+
+.tp_21 {
+    @include font('tp_21');
+}
+
+.tp_22 {
+    @include font('tp_22');
+}
+
+.tp_24 {
+    @include font('tp_24');
+}
+
+.tp_25 {
+    @include font('tp_25');
+}
+
+.tp_26 {
+    @include font('tp_26');
+}
+
+.tp_27 {
+    @include font('tp_27');
+}
+
+.tp_28 {
+    @include font('tp_28');
+}

@@ -1,0 +1,8 @@
+html.IGv2 {
+	@import "../../bower_components/foundation-sites/scss/util/_util";
+	@import "_variables";
+	@import "_mixins";
+	@import "typography";
+	// @import "responsive";
+	@import "consultant";
+}
