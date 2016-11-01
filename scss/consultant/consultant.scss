@@ -91,7 +91,6 @@ h4 {
 	margin: -1rem auto 1.3rem;
 	box-sizing: content-box;
     transition: border-color .5s ease 0s;
-	border: 1rem solid $highlightBackground;
 
 	@media #{$small-only} {
 		width: 11rem;
@@ -101,15 +100,7 @@ h4 {
 	}
 
 	img {
-		height: 23rem;
-		max-width: none;
-		transform: translateX(-50%);
-		-ms-transform: translateX(-50%);
-		-webkit-transform: translateX(-50%);
-		-moz-transform: translateX(-50%);
-		-o-transform: translateX(-50%);
-	    left: 50%;
-    	position: relative;
+		height: 16rem;
 
     	@media #{$small-only}{
 			height: 14rem;
@@ -145,6 +136,18 @@ h4 {
     -webkit-transition: right .15s ease-out .15s, left .15s ease-out .3s;
     transition: right .15s ease-out .15s, left .15s ease-out .3s;
     text-decoration: none;
+}
+.button-link {
+	@include font("tp_08");
+	cursor: pointer;
+    position: relative;
+	color: $pwmWhite;
+	display: block;
+	border: 1px solid $pwmWhite;
+	text-align: center;
+	padding: 14px 0;
+	line-height: 1.5em;
+	border-radius: 4px;
 }
 
 .icon {
@@ -1804,36 +1807,29 @@ a.map-anchor {
 
 .section.about {
 	background-color: $pwmBrown;
+	h2, h3, p {
+		color: $pwmWhite;
+	}
+	.about-title {
+		@include font("tp_03");
+		text-align: center;
+		text-transform: uppercase;
+		color: $pwmWhite;
+		position: relative;
+		margin-top: 30px;
 
-	h3 {
-        @media #{$large-up} {
-            letter-spacing: -1px;
-        }
-    }
+		@media #{$large-up} {
+			margin-top: 100px;
+		}
 
-	.row {
-		+ .row {
-			.columns {
-				position: relative;
-
-				.illustration {
-					@media #{$medium-up} {
-						position: absolute;
-					}
-				}
-
-				+ .columns {
-					@media #{$medium-up} {
-						top: -.6rem;
-						padding-left: 17.5rem;
-						padding-right: 0;
-					}
-
-					@media #{$xlarge-up} {
-						padding-right: 17.5rem;
-					}
-				}
-			}
+		&:after {
+			content: '';
+			display: block;
+			bottom: 0;
+			width: 150px;
+			height: 1px;
+			border-bottom: thin solid $pwmWhite;
+			margin: 15px auto 0;
 		}
 	}
 }
@@ -1842,6 +1838,68 @@ a.map-anchor {
 
 .section.team{
 	background-color: $pwmBrown;
+}
+
+.team-member {
+
+	.portrait {
+		position: relative;
+		border: none;
+		width: 100%;
+		height: auto;
+		box-sizing: border-box;
+		margin: 12px 0;
+		padding: 0 19px;
+
+		img {
+			max-width: 100%;
+			height: auto;
+			padding:22px;
+			z-index: 200;
+			position: relative;
+		}
+
+		&:after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 50%;
+			background-color: $pwmBeige;
+			z-index: 100;
+		}
+	}
+	&:nth-child(even) {
+			.portrait {
+				@media #{$medium-up} {
+					margin-top: 320px;
+				}
+
+				&:after {
+					right: 0;
+					left: 50%;
+				}
+			}
+		}
+	h3, p {
+		color: $pwmWhite;
+		margin:0;
+		text-align: left;
+		padding: 0;
+		line-height: 1.125;
+	}
+	.tp_08 {
+		padding: 3px 0 0;
+	}
+	.tp_09 {
+		padding: 22px 0 0;
+    	line-height: 1.5em;
+	}
+	.button-link {
+		margin: 22px 60px 0;
+	}
 }
 
 .personnel-bio-overlay {
