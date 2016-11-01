@@ -15,7 +15,6 @@ $WSB: 'whitney_semiboldregular';
         font-family: $WL;
         font-size:4rem;
         line-height:2.5rem;
-        color:$pwmBlack;
 
         @media #{$large-up} {
             font-size:7.2rem;
@@ -30,7 +29,6 @@ $WSB: 'whitney_semiboldregular';
         font-family: $WL;
         font-size:2.8rem;
         line-height:3.7rem;
-        color:$pwmBlack;
 
         @media #{$large-up} {
             font-size:5.2rem;
@@ -40,7 +38,6 @@ $WSB: 'whitney_semiboldregular';
         font-family: $WBK;
         font-size:2.4rem;
         line-height: 3rem;
-        color:$pwmBlack;
 
         @media #{$large-up} {
             font-size:3.6rem;
@@ -50,7 +47,6 @@ $WSB: 'whitney_semiboldregular';
         font-family: $WMSC;
         font-size:1.8rem;
         line-height:1.8rem;
-        color:$pwmBlack;
         text-transform: lowercase;
 
         @media #{$medium-up} {
@@ -61,7 +57,6 @@ $WSB: 'whitney_semiboldregular';
         font-family: $WBK;
         font-size:1.4rem;
         line-height:2.4rem;
-        color:$pwmBlack;
         text-transform: lowercase;
 
         @media #{$medium-up} {
@@ -71,7 +66,6 @@ $WSB: 'whitney_semiboldregular';
         font-family: $WMSC;
         font-size:1.8rem;
         line-height:2.4rem;
-        color:$pwmBlack;
         text-transform: lowercase;
 
         @media #{$large-up} {
@@ -85,7 +79,6 @@ $WSB: 'whitney_semiboldregular';
         font-family: $WL;
         font-size:1.6rem;
         line-height:2.4rem;
-        color:$pwmBlack;
 
         @media #{$large-up} {
             font-size:2.8rem;
@@ -94,7 +87,6 @@ $WSB: 'whitney_semiboldregular';
     } @else if $face == 'tp_08' {
         font-family: $WBK;
         font-size:1.6rem;
-        color:$pwmBlack;
 
         @media #{$large-up} {
             font-size:2.2rem;
@@ -102,7 +94,6 @@ $WSB: 'whitney_semiboldregular';
     } @else if $face == 'tp_09' {
         font-family: $WBK;
         font-size:1.6rem;
-        color:$pwmBlack;
 
         @media #{$large-up} {
             font-size:1.8rem;
@@ -117,6 +108,13 @@ $WSB: 'whitney_semiboldregular';
 
         & {
             font-family: $WSB;
+        }
+    } @else if $face == 'tp_10c' {
+        @media #{$small-only}{
+            font-family: $WL;
+            font-size: 1.4rem;
+            color: $pwmBronze;
+            text-transform: uppercase;
         }
     } @else if $face == 'tp_11' {
         font-family: $WL;
@@ -139,7 +137,6 @@ $WSB: 'whitney_semiboldregular';
     } @else if $face == 'tp_20' {
         font-family: $WMSC;
         font-size:1.4rem;
-        color: $pwmBlack;
         text-transform: lowercase;
         letter-spacing: 1px;
 
@@ -214,6 +211,7 @@ $WSB: 'whitney_semiboldregular';
     }
 }
 
+
 .tp_01 {
     @include font('tp_01');
 }
@@ -252,6 +250,10 @@ $WSB: 'whitney_semiboldregular';
 
 .tp_10 {
     @include font('tp_10');
+}
+
+.tp_10c{
+    @include font('tp_10c');
 }
 
 .tp_11 {
