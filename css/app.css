@@ -4664,9 +4664,11 @@ html.IGv2 {
     font-size: 62.5%;
     color: #282828; }
   html.IGv2 .tp_01 {
+    /*Hero Title*/
     font-family: "whitney_lightregular";
     font-size: 4rem;
-    line-height: 2.5rem; }
+    line-height: 2.5rem;
+    /*Callout Title*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_01 {
         font-size: 7.2rem;
@@ -4675,68 +4677,106 @@ html.IGv2 {
     @media screen and (max-width: 39.9375em) {
       html.IGv2 .tp_01 {
         font-size: 2.8rem;
-        letter-spacing: 1px; } }
+        line-height: 3.5rem; } }
   html.IGv2 .tp_02 {
+    /*Hero Title*/
     font-family: "whitney_lightregular";
     font-size: 2.8rem;
-    line-height: 3.7rem; }
+    line-height: 3.7rem;
+    /*Content Title*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_02 {
         font-size: 5.2rem;
         line-height: 7.2rem; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .tp_02 {
+        font-size: 2.8rem;
+        line-height: 3.7rem; } }
   html.IGv2 .tp_03 {
+    /*Hero Title*/
     font-family: "whitney_bookregular";
     font-size: 2.4rem;
-    line-height: 3rem; }
+    line-height: 3rem;
+    /*Accordion Menu*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_03 {
         font-size: 3.6rem;
         line-height: 4.6rem; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .tp_03 {
+        font-size: 2.4rem;
+        line-height: 3rem; } }
   html.IGv2 .tp_04 {
+    /*Hero Title*/
     font-family: "whitney_scmedium";
     font-size: 1.8rem;
     line-height: 1.8rem;
-    text-transform: lowercase; }
+    text-transform: lowercase;
+    /*Section Title*/ }
     @media screen and (min-width: 40em) {
       html.IGv2 .tp_04 {
         font-size: 2.4rem;
         line-height: 2.5rem; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .tp_04 {
+        font-size: 1.8rem;
+        line-height: 1.8rem; } }
   html.IGv2 .tp_05 {
+    /*Hero Title*/
     font-family: "whitney_bookregular";
     font-size: 1.4rem;
     line-height: 2.4rem;
-    text-transform: lowercase; }
+    text-transform: uppercase;
+    /*Sub Title*/ }
     @media screen and (min-width: 40em) {
       html.IGv2 .tp_05 {
         font-size: 3.6rem; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .tp_05 {
+        font-size: 2rem; } }
   html.IGv2 .tp_06 {
+    /*Hero Title*/
     font-family: "whitney_scmedium";
     font-size: 1.8rem;
     line-height: 2.4rem;
-    text-transform: lowercase; }
+    text-transform: lowercase;
+    /*Callout Body Copy*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_06 {
         font-size: 2.2rem; } }
     @media screen and (max-width: 39.9375em) {
       html.IGv2 .tp_06 {
-        font-size: 1.6rem; } }
+        font-size: 1.4rem; } }
   html.IGv2 .tp_07 {
+    /*Hero Title*/
     font-family: "whitney_lightregular";
     font-size: 1.6rem;
-    line-height: 2.4rem; }
+    line-height: 2.4rem;
+    /*Large Body Copy*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_07 {
         font-size: 2.8rem;
         line-height: 4.1rem; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .tp_07 {
+        font-size: 1.8rem;
+        line-height: 2.4rem; } }
   html.IGv2 .tp_08 {
+    /*Hero Title*/
     font-family: "whitney_bookregular";
-    font-size: 1.6rem; }
+    font-size: 1.6rem;
+    /*Body Copy*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_08 {
         font-size: 2.2rem; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .tp_08 {
+        font-size: 1.4rem; } }
   html.IGv2 .tp_09 {
+    /*Hero Title*/
     font-family: "whitney_bookregular";
-    font-size: 1.6rem; }
+    font-size: 1.6rem;
+    /*Body Copy Bold*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_09 {
         font-size: 1.8rem;
@@ -4746,8 +4786,12 @@ html.IGv2 {
         font-size: 1.4rem;
         line-height: 1.9rem; } }
   html.IGv2 .tp_10 {
+    /*Hero Title*/
+    /*Hero Title*/
     font-family: "whitney_bookregular";
-    font-size: 1.6rem; }
+    font-size: 1.6rem;
+    /*Body Copy Bold*/
+    /*Number Callout*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_10 {
         font-size: 1.8rem;
@@ -4758,102 +4802,137 @@ html.IGv2 {
         line-height: 1.9rem; } }
     html.IGv2 .tp_10 {
       font-family: "whitney_semiboldregular"; }
-  @media screen and (max-width: 39.9375em) {
-    html.IGv2 .tp_10c {
-      font-family: "whitney_lightregular";
-      font-size: 1.4rem;
-      color: #A86728;
-      text-transform: uppercase; } }
   html.IGv2 .tp_11 {
+    /*Hero Title*/
     font-family: "whitney_lightregular";
     font-size: 9rem;
     color: #A86728;
-    line-height: 10.0rem; }
+    line-height: 10.0rem;
+    text-transform: uppercase;
+    /*Legal Copy*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_11 {
         font-size: 14.5rem;
         line-height: 15.5rem; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .tp_11 {
+        font-size: 1.4rem;
+        line-height: 2rem; } }
   html.IGv2 .tp_12 {
+    /*Hero Title*/
     font-family: "whitney_bookregular";
     font-size: 1.2rem;
-    color: #646464; }
+    color: #646464;
+    /*Primary Button*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_12 {
         font-size: 1.4rem; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .tp_12 {
+        font-size: 1.2rem; } }
   html.IGv2 .tp_20 {
-    font-family: "whitney_scmedium";
+    /*Hero Title*/
+    font-family: "whitney_lightregular";
     font-size: 1.4rem;
-    text-transform: lowercase;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    /*Show/Hide*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_20 {
         font-size: 1.6rem; } }
   html.IGv2 .tp_21 {
+    /*Hero Title*/
     font-family: "whitney_scmedium";
     font-size: 1.4rem;
     text-transform: lowercase;
-    letter-spacing: 1px; }
-    @media screen and (min-width: 64em) {
-      html.IGv2 .tp_21 {
-        font-size: 1.6rem; } }
-    html.IGv2 .tp_21 {
-      color: #282828; }
+    /*Secondary Button*/ }
   html.IGv2 .tp_22 {
-    font-family: "whitney_scmedium";
+    /*Hero Title*/
+    /*Hero Title*/
+    font-family: "whitney_lightregular";
     font-size: 1.4rem;
-    text-transform: lowercase;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    /*Show/Hide*/
+    /*Tertiary CTA*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_22 {
         font-size: 1.6rem; } }
     html.IGv2 .tp_22 {
       color: #282828; }
+  html.IGv2 .tp_23 {
+    /*Hero Title*/
+    font-family: "whitney_scmedium";
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #282828;
+    text-transform: lowercase;
+    /*Hyperlink*/ }
+    @media screen and (min-width: 64em) {
+      html.IGv2 .tp_23 {
+        font-size: 1.8rem;
+        line-height: 2.8rem; } }
   html.IGv2 .tp_24 {
+    /*Hero Title*/
     font-family: "whitney_semiboldregular";
     font-size: 1.6rem;
     line-height: 2.4rem;
     color: #282828;
-    text-transform: lowercase; }
+    /*Label*/ }
     @media screen and (min-width: 40em) {
       html.IGv2 .tp_24 {
         font-size: 1.8rem;
         line-height: 2.8rem; } }
   html.IGv2 .tp_25 {
+    /*Hero Title*/
     font-family: "whitney_scmedium";
     font-size: 1.6rem;
-    color: #666666; }
+    text-transform: lowercase;
+    color: #666666;
+    /*Input*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_25 {
         font-size: 1.6rem; } }
   html.IGv2 .tp_26 {
+    /*Hero Title*/
     font-family: "whitney_bookregular";
     font-size: 1.6rem;
-    color: #0D263C; }
+    color: #666666;
+    /*Steps*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_26 {
         font-size: 1.6rem; } }
   html.IGv2 .tp_27 {
+    /*Hero Title*/
     font-family: "whitney_lightregular";
     font-size: 1.4rem;
-    color: #d42f1a; }
+    color: #d42f1a;
+    /*Errors*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_27 {
-        font-size: 1.4rem; } }
+        font-size: 3.6rem; } }
   html.IGv2 .tp_28 {
+    /*Hero Title*/
+    font-family: "whitney_bookregular";
+    font-size: 1.2rem;
+    color: #767676; }
+    @media screen and (min-width: 64em) {
+      html.IGv2 .tp_28 {
+        font-size: 1.4rem; } }
+  html.IGv2 .tp_29 {
+    /*Hero Title*/
     font-family: "whitney_bookregular";
     font-size: 1.4rem;
     color: #767676; }
     @media screen and (min-width: 64em) {
-      html.IGv2 .tp_28 {
+      html.IGv2 .tp_29 {
         font-size: 1.6rem; } }
-  html.IGv2 a {
-    color: #282828; }
-    html.IGv2 a:hover {
-      text-decoration: underline; }
   html.IGv2 h1 {
+    /*Hero Title*/
     font-family: "whitney_lightregular";
     font-size: 4rem;
-    line-height: 2.5rem; }
+    line-height: 2.5rem;
+    /*Callout Title*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 h1 {
         font-size: 7.2rem;
@@ -4862,49 +4941,53 @@ html.IGv2 {
     @media screen and (max-width: 39.9375em) {
       html.IGv2 h1 {
         font-size: 2.8rem;
+        line-height: 3.5rem; } }
+  html.IGv2 h2 {
+    /*Hero Title*/
+    font-family: "whitney_bookregular";
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    text-transform: uppercase;
+    /*Sub Title*/
+    text-align: center;
+    color: #605B57; }
+    @media screen and (min-width: 40em) {
+      html.IGv2 h2 {
+        font-size: 3.6rem; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 h2 {
+        font-size: 2rem; } }
+  html.IGv2 h3 {
+    /*Hero Title*/
+    font-family: "whitney_lightregular";
+    font-size: 4rem;
+    line-height: 2.5rem;
+    /*Callout Title*/ }
+    @media screen and (min-width: 64em) {
+      html.IGv2 h3 {
+        font-size: 7.2rem;
+        line-height: 8.2rem;
         letter-spacing: 1px; } }
     @media screen and (max-width: 39.9375em) {
-      html.IGv2 h1 {
-        line-height: 1.4rem; } }
-  html.IGv2 h2 {
-    font-family: "whitney_lightregular";
-    font-size: 2.8rem;
-    line-height: 3.7rem;
-    margin-bottom: 7.5rem; }
-    @media screen and (min-width: 64em) {
-      html.IGv2 h2 {
-        font-size: 5.2rem;
-        line-height: 7.2rem; } }
-    @media screen and (max-width: 39.9375em) {
-      html.IGv2 h2 {
-        margin-bottom: 2.4rem; } }
-  html.IGv2 h3 {
+      html.IGv2 h3 {
+        font-size: 2.8rem;
+        line-height: 3.5rem; } }
+  html.IGv2 h4 {
+    /*Hero Title*/
     font-family: "whitney_bookregular";
     font-size: 2.4rem;
     line-height: 3rem;
-    margin-bottom: 1.3rem; }
+    /*Accordion Menu*/ }
     @media screen and (min-width: 64em) {
-      html.IGv2 h3 {
+      html.IGv2 h4 {
         font-size: 3.6rem;
         line-height: 4.6rem; } }
     @media screen and (max-width: 39.9375em) {
-      html.IGv2 h3 {
-        margin-bottom: 1.7rem; } }
-  html.IGv2 h4 {
-    font-family: "whitney_scmedium";
-    font-size: 1.8rem;
-    line-height: 1.8rem;
-    text-transform: lowercase;
-    margin-bottom: 1.6rem; }
-    @media screen and (min-width: 40em) {
       html.IGv2 h4 {
         font-size: 2.4rem;
-        line-height: 2.5rem; } }
-    @media screen and (max-width: 39.9375em) {
-      html.IGv2 h4 {
-        margin-bottom: 1rem; } }
+        line-height: 3rem; } }
   html.IGv2 .illustration {
-    background-image: url("../img/illustrations/placeholder.png");
+    background-color: #6F645E;
     background-position-y: 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4973,13 +5056,17 @@ html.IGv2 {
     line-height: 1.3;
     position: relative;
     letter-spacing: 1px;
-    font-family: "whitney_bookregular";
+    /*Hero Title*/
+    font-family: "whitney_scmedium";
     font-size: 1.4rem;
     line-height: 2.4rem;
-    text-transform: lowercase; }
-    @media screen and (min-width: 40em) {
+    color: #282828;
+    text-transform: lowercase;
+    /*Hyperlink*/ }
+    @media screen and (min-width: 64em) {
       html.IGv2 .underline-link {
-        font-size: 3.6rem; } }
+        font-size: 1.8rem;
+        line-height: 2.8rem; } }
     html.IGv2 .underline-link:before {
       display: block;
       position: absolute;
@@ -4988,7 +5075,7 @@ html.IGv2 {
       right: calc(100% - 20px);
       height: 3px;
       top: calc(100% - .1rem);
-      background-color: #0ed59a;
+      background-color: #6F645E;
       transition: right .15s ease-out .15s, left .15s ease-out 0s; }
   html.IGv2 .underline-link:hover:before, html.IGv2 .block-link:hover .underline-link:before {
     left: calc(100% - 20px);
@@ -5099,19 +5186,20 @@ html.IGv2 {
     background: #A86728 none repeat scroll 0 0;
     border: 2px solid #A86728;
     border-radius: 5px;
-    color: #0c273c;
+    color: #FFFFFF;
     cursor: pointer;
     display: inline-block;
+    /*Hero Title*/
     font-family: "whitney_scmedium";
     font-size: 1.4rem;
     text-transform: lowercase;
-    letter-spacing: 1px;
+    /*Secondary Button*/
     line-height: 2.4rem;
     padding: .4rem .8rem .8rem;
     position: relative;
     text-align: center;
     text-decoration: none;
-    text-transform: lowercase;
+    text-transform: uppercase !important;
     transition: color 0.3s ease 0s, background-color 0.3s ease 0s;
     min-width: 23rem;
     max-width: 25rem;
@@ -5128,11 +5216,6 @@ html.IGv2 {
     /*Navigation (Footer)*/
     /*Icons*/
     /*Media Query*/ }
-    @media screen and (min-width: 64em) {
-      html.IGv2 a.outline-btn {
-        font-size: 1.6rem; } }
-    html.IGv2 a.outline-btn {
-      color: #282828; }
     html.IGv2 a.outline-btn[disabled] {
       border-color: #bbb;
       background-color: #bbb; }
@@ -5145,20 +5228,17 @@ html.IGv2 {
       color: #fff;
       text-decoration: none; }
     html.IGv2 a.outline-btn.primary {
+      color: #FFFFFF;
       background-color: #A86728;
       border-color: #A86728;
+      /*Hero Title*/
       font-family: "whitney_scmedium";
       font-size: 1.4rem;
       text-transform: lowercase;
-      letter-spacing: 1px; }
-      @media screen and (min-width: 64em) {
-        html.IGv2 a.outline-btn.primary {
-          font-size: 1.6rem; } }
-      html.IGv2 a.outline-btn.primary {
-        color: #282828; }
+      /*Secondary Button*/ }
       html.IGv2 a.outline-btn.primary:hover {
         background-color: transparent;
-        color: #282828; }
+        color: #A86728; }
     html.IGv2 a.outline-btn.secondary {
       color: #A86728;
       background-color: transparent;
@@ -5174,9 +5254,6 @@ html.IGv2 {
           border-color: #A86728;
           color: white;
           transition: color 0.3s ease 0s, background-color 0.3s ease 0s; }
-      @media screen and (max-width: 39.9375em) {
-        html.IGv2 a.outline-btn.secondary.email, html.IGv2 a.outline-btn.secondary.phone {
-          min-width: auto; } }
     html.IGv2 a.outline-btn.constrained {
       color: #A86728; }
       html.IGv2 a.outline-btn.constrained:hover {
@@ -5311,10 +5388,14 @@ html.IGv2 {
         width: 100%;
         height: 100%;
         padding: 1rem 22.25% .7rem;
-        font-family: "whitney_scmedium";
+        /*Hero Title*/
+        /*Hero Title*/
+        font-family: "whitney_lightregular";
         font-size: 1.4rem;
-        text-transform: lowercase;
-        letter-spacing: 1px; }
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        /*Show/Hide*/
+        /*Tertiary CTA*/ }
         @media screen and (min-width: 64em) {
           html.IGv2 .dropdown.menu .is-dropdown-submenu li a {
             font-size: 1.6rem; } }
@@ -5325,8 +5406,10 @@ html.IGv2 {
           font-weight: 400;
           display: block; }
         html.IGv2 .dropdown.menu .is-dropdown-submenu li a span {
+          /*Hero Title*/
           font-family: "whitney_bookregular";
           font-size: 1.6rem;
+          /*Body Copy Bold*/
           display: block; }
           @media screen and (min-width: 64em) {
             html.IGv2 .dropdown.menu .is-dropdown-submenu li a span {
@@ -5385,11 +5468,16 @@ html.IGv2 {
           html.IGv2 .dropdown.menu.small-grid > li.is-dropdown-submenu-parent .submenu li:nth-child(even) a {
             padding-right: 0; }
           html.IGv2 .dropdown.menu.small-grid > li.is-dropdown-submenu-parent .submenu li a span {
+            /*Hero Title*/
             font-family: "whitney_bookregular";
-            font-size: 1.6rem; } }
+            font-size: 1.6rem;
+            /*Body Copy*/ } }
       @media screen and (max-width: 39.9375em) and (min-width: 64em) {
         html.IGv2 .dropdown.menu.small-grid > li.is-dropdown-submenu-parent .submenu li a span {
           font-size: 2.2rem; } }
+      @media screen and (max-width: 39.9375em) and (max-width: 39.9375em) {
+        html.IGv2 .dropdown.menu.small-grid > li.is-dropdown-submenu-parent .submenu li a span {
+          font-size: 1.4rem; } }
     @media screen and (max-width: 39.9375em) {
           html.IGv2 .dropdown.menu.small-grid > li.is-dropdown-submenu-parent .submenu li a:hover {
             background: none;
@@ -5467,13 +5555,19 @@ html.IGv2 {
       html.IGv2 form .row:last-child .outline-btn {
         margin-bottom: 23.9rem; }
     html.IGv2 form h3 {
+      /*Hero Title*/
       font-family: "whitney_bookregular";
       font-size: 2.4rem;
-      line-height: 3rem; }
+      line-height: 3rem;
+      /*Accordion Menu*/ }
       @media screen and (min-width: 64em) {
         html.IGv2 form h3 {
           font-size: 3.6rem;
           line-height: 4.6rem; } }
+      @media screen and (max-width: 39.9375em) {
+        html.IGv2 form h3 {
+          font-size: 2.4rem;
+          line-height: 3rem; } }
     html.IGv2 form p.tp_05 {
       line-height: 2.2rem;
       margin-bottom: 0; }
@@ -5502,9 +5596,12 @@ html.IGv2 {
       html.IGv2 form input[type=text]:not(textarea), html.IGv2 form input[type=password]:not(textarea), html.IGv2 form input[type=tel]:not(textarea), html.IGv2 form input[type=email]:not(textarea), html.IGv2 form textarea:not(textarea) {
         line-height: 4rem; }
     html.IGv2 form label {
+      /*Hero Title*/
       font-family: "whitney_scmedium";
       font-size: 1.6rem;
+      text-transform: lowercase;
       color: #666666;
+      /*Input*/
       margin-bottom: .7rem;
       background-color: transparent;
       border-color: #282828;
@@ -5542,9 +5639,11 @@ html.IGv2 {
         right: .7rem;
         color: #d42f1a; }
       html.IGv2 form label input[type=text], html.IGv2 form label input[type=password], html.IGv2 form label input[type=tel], html.IGv2 form label input[type=email], html.IGv2 form label textarea {
+        /*Hero Title*/
         font-family: "whitney_bookregular";
         font-size: 1.6rem;
-        color: #0D263C;
+        color: #666666;
+        /*Steps*/
         margin-bottom: 0;
         border: 1px solid transparent;
         border-radius: 6px 6px 3px 3px; }
@@ -5573,16 +5672,25 @@ html.IGv2 {
           height: 4rem;
           margin-top: -1rem; }
     html.IGv2 form label.error {
+      /*Hero Title*/
+      font-family: "whitney_bookregular";
+      font-size: 1.4rem;
+      color: #767676;
       padding: .1rem .2rem;
       margin: 0;
       color: #d42f1a;
       border: none;
       position: relative;
       top: -.5rem; }
+      @media screen and (min-width: 64em) {
+        html.IGv2 form label.error {
+          font-size: 1.6rem; } }
     html.IGv2 form select {
+      /*Hero Title*/
       font-family: "whitney_bookregular";
       font-size: 1.6rem;
-      color: #0D263C;
+      color: #666666;
+      /*Steps*/
       border: 0 none;
       height: 4rem;
       margin: 0;
@@ -5611,12 +5719,19 @@ html.IGv2 {
         height: .1rem;
         background-color: #282828; }
   html.IGv2 p.server-error {
+    /*Hero Title*/
+    font-family: "whitney_bookregular";
+    font-size: 1.4rem;
+    color: #767676;
     padding: .5rem 0 1.1rem;
     border: 1px solid #d42f1a;
     border-radius: .5rem;
     text-align: center;
     margin-top: -2.2rem;
     margin-bottom: .9rem; }
+    @media screen and (min-width: 64em) {
+      html.IGv2 p.server-error {
+        font-size: 1.6rem; } }
     html.IGv2 p.server-error {
       font-size: 1.4rem; }
     html.IGv2 p.server-error .fa {
@@ -5768,6 +5883,7 @@ html.IGv2 {
       width: 22.6rem;
       height: 22.6rem;
       border-radius: 11.3rem;
+      border: 3px solid #D3A574;
       overflow: hidden;
       position: relative;
       float: right; }
@@ -5942,36 +6058,53 @@ html.IGv2 {
               width: 100%;
               margin-top: .3rem; } }
           html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns strong {
+            /*Hero Title*/
             font-family: "whitney_lightregular";
             font-size: 9rem;
             color: #A86728;
-            line-height: 10.0rem; }
+            line-height: 10.0rem;
+            text-transform: uppercase;
+            /*Legal Copy*/ }
             @media screen and (min-width: 64em) {
               html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns strong {
                 font-size: 14.5rem;
                 line-height: 15.5rem; } }
             @media screen and (max-width: 39.9375em) {
               html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns strong {
+                font-size: 1.4rem;
+                line-height: 2rem; } }
+            @media screen and (max-width: 39.9375em) {
+              html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns strong {
+                /*Hero Title*/
                 font-family: "whitney_bookregular";
                 font-size: 1.4rem;
                 line-height: 2.4rem;
-                text-transform: lowercase; } }
+                text-transform: uppercase;
+                /*Sub Title*/ } }
   @media screen and (max-width: 39.9375em) and (min-width: 40em) {
     html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns strong {
       font-size: 3.6rem; } }
+  @media screen and (max-width: 39.9375em) and (max-width: 39.9375em) {
+    html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns strong {
+      font-size: 2rem; } }
             @media screen and (max-width: 39.9375em) {
                 html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns strong {
                   text-shadow: none; } }
           html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns span {
+            /*Hero Title*/
             font-family: "whitney_bookregular";
             font-size: 1.4rem;
             line-height: 2.4rem;
-            text-transform: lowercase;
+            text-transform: uppercase;
+            /*Sub Title*/
             display: block;
             margin-top: -.2rem; }
             @media screen and (min-width: 40em) {
               html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns span {
                 font-size: 3.6rem; } }
+            @media screen and (max-width: 39.9375em) {
+              html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns span {
+                font-size: 2rem; } }
             @media screen and (max-width: 39.9375em) {
               html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns span {
                 display: inline; } }
@@ -6094,6 +6227,10 @@ html.IGv2 {
     html.IGv2 .section.hero .row:nth-child(2) .underline {
       border-top: 1px solid #D3D4D5;
       padding-top: 0.2rem; }
+    html.IGv2 .section.hero .row:nth-child(2) .tp_08 {
+      color: #A86728; }
+    html.IGv2 .section.hero .row:nth-child(2) .tp_11 {
+      color: #A86728; }
     html.IGv2 .section.hero .form-actions {
       margin-top: 3rem; }
       html.IGv2 .section.hero .form-actions div:last-of-type .columns {
@@ -6179,14 +6316,20 @@ html.IGv2 {
             html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1:first-child, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3:first-child, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p:first-child, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:first-child {
               float: left; } }
           html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
+            /*Hero Title*/
             font-family: "whitney_lightregular";
             font-size: 2.8rem;
             line-height: 3.7rem;
+            /*Content Title*/
             margin: 0 0 -.1rem; }
             @media screen and (min-width: 64em) {
               html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
                 font-size: 5.2rem;
                 line-height: 7.2rem; } }
+            @media screen and (max-width: 39.9375em) {
+              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
+                font-size: 2.8rem;
+                line-height: 3.7rem; } }
             @media screen and (max-width: 39.9375em) {
               html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
                 line-height: 3.7rem; } }
@@ -6217,13 +6360,18 @@ html.IGv2 {
                 display: inline-block; }
                 @media screen and (max-width: 39.9375em) {
                   html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 {
+                    /*Hero Title*/
                     font-family: "whitney_bookregular";
                     font-size: 1.4rem;
                     line-height: 2.4rem;
-                    text-transform: lowercase; } }
+                    text-transform: uppercase;
+                    /*Sub Title*/ } }
   @media screen and (max-width: 39.9375em) and (min-width: 40em) {
     html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 {
       font-size: 3.6rem; } }
+  @media screen and (max-width: 39.9375em) and (max-width: 39.9375em) {
+    html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 {
+      font-size: 2rem; } }
                 @media screen and (max-width: 39.9375em) {
                     html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 span {
                       font-size: 1.6rem; }
@@ -6288,12 +6436,17 @@ html.IGv2 {
             html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.social-icons a {
               margin: 1.25rem; }
           html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 {
+            /*Hero Title*/
             font-family: "whitney_bookregular";
             font-size: 1.6rem;
+            /*Body Copy*/
             margin-bottom: 0rem; }
             @media screen and (min-width: 64em) {
               html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 {
                 font-size: 2.2rem; } }
+            @media screen and (max-width: 39.9375em) {
+              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 {
+                font-size: 1.4rem; } }
             @media screen and (min-width: 40em) {
               html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 {
                 margin-bottom: .4rem; } }
@@ -6303,24 +6456,28 @@ html.IGv2 {
                 html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08 .icon, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 .icon {
                   margin-bottom: .4rem; } }
           html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_06, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_04 {
+            /*Hero Title*/
             font-family: "whitney_scmedium";
             font-size: 1.8rem;
             line-height: 2.4rem;
             text-transform: lowercase;
+            /*Callout Body Copy*/
             margin-bottom: 1.2rem; }
             @media screen and (min-width: 64em) {
               html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_06, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_04 {
                 font-size: 2.2rem; } }
             @media screen and (max-width: 39.9375em) {
               html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_06, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_04 {
-                font-size: 1.6rem; } }
+                font-size: 1.4rem; } }
             @media screen and (max-width: 39.9375em) {
               html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_06, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_04 {
                 letter-spacing: 1px;
                 line-height: 1.6rem; } }
           html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_09 {
+            /*Hero Title*/
             font-family: "whitney_bookregular";
-            font-size: 1.6rem; }
+            font-size: 1.6rem;
+            /*Body Copy Bold*/ }
             @media screen and (min-width: 64em) {
               html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_09 {
                 font-size: 1.8rem;
@@ -6366,22 +6523,30 @@ html.IGv2 {
         html.IGv2 .personnel-bio-overlay .carousel-slides {
           margin: .8rem 3.8rem 0; } }
       html.IGv2 .personnel-bio-overlay .carousel-slides h3 {
+        /*Hero Title*/
         font-family: "whitney_bookregular";
         font-size: 2.4rem;
         line-height: 3rem;
+        /*Accordion Menu*/
         margin-top: 1.8rem;
         margin-bottom: 1.2rem; }
         @media screen and (min-width: 64em) {
           html.IGv2 .personnel-bio-overlay .carousel-slides h3 {
             font-size: 3.6rem;
             line-height: 4.6rem; } }
+        @media screen and (max-width: 39.9375em) {
+          html.IGv2 .personnel-bio-overlay .carousel-slides h3 {
+            font-size: 2.4rem;
+            line-height: 3rem; } }
         @media screen and (min-width: 40em) {
           html.IGv2 .personnel-bio-overlay .carousel-slides h3 {
             margin-top: 3.8rem;
             margin-bottom: 1.8rem; } }
       html.IGv2 .personnel-bio-overlay .carousel-slides p {
+        /*Hero Title*/
         font-family: "whitney_bookregular";
-        font-size: 1.6rem; }
+        font-size: 1.6rem;
+        /*Body Copy Bold*/ }
         @media screen and (min-width: 64em) {
           html.IGv2 .personnel-bio-overlay .carousel-slides p {
             font-size: 1.8rem;
@@ -6445,6 +6610,10 @@ html.IGv2 {
       border-color: #282828; }
   html.IGv2 .section.careers {
     background-color: #D3D4D5; }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .section.careers .illustration {
+        margin-bottom: 3rem;
+        margin-top: 3rem; } }
     html.IGv2 .section.careers .row .row {
       margin: 0; }
       html.IGv2 .section.careers .row .row:first-child {
@@ -6540,6 +6709,11 @@ html.IGv2 {
           line-height: 4.8rem; } }
     html.IGv2 .section.careers p.tp_09 {
       line-height: 3rem; }
+      @media screen and (max-width: 39.9375em) {
+        html.IGv2 .section.careers p.tp_09 {
+          line-height: 2.3rem; } }
+    html.IGv2 .section.careers p.tp_08 {
+      text-align: center; }
     @media screen and (min-width: 40em) {
       html.IGv2 .section.careers .form-actions div:nth-child(1) {
         text-align: right;
@@ -6550,10 +6724,12 @@ html.IGv2 {
   html.IGv2 .section.inquiries {
     background-color: #F3F4F5; }
     html.IGv2 .section.inquiries h3 {
-      margin-bottom: 2.6rem; }
+      margin-bottom: 2.6rem;
+      color: #605B57; }
       @media screen and (max-width: 39.9375em) {
         html.IGv2 .section.inquiries h3 {
-          margin-bottom: 1.6rem; } }
+          margin-bottom: 1.6rem;
+          text-align: center; } }
       @media screen and (min-width: 64em) {
         html.IGv2 .section.inquiries h3 {
           line-height: 6rem; } }
@@ -6650,7 +6826,8 @@ html.IGv2 {
   html.IGv2 .section.cta {
     text-align: center;
     background-color: #D3A574;
-    padding-bottom: 6.2rem; }
+    padding-bottom: 6.2rem;
+    color: #FFFFFF; }
     html.IGv2 .section.cta .row:nth-child(2) {
       margin: 0 auto;
       max-width: 87rem; }
@@ -6677,10 +6854,12 @@ html.IGv2 {
         line-height: 2.8rem; } }
     html.IGv2 .section.cta .outline-btn {
       margin-top: 5.3rem;
-      width: auto; }
+      width: auto;
+      color: #FFFFFF;
+      background-color: transparent;
+      border-color: #FFFFFF; }
       @media screen and (max-width: 39.9375em) {
         html.IGv2 .section.cta .outline-btn {
           margin-top: 2.9rem; } }
       html.IGv2 .section.cta .outline-btn:hover {
-        background-color: transparent;
-        color: #282828; }
+        border-color: #A86728; }

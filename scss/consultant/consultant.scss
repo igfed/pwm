@@ -420,6 +420,13 @@
 				border-top: 1px solid $pwmGrey;
     			padding-top: 0.2rem;
 			}
+			.tp_08{
+				color: $pwmBronze;
+			}
+
+			.tp_11{
+				color: $pwmBronze;
+			}
 		}
 
 	}
@@ -872,6 +879,12 @@
 .section.careers {
 	background-color: $pwmGrey;
 
+	.illustration{
+		@media #{$small-only}{
+			margin-bottom: 3rem;
+			margin-top: 3rem;
+		}
+	}
 	.row {
 		.row {
 			margin: 0;
@@ -1037,6 +1050,14 @@
 	p {
 		&.tp_09 {
 			line-height: 3rem;
+
+			@media #{$small-only}{
+				line-height: 2.3rem;
+			}
+		}
+
+		&.tp_08{
+			text-align: center;
 		}
 	}
 
@@ -1061,9 +1082,11 @@
 
 	h3 {
 		margin-bottom: 2.6rem;
+		color: $pwmDarkBrown;
 
 		@media #{$small-only} {
 			margin-bottom: 1.6rem;
+			text-align: center;
 		}
 
 		@media #{$large-up} {
@@ -1242,6 +1265,7 @@
 	text-align: center;
 	background-color: $pwmBeige;
 	padding-bottom: 6.2rem;
+	color: $pwmWhite;
 
 	.row:nth-child(2){
 		margin: 0 auto;
@@ -1281,14 +1305,16 @@
 	.outline-btn {
 		margin-top: 5.3rem;
 		width:auto;
+		color: $pwmWhite;
+		background-color: transparent;
+		border-color: $pwmWhite;
 
 		@media #{$small-only} {
 			margin-top: 2.9rem;
 		}
 
 		&:hover {
-			background-color: transparent;
-    		color: $igBlue;
+    		border-color: $pwmBronze;
 		}
 	}
 }
