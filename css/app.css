@@ -4647,31 +4647,28 @@ table.hover tr:nth-of-type(even):hover {
         border-right: none; }
 
 html.IGv2 {
-  /*--------------------------------MAIN ELEMENTS----------------------------------------*/
   /*-------Fonts------------*/
   /*------Graphics---------*/
-  /*-------Video-----------*/
   /*--------Grid-----------*/
   /*------Buttons----------*/
   /*------------Forms-------------*/
   /*----------Maps----------------*/
-  /*---------------------------------------MODULES-------------------------------------*/
-  /*--------------1.Global Navigation-----------*/
+  /*---------------------------------------PWM MODULES-------------------------------------*/
   /*--------------2.Hero Contact Info-----------*/
-  /*--------------5.About Section---------------*/
-  /*--------------7.Team------------------------*/
-  /*-------------10.Events----------------------*/
-  /*-----------------13.General Inquires---------------*/
-  /*-----------------14.Have Questions-----------------*/
-  /*---------------17.More - Advice-------------------*/ }
+  /*--------------3.About Section---------------*/
+  /*--------------4.Team------------------------*/
+  /*-------------5.Events----------------------*/
+  /*-----------------6.General Inquires---------------*/
+  /*-----------------7.Have Questions-----------------*/ }
   html.IGv2 {
     font-size: 62.5%;
     color: #282828; }
   html.IGv2 .tp_01 {
+    /*Hero Title*/
     font-family: "whitney_lightregular";
     font-size: 4rem;
     line-height: 2.5rem;
-    color: #282828; }
+    /*Callout Title*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_01 {
         font-size: 7.2rem;
@@ -4680,76 +4677,106 @@ html.IGv2 {
     @media screen and (max-width: 39.9375em) {
       html.IGv2 .tp_01 {
         font-size: 2.8rem;
-        letter-spacing: 1px; } }
+        line-height: 3.5rem; } }
   html.IGv2 .tp_02 {
+    /*Hero Title*/
     font-family: "whitney_lightregular";
     font-size: 2.8rem;
     line-height: 3.7rem;
-    color: #282828; }
+    /*Content Title*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_02 {
         font-size: 5.2rem;
         line-height: 7.2rem; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .tp_02 {
+        font-size: 2.8rem;
+        line-height: 3.7rem; } }
   html.IGv2 .tp_03 {
+    /*Hero Title*/
     font-family: "whitney_bookregular";
     font-size: 2.4rem;
     line-height: 3rem;
-    color: #282828; }
+    /*Accordion Menu*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_03 {
         font-size: 3.6rem;
         line-height: 4.6rem; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .tp_03 {
+        font-size: 2.4rem;
+        line-height: 3rem; } }
   html.IGv2 .tp_04 {
+    /*Hero Title*/
     font-family: "whitney_scmedium";
     font-size: 1.8rem;
     line-height: 1.8rem;
-    color: #282828;
-    text-transform: lowercase; }
+    text-transform: lowercase;
+    /*Section Title*/ }
     @media screen and (min-width: 40em) {
       html.IGv2 .tp_04 {
         font-size: 2.4rem;
         line-height: 2.5rem; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .tp_04 {
+        font-size: 1.8rem;
+        line-height: 1.8rem; } }
   html.IGv2 .tp_05 {
+    /*Hero Title*/
     font-family: "whitney_bookregular";
     font-size: 1.4rem;
     line-height: 2.4rem;
-    color: #282828;
-    text-transform: lowercase; }
+    text-transform: uppercase;
+    /*Sub Title*/ }
     @media screen and (min-width: 40em) {
       html.IGv2 .tp_05 {
         font-size: 3.6rem; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .tp_05 {
+        font-size: 2rem; } }
   html.IGv2 .tp_06 {
+    /*Hero Title*/
     font-family: "whitney_scmedium";
     font-size: 1.8rem;
     line-height: 2.4rem;
-    color: #282828;
-    text-transform: lowercase; }
+    text-transform: lowercase;
+    /*Callout Body Copy*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_06 {
         font-size: 2.2rem; } }
     @media screen and (max-width: 39.9375em) {
       html.IGv2 .tp_06 {
-        font-size: 1.6rem; } }
+        font-size: 1.4rem; } }
   html.IGv2 .tp_07 {
+    /*Hero Title*/
     font-family: "whitney_lightregular";
     font-size: 1.6rem;
     line-height: 2.4rem;
-    color: #282828; }
+    /*Large Body Copy*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_07 {
         font-size: 2.8rem;
         line-height: 4.1rem; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .tp_07 {
+        font-size: 1.8rem;
+        line-height: 2.4rem; } }
   html.IGv2 .tp_08 {
+    /*Hero Title*/
     font-family: "whitney_bookregular";
     font-size: 1.6rem;
-    color: #282828; }
+    /*Body Copy*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_08 {
         font-size: 2.2rem; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .tp_08 {
+        font-size: 1.4rem; } }
   html.IGv2 .tp_09 {
+    /*Hero Title*/
     font-family: "whitney_bookregular";
     font-size: 1.6rem;
-    color: #282828; }
+    /*Body Copy Bold*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_09 {
         font-size: 1.8rem;
@@ -4759,9 +4786,12 @@ html.IGv2 {
         font-size: 1.4rem;
         line-height: 1.9rem; } }
   html.IGv2 .tp_10 {
+    /*Hero Title*/
+    /*Hero Title*/
     font-family: "whitney_bookregular";
     font-size: 1.6rem;
-    color: #282828; }
+    /*Body Copy Bold*/
+    /*Number Callout*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_10 {
         font-size: 1.8rem;
@@ -4773,95 +4803,136 @@ html.IGv2 {
     html.IGv2 .tp_10 {
       font-family: "whitney_semiboldregular"; }
   html.IGv2 .tp_11 {
+    /*Hero Title*/
     font-family: "whitney_lightregular";
     font-size: 9rem;
     color: #A86728;
-    line-height: 10.0rem; }
+    line-height: 10.0rem;
+    text-transform: uppercase;
+    /*Legal Copy*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_11 {
         font-size: 14.5rem;
         line-height: 15.5rem; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .tp_11 {
+        font-size: 1.4rem;
+        line-height: 2rem; } }
   html.IGv2 .tp_12 {
+    /*Hero Title*/
     font-family: "whitney_bookregular";
     font-size: 1.2rem;
-    color: #646464; }
+    color: #646464;
+    /*Primary Button*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_12 {
         font-size: 1.4rem; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .tp_12 {
+        font-size: 1.2rem; } }
   html.IGv2 .tp_20 {
-    font-family: "whitney_scmedium";
+    /*Hero Title*/
+    font-family: "whitney_lightregular";
     font-size: 1.4rem;
-    color: #282828;
-    text-transform: lowercase;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    /*Show/Hide*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_20 {
         font-size: 1.6rem; } }
   html.IGv2 .tp_21 {
+    /*Hero Title*/
     font-family: "whitney_scmedium";
     font-size: 1.4rem;
-    color: #282828;
     text-transform: lowercase;
-    letter-spacing: 1px; }
-    @media screen and (min-width: 64em) {
-      html.IGv2 .tp_21 {
-        font-size: 1.6rem; } }
-    html.IGv2 .tp_21 {
-      color: #282828; }
+    /*Secondary Button*/ }
   html.IGv2 .tp_22 {
-    font-family: "whitney_scmedium";
+    /*Hero Title*/
+    /*Hero Title*/
+    font-family: "whitney_lightregular";
     font-size: 1.4rem;
-    color: #282828;
-    text-transform: lowercase;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    /*Show/Hide*/
+    /*Tertiary CTA*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_22 {
         font-size: 1.6rem; } }
     html.IGv2 .tp_22 {
       color: #282828; }
+  html.IGv2 .tp_23 {
+    /*Hero Title*/
+    font-family: "whitney_scmedium";
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: #282828;
+    text-transform: lowercase;
+    /*Hyperlink*/ }
+    @media screen and (min-width: 64em) {
+      html.IGv2 .tp_23 {
+        font-size: 1.8rem;
+        line-height: 2.8rem; } }
   html.IGv2 .tp_24 {
+    /*Hero Title*/
     font-family: "whitney_semiboldregular";
     font-size: 1.6rem;
     line-height: 2.4rem;
     color: #282828;
-    text-transform: lowercase; }
+    /*Label*/ }
     @media screen and (min-width: 40em) {
       html.IGv2 .tp_24 {
         font-size: 1.8rem;
         line-height: 2.8rem; } }
   html.IGv2 .tp_25 {
+    /*Hero Title*/
     font-family: "whitney_scmedium";
     font-size: 1.6rem;
-    color: #666666; }
+    text-transform: lowercase;
+    color: #666666;
+    /*Input*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_25 {
         font-size: 1.6rem; } }
   html.IGv2 .tp_26 {
+    /*Hero Title*/
     font-family: "whitney_bookregular";
     font-size: 1.6rem;
-    color: #0D263C; }
+    color: #666666;
+    /*Steps*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_26 {
         font-size: 1.6rem; } }
   html.IGv2 .tp_27 {
+    /*Hero Title*/
     font-family: "whitney_lightregular";
     font-size: 1.4rem;
-    color: #d42f1a; }
+    color: #d42f1a;
+    /*Errors*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_27 {
-        font-size: 1.4rem; } }
+        font-size: 3.6rem; } }
   html.IGv2 .tp_28 {
+    /*Hero Title*/
+    font-family: "whitney_bookregular";
+    font-size: 1.2rem;
+    color: #767676; }
+    @media screen and (min-width: 64em) {
+      html.IGv2 .tp_28 {
+        font-size: 1.4rem; } }
+  html.IGv2 .tp_29 {
+    /*Hero Title*/
     font-family: "whitney_bookregular";
     font-size: 1.4rem;
     color: #767676; }
     @media screen and (min-width: 64em) {
-      html.IGv2 .tp_28 {
+      html.IGv2 .tp_29 {
         font-size: 1.6rem; } }
   html.IGv2 h1 {
+    /*Hero Title*/
     font-family: "whitney_lightregular";
     font-size: 4rem;
     line-height: 2.5rem;
-    color: #282828; }
+    /*Callout Title*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 h1 {
         font-size: 7.2rem;
@@ -4870,48 +4941,53 @@ html.IGv2 {
     @media screen and (max-width: 39.9375em) {
       html.IGv2 h1 {
         font-size: 2.8rem;
-        letter-spacing: 1px; } }
+        line-height: 3.5rem; } }
   html.IGv2 h2 {
+    /*Hero Title*/
     font-family: "whitney_bookregular";
     font-size: 1.4rem;
     line-height: 2.4rem;
-    color: #282828;
-    text-transform: lowercase;
-    margin-bottom: 7.5rem; }
+    text-transform: uppercase;
+    /*Sub Title*/
+    text-align: center;
+    color: #605B57; }
     @media screen and (min-width: 40em) {
       html.IGv2 h2 {
         font-size: 3.6rem; } }
     @media screen and (max-width: 39.9375em) {
       html.IGv2 h2 {
-        margin-bottom: 2.4rem; } }
+        font-size: 2rem; } }
   html.IGv2 h3 {
+    /*Hero Title*/
     font-family: "whitney_lightregular";
-    font-size: 2.8rem;
-    line-height: 3.7rem;
-    color: #282828;
-    margin-bottom: 1.3rem; }
+    font-size: 4rem;
+    line-height: 2.5rem;
+    /*Callout Title*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 h3 {
-        font-size: 5.2rem;
-        line-height: 7.2rem; } }
+        font-size: 7.2rem;
+        line-height: 8.2rem;
+        letter-spacing: 1px; } }
     @media screen and (max-width: 39.9375em) {
       html.IGv2 h3 {
-        margin-bottom: 1.7rem; } }
+        font-size: 2.8rem;
+        line-height: 3.5rem; } }
   html.IGv2 h4 {
+    /*Hero Title*/
     font-family: "whitney_bookregular";
     font-size: 2.4rem;
     line-height: 3rem;
-    color: #282828;
-    margin-bottom: 1.6rem; }
+    /*Accordion Menu*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 h4 {
         font-size: 3.6rem;
         line-height: 4.6rem; } }
     @media screen and (max-width: 39.9375em) {
       html.IGv2 h4 {
-        margin-bottom: 1rem; } }
+        font-size: 2.4rem;
+        line-height: 3rem; } }
   html.IGv2 .illustration {
-    background-image: url("../img/illustrations/placeholder.png");
+    background-color: #6F645E;
     background-position-y: 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -4954,8 +5030,7 @@ html.IGv2 {
     height: 23rem;
     overflow: hidden;
     margin: -1rem auto 1.3rem;
-    box-sizing: content-box;
-    transition: border-color .5s ease 0s; }
+    box-sizing: content-box; }
     @media screen and (max-width: 39.9375em) {
       html.IGv2 .portrait {
         width: 11rem;
@@ -4963,7 +5038,15 @@ html.IGv2 {
         margin-top: 0;
         margin-bottom: .5rem; } }
     html.IGv2 .portrait img {
-      height: 16rem; }
+      height: 23rem;
+      max-width: none;
+      transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      left: 50%;
+      position: relative; }
       @media screen and (max-width: 39.9375em) {
         html.IGv2 .portrait img {
           height: 14rem; } }
@@ -4973,14 +5056,17 @@ html.IGv2 {
     line-height: 1.3;
     position: relative;
     letter-spacing: 1px;
-    font-family: "whitney_bookregular";
+    /*Hero Title*/
+    font-family: "whitney_scmedium";
     font-size: 1.4rem;
     line-height: 2.4rem;
     color: #282828;
-    text-transform: lowercase; }
-    @media screen and (min-width: 40em) {
+    text-transform: lowercase;
+    /*Hyperlink*/ }
+    @media screen and (min-width: 64em) {
       html.IGv2 .underline-link {
-        font-size: 3.6rem; } }
+        font-size: 1.8rem;
+        line-height: 2.8rem; } }
     html.IGv2 .underline-link:before {
       display: block;
       position: absolute;
@@ -4989,29 +5075,13 @@ html.IGv2 {
       right: calc(100% - 20px);
       height: 3px;
       top: calc(100% - .1rem);
-      background-color: #0ed59a;
+      background-color: #6F645E;
       transition: right .15s ease-out .15s, left .15s ease-out 0s; }
   html.IGv2 .underline-link:hover:before, html.IGv2 .block-link:hover .underline-link:before {
     left: calc(100% - 20px);
     right: 0;
     transition: right .15s ease-out .15s, left .15s ease-out .3s;
     text-decoration: none; }
-  html.IGv2 .button-link {
-    font-family: "whitney_bookregular";
-    font-size: 1.6rem;
-    color: #282828;
-    cursor: pointer;
-    position: relative;
-    color: #FFFFFF;
-    display: block;
-    border: 1px solid #FFFFFF;
-    text-align: center;
-    padding: 14px 0;
-    line-height: 1.5em;
-    border-radius: 4px; }
-    @media screen and (min-width: 64em) {
-      html.IGv2 .button-link {
-        font-size: 2.2rem; } }
   html.IGv2 .icon {
     display: inline-block;
     text-indent: -999rem;
@@ -5054,61 +5124,6 @@ html.IGv2 {
       height: 1.8rem;
       top: .2rem;
       left: -.3rem; }
-  html.IGv2 .video-container {
-    left: 0;
-    margin: 0 auto .6rem;
-    position: relative;
-    right: 0;
-    top: 0;
-    width: 100%; }
-    html.IGv2 .video-container .video-container-responsive {
-      height: 0;
-      margin: auto;
-      padding-bottom: 56.25%;
-      position: relative;
-      width: 100%;
-      z-index: 1; }
-    html.IGv2 .video-container .BrightcoveExperience {
-      height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 100%; }
-    html.IGv2 .video-container .video-spinner-container {
-      background-color: #0c273c;
-      height: 100%;
-      left: 0;
-      position: absolute;
-      top: 0;
-      width: 100%;
-      z-index: 9999; }
-      html.IGv2 .video-container .video-spinner-container .video-spinner {
-        background: #0c273c url("../img/ui/spinner.gif") no-repeat scroll center center;
-        bottom: 0;
-        height: 120px;
-        left: 0;
-        margin: auto;
-        position: absolute;
-        right: 0;
-        top: 0;
-        width: 120px;
-        z-index: 99999; }
-    html.IGv2 .video-container .video-image {
-      background-image: url("../img/ui/video/placeholder.png");
-      background-size: 100% auto;
-      bottom: 0;
-      cursor: pointer;
-      height: auto;
-      left: 0;
-      margin: auto;
-      position: absolute;
-      right: 0;
-      top: 0;
-      width: 100%;
-      z-index: 250; }
-      @media screen and (max-width: 39.9375em) {
-        html.IGv2 .video-container .video-image {
-          background-image: url("../img/ui/video/placeholder-small.png"); } }
   html.IGv2 .row {
     max-width: 120rem; }
     @media screen and (max-width: 39.9375em) {
@@ -5119,7 +5134,8 @@ html.IGv2 {
     clear: both; }
     @media screen and (max-width: 39.9375em) {
       html.IGv2 .section {
-        transition: padding-bottom .5s ease 0s; } }
+        transition: padding-bottom .5s ease 0s;
+        padding-bottom: 5rem; } }
     @media screen and (min-width: 40em) {
       html.IGv2 .section {
         padding: 2rem 6.2rem 3.8rem; } }
@@ -5159,24 +5175,31 @@ html.IGv2 {
   @media screen and (min-width: 64em) {
     html.IGv2 .hide-for-large-only {
       display: none; } }
+  html.IGv2 .full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw; }
   html.IGv2 a.outline-btn {
     background: #A86728 none repeat scroll 0 0;
     border: 2px solid #A86728;
     border-radius: 5px;
-    color: #0c273c;
+    color: #FFFFFF;
     cursor: pointer;
     display: inline-block;
+    /*Hero Title*/
     font-family: "whitney_scmedium";
     font-size: 1.4rem;
-    color: #282828;
     text-transform: lowercase;
-    letter-spacing: 1px;
+    /*Secondary Button*/
     line-height: 2.4rem;
     padding: .4rem .8rem .8rem;
     position: relative;
     text-align: center;
     text-decoration: none;
-    text-transform: lowercase;
+    text-transform: uppercase !important;
     transition: color 0.3s ease 0s, background-color 0.3s ease 0s;
     min-width: 23rem;
     max-width: 25rem;
@@ -5193,11 +5216,6 @@ html.IGv2 {
     /*Navigation (Footer)*/
     /*Icons*/
     /*Media Query*/ }
-    @media screen and (min-width: 64em) {
-      html.IGv2 a.outline-btn {
-        font-size: 1.6rem; } }
-    html.IGv2 a.outline-btn {
-      color: #282828; }
     html.IGv2 a.outline-btn[disabled] {
       border-color: #bbb;
       background-color: #bbb; }
@@ -5210,21 +5228,17 @@ html.IGv2 {
       color: #fff;
       text-decoration: none; }
     html.IGv2 a.outline-btn.primary {
+      color: #FFFFFF;
       background-color: #A86728;
       border-color: #A86728;
+      /*Hero Title*/
       font-family: "whitney_scmedium";
       font-size: 1.4rem;
-      color: #282828;
       text-transform: lowercase;
-      letter-spacing: 1px; }
-      @media screen and (min-width: 64em) {
-        html.IGv2 a.outline-btn.primary {
-          font-size: 1.6rem; } }
-      html.IGv2 a.outline-btn.primary {
-        color: #282828; }
+      /*Secondary Button*/ }
       html.IGv2 a.outline-btn.primary:hover {
         background-color: transparent;
-        color: #282828; }
+        color: #A86728; }
     html.IGv2 a.outline-btn.secondary {
       color: #A86728;
       background-color: transparent;
@@ -5240,25 +5254,20 @@ html.IGv2 {
           border-color: #A86728;
           color: white;
           transition: color 0.3s ease 0s, background-color 0.3s ease 0s; }
-      @media screen and (max-width: 39.9375em) {
-        html.IGv2 a.outline-btn.secondary.email, html.IGv2 a.outline-btn.secondary.phone {
-          min-width: auto; } }
     html.IGv2 a.outline-btn.constrained {
       color: #A86728; }
       html.IGv2 a.outline-btn.constrained:hover {
         background-color: transparent;
         color: #0d263c; }
-    html.IGv2 a.outline-btn.dropdown-button {
-      padding-right: 4rem; }
-      html.IGv2 a.outline-btn.dropdown-button .is-dropdown-submenu {
-        border: none;
-        border-radius: 5.5px;
-        box-shadow: 0 1px 7.5px rgba(0, 0, 0, 0.35);
-        padding: .8rem 0 2.5rem; }
-        @media screen and (max-width: 39.9375em) {
-          html.IGv2 a.outline-btn.dropdown-button .is-dropdown-submenu {
-            left: 70%;
-            top: 40px; } }
+    html.IGv2 a.outline-btn.dropdown-button .is-dropdown-submenu {
+      border: none;
+      border-radius: 5.5px;
+      box-shadow: 0 1px 7.5px rgba(0, 0, 0, 0.35);
+      padding: .8rem 0 2.5rem; }
+      @media screen and (max-width: 39.9375em) {
+        html.IGv2 a.outline-btn.dropdown-button .is-dropdown-submenu {
+          left: 70%;
+          top: 40px; } }
     html.IGv2 a.outline-btn.navigation {
       background-color: #282828;
       border-color: #282828;
@@ -5379,11 +5388,14 @@ html.IGv2 {
         width: 100%;
         height: 100%;
         padding: 1rem 22.25% .7rem;
-        font-family: "whitney_scmedium";
+        /*Hero Title*/
+        /*Hero Title*/
+        font-family: "whitney_lightregular";
         font-size: 1.4rem;
-        color: #282828;
-        text-transform: lowercase;
-        letter-spacing: 1px; }
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        /*Show/Hide*/
+        /*Tertiary CTA*/ }
         @media screen and (min-width: 64em) {
           html.IGv2 .dropdown.menu .is-dropdown-submenu li a {
             font-size: 1.6rem; } }
@@ -5394,9 +5406,10 @@ html.IGv2 {
           font-weight: 400;
           display: block; }
         html.IGv2 .dropdown.menu .is-dropdown-submenu li a span {
+          /*Hero Title*/
           font-family: "whitney_bookregular";
           font-size: 1.6rem;
-          color: #282828;
+          /*Body Copy Bold*/
           display: block; }
           @media screen and (min-width: 64em) {
             html.IGv2 .dropdown.menu .is-dropdown-submenu li a span {
@@ -5455,12 +5468,16 @@ html.IGv2 {
           html.IGv2 .dropdown.menu.small-grid > li.is-dropdown-submenu-parent .submenu li:nth-child(even) a {
             padding-right: 0; }
           html.IGv2 .dropdown.menu.small-grid > li.is-dropdown-submenu-parent .submenu li a span {
+            /*Hero Title*/
             font-family: "whitney_bookregular";
             font-size: 1.6rem;
-            color: #282828; } }
+            /*Body Copy*/ } }
       @media screen and (max-width: 39.9375em) and (min-width: 64em) {
         html.IGv2 .dropdown.menu.small-grid > li.is-dropdown-submenu-parent .submenu li a span {
           font-size: 2.2rem; } }
+      @media screen and (max-width: 39.9375em) and (max-width: 39.9375em) {
+        html.IGv2 .dropdown.menu.small-grid > li.is-dropdown-submenu-parent .submenu li a span {
+          font-size: 1.4rem; } }
     @media screen and (max-width: 39.9375em) {
           html.IGv2 .dropdown.menu.small-grid > li.is-dropdown-submenu-parent .submenu li a:hover {
             background: none;
@@ -5538,14 +5555,19 @@ html.IGv2 {
       html.IGv2 form .row:last-child .outline-btn {
         margin-bottom: 23.9rem; }
     html.IGv2 form h3 {
+      /*Hero Title*/
       font-family: "whitney_bookregular";
       font-size: 2.4rem;
       line-height: 3rem;
-      color: #282828; }
+      /*Accordion Menu*/ }
       @media screen and (min-width: 64em) {
         html.IGv2 form h3 {
           font-size: 3.6rem;
           line-height: 4.6rem; } }
+      @media screen and (max-width: 39.9375em) {
+        html.IGv2 form h3 {
+          font-size: 2.4rem;
+          line-height: 3rem; } }
     html.IGv2 form p.tp_05 {
       line-height: 2.2rem;
       margin-bottom: 0; }
@@ -5574,9 +5596,12 @@ html.IGv2 {
       html.IGv2 form input[type=text]:not(textarea), html.IGv2 form input[type=password]:not(textarea), html.IGv2 form input[type=tel]:not(textarea), html.IGv2 form input[type=email]:not(textarea), html.IGv2 form textarea:not(textarea) {
         line-height: 4rem; }
     html.IGv2 form label {
+      /*Hero Title*/
       font-family: "whitney_scmedium";
       font-size: 1.6rem;
+      text-transform: lowercase;
       color: #666666;
+      /*Input*/
       margin-bottom: .7rem;
       background-color: transparent;
       border-color: #282828;
@@ -5614,9 +5639,11 @@ html.IGv2 {
         right: .7rem;
         color: #d42f1a; }
       html.IGv2 form label input[type=text], html.IGv2 form label input[type=password], html.IGv2 form label input[type=tel], html.IGv2 form label input[type=email], html.IGv2 form label textarea {
+        /*Hero Title*/
         font-family: "whitney_bookregular";
         font-size: 1.6rem;
-        color: #0D263C;
+        color: #666666;
+        /*Steps*/
         margin-bottom: 0;
         border: 1px solid transparent;
         border-radius: 6px 6px 3px 3px; }
@@ -5645,16 +5672,25 @@ html.IGv2 {
           height: 4rem;
           margin-top: -1rem; }
     html.IGv2 form label.error {
+      /*Hero Title*/
+      font-family: "whitney_bookregular";
+      font-size: 1.4rem;
+      color: #767676;
       padding: .1rem .2rem;
       margin: 0;
       color: #d42f1a;
       border: none;
       position: relative;
       top: -.5rem; }
+      @media screen and (min-width: 64em) {
+        html.IGv2 form label.error {
+          font-size: 1.6rem; } }
     html.IGv2 form select {
+      /*Hero Title*/
       font-family: "whitney_bookregular";
       font-size: 1.6rem;
-      color: #0D263C;
+      color: #666666;
+      /*Steps*/
       border: 0 none;
       height: 4rem;
       margin: 0;
@@ -5683,12 +5719,19 @@ html.IGv2 {
         height: .1rem;
         background-color: #282828; }
   html.IGv2 p.server-error {
+    /*Hero Title*/
+    font-family: "whitney_bookregular";
+    font-size: 1.4rem;
+    color: #767676;
     padding: .5rem 0 1.1rem;
     border: 1px solid #d42f1a;
     border-radius: .5rem;
     text-align: center;
     margin-top: -2.2rem;
     margin-bottom: .9rem; }
+    @media screen and (min-width: 64em) {
+      html.IGv2 p.server-error {
+        font-size: 1.6rem; } }
     html.IGv2 p.server-error {
       font-size: 1.4rem; }
     html.IGv2 p.server-error .fa {
@@ -5840,6 +5883,7 @@ html.IGv2 {
       width: 22.6rem;
       height: 22.6rem;
       border-radius: 11.3rem;
+      border: 3px solid #D3A574;
       overflow: hidden;
       position: relative;
       float: right; }
@@ -5888,316 +5932,323 @@ html.IGv2 {
     @media screen and (max-width: 39.9375em) {
       html.IGv2 .section.personnel.active h2 {
         margin-bottom: 2.2rem; } }
-    html.IGv2 .section.personnel > .row + .row {
+    html.IGv2 .section.personnel .row .columns {
       text-align: center; }
-      html.IGv2 .section.personnel > .row + .row .columns .row {
+      html.IGv2 .section.personnel .row .columns .row {
         margin-left: 0;
         margin-right: 0; }
         @media screen and (min-width: 75em) {
-          html.IGv2 .section.personnel > .row + .row .columns .row {
+          html.IGv2 .section.personnel .row .columns .row {
             padding: 0 4.5rem; } }
-        html.IGv2 .section.personnel > .row + .row .columns .row h3 {
+        html.IGv2 .section.personnel .row .columns .row h3 {
           line-height: 3rem;
           margin-bottom: .6rem; }
           @media screen and (min-width: 64em) {
-            html.IGv2 .section.personnel > .row + .row .columns .row h3 {
+            html.IGv2 .section.personnel .row .columns .row h3 {
               line-height: 5rem;
               margin-bottom: .3rem; } }
-          html.IGv2 .section.personnel > .row + .row .columns .row h3 + p {
+          html.IGv2 .section.personnel .row .columns .row h3 + p {
             margin-bottom: .2rem; }
             @media screen and (max-width: 39.9375em) {
-              html.IGv2 .section.personnel > .row + .row .columns .row h3 + p.tp_08 {
+              html.IGv2 .section.personnel .row .columns .row h3 + p.tp_08 {
                 line-height: 2rem;
                 margin-bottom: -.2rem; } }
-            html.IGv2 .section.personnel > .row + .row .columns .row h3 + p + p + p {
+            html.IGv2 .section.personnel .row .columns .row h3 + p + p + p {
               margin-top: 2.1rem; }
               @media screen and (max-width: 39.9375em) {
-                html.IGv2 .section.personnel > .row + .row .columns .row h3 + p + p + p {
+                html.IGv2 .section.personnel .row .columns .row h3 + p + p + p {
                   margin-top: -0.2rem; } }
-        html.IGv2 .section.personnel > .row + .row .columns .row a.underline-link {
+        html.IGv2 .section.personnel .row .columns .row a.underline-link {
           position: relative;
           margin-top: 2.8rem; }
-          html.IGv2 .section.personnel > .row + .row .columns .row a.underline-link::after {
+          html.IGv2 .section.personnel .row .columns .row a.underline-link::after {
             border-top: 0.2rem solid #c1cbd0;
             content: "";
             width: 300%;
             top: -1.5rem;
             position: absolute;
             left: -100%; }
-        html.IGv2 .section.personnel > .row + .row .columns .row a.underline-link {
+        html.IGv2 .section.personnel .row .columns .row a.underline-link {
           margin-top: 3.5rem; }
           @media screen and (max-width: 39.9375em) {
-            html.IGv2 .section.personnel > .row + .row .columns .row a.underline-link {
+            html.IGv2 .section.personnel .row .columns .row a.underline-link {
               margin-top: 2.1rem; } }
-          html.IGv2 .section.personnel > .row + .row .columns .row a.underline-link::after {
+          html.IGv2 .section.personnel .row .columns .row a.underline-link::after {
             top: -2.3rem; }
             @media screen and (max-width: 39.9375em) {
-              html.IGv2 .section.personnel > .row + .row .columns .row a.underline-link::after {
+              html.IGv2 .section.personnel .row .columns .row a.underline-link::after {
                 top: -1.2rem; } }
         @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-          html.IGv2 .section.personnel > .row + .row .columns .row .columns:first-child {
+          html.IGv2 .section.personnel .row .columns .row .columns:first-child {
             padding-left: 0; }
-          html.IGv2 .section.personnel > .row + .row .columns .row .columns:last-child {
+          html.IGv2 .section.personnel .row .columns .row .columns:last-child {
             padding-right: 0; } }
         @media screen and (max-width: 39.9375em) {
-          html.IGv2 .section.personnel > .row + .row .columns .row .columns {
-            padding: 0; }
-            html.IGv2 .section.personnel > .row + .row .columns .row .columns + .columns {
-              margin-top: 5.2rem; } }
-        html.IGv2 .section.personnel > .row + .row .columns .row + .row {
-          margin-top: 7.5rem; }
+          html.IGv2 .section.personnel .row .columns .row .columns {
+            padding: 0; } }
+    html.IGv2 .section.personnel.profile > .row {
+      max-width: 105rem; }
+      html.IGv2 .section.personnel.profile > .row + .row .columns .row {
+        position: relative; }
+        @media screen and (max-width: 39.9375em) {
+          html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details h1 + p {
+            margin-bottom: -.2rem; } }
+        html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .portrait {
+          border-color: #7ec4b9;
+          width: 22rem;
+          height: 28rem; }
           @media screen and (max-width: 39.9375em) {
-            html.IGv2 .section.personnel > .row + .row .columns .row + .row {
-              margin-top: 5.2rem; } }
-    html.IGv2 .section.personnel.profile {
-      padding-top: 9.5rem;
-      padding-bottom: 2rem;
-      /*Media Query*/ }
-      @media screen and (max-width: 39.9375em) {
-        html.IGv2 .section.personnel.profile {
-          padding-top: 1.3rem; } }
-      html.IGv2 .section.personnel.profile > .row {
-        max-width: 105rem; }
-        html.IGv2 .section.personnel.profile > .row + .row .columns .row {
-          position: relative; }
-          html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details h1 {
-            margin-bottom: 2rem; }
-            @media screen and (max-width: 39.9375em) {
-              html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details h1 {
-                margin-bottom: .6rem; }
-                html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details h1 + p {
-                  margin-bottom: -.2rem; }
-                  html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details h1 + p + p {
-                    margin-bottom: 1.1rem; } }
-          html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .portrait {
-            border-color: #7ec4b9;
-            width: 22rem;
+            html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .portrait {
+              margin-bottom: .3rem;
+              width: 11rem;
+              height: 14rem; } }
+          html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .portrait img {
             height: 28rem; }
             @media screen and (max-width: 39.9375em) {
-              html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .portrait {
-                margin-bottom: .3rem;
-                width: 11rem;
+              html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .portrait img {
                 height: 14rem; } }
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .portrait img {
-              height: 28rem; }
-              @media screen and (max-width: 39.9375em) {
-                html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .portrait img {
-                  height: 14rem; } }
+        html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .underline {
+          margin-bottom: 0.5rem;
+          padding-bottom: 0.5rem; }
           html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .underline {
-            margin-bottom: 0.5rem;
-            padding-top: 1.5rem;
-            padding-bottom: 0.5rem; }
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .underline {
-              position: relative;
-              margin-top: 0.5rem; }
-              html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .underline::after {
-                border-top: 0.1rem solid #c1cbd0;
-                content: "";
-                width: 30%;
-                top: -0.3rem;
-                position: absolute;
-                left: 35%; }
+            position: relative;
+            margin-top: 0.5rem; }
             html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .underline::after {
-              border-color: rgba(13, 38, 60, 0.3);
-              width: 334px;
-              margin: 0 auto;
-              left: 0;
-              right: 0; }
-              @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-                html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .underline::after {
-                  width: 250px;
-                  padding-top: 0;
-                  padding-bottom: 0; } }
-              @media screen and (max-width: 39.9375em) {
-                html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .underline::after {
-                  width: 230px;
-                  padding-top: 0; } }
-            @media screen and (max-width: 39.9375em) {
-              html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .underline {
-                padding-top: 0.5;
+              border-top: 0.1rem solid #c1cbd0;
+              content: "";
+              width: 30%;
+              top: -0.3rem;
+              position: absolute;
+              left: 35%; }
+          html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .underline::after {
+            border-color: rgba(13, 38, 60, 0.3);
+            width: 334px;
+            margin: 0 auto;
+            left: 0;
+            right: 0; }
+            @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+              html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .underline::after {
+                width: 250px;
+                padding-top: 0;
                 padding-bottom: 0; } }
-          @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .tp_08 {
-              margin-top: 2rem;
-              margin-bottom: 0; } }
-          @media screen and (max-width: 39.9375em) {
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .tp_08 {
-              margin-bottom: 0.5rem; } }
-          @media screen and (min-width: 64em) {
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .tp_09 {
-              line-height: 2.5rem; } }
-          html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns {
-            padding: 0;
-            width: 12.5rem;
-            position: absolute;
-            top: 3.7rem;
-            right: 2.4rem; }
             @media screen and (max-width: 39.9375em) {
-              html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns {
-                position: static;
-                width: 100%;
-                margin-top: .3rem; } }
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns strong {
-              font-family: "whitney_lightregular";
-              font-size: 9rem;
-              color: #A86728;
-              line-height: 10.0rem; }
-              @media screen and (min-width: 64em) {
-                html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns strong {
-                  font-size: 14.5rem;
-                  line-height: 15.5rem; } }
-              @media screen and (max-width: 39.9375em) {
-                html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns strong {
-                  font-family: "whitney_bookregular";
-                  font-size: 1.4rem;
-                  line-height: 2.4rem;
-                  color: #282828;
-                  text-transform: lowercase; } }
+              html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .underline::after {
+                width: 230px;
+                padding-top: 0; } }
+          @media screen and (max-width: 39.9375em) {
+            html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .underline {
+              padding-top: 0.5;
+              padding-bottom: 0; } }
+        @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+          html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .tp_08 {
+            margin-top: 2rem;
+            margin-bottom: 0; } }
+        @media screen and (min-width: 64em) {
+          html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .tp_09 {
+            line-height: 2.5rem; } }
+        html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns {
+          padding: 0;
+          width: 12.5rem;
+          position: absolute;
+          top: 3.7rem;
+          right: 2.4rem; }
+          @media screen and (max-width: 39.9375em) {
+            html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns {
+              position: static;
+              width: 100%;
+              margin-top: .3rem; } }
+          html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns strong {
+            /*Hero Title*/
+            font-family: "whitney_lightregular";
+            font-size: 9rem;
+            color: #A86728;
+            line-height: 10.0rem;
+            text-transform: uppercase;
+            /*Legal Copy*/ }
+            @media screen and (min-width: 64em) {
+              html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns strong {
+                font-size: 14.5rem;
+                line-height: 15.5rem; } }
+            @media screen and (max-width: 39.9375em) {
+              html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns strong {
+                font-size: 1.4rem;
+                line-height: 2rem; } }
+            @media screen and (max-width: 39.9375em) {
+              html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns strong {
+                /*Hero Title*/
+                font-family: "whitney_bookregular";
+                font-size: 1.4rem;
+                line-height: 2.4rem;
+                text-transform: uppercase;
+                /*Sub Title*/ } }
   @media screen and (max-width: 39.9375em) and (min-width: 40em) {
     html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns strong {
       font-size: 3.6rem; } }
-              @media screen and (max-width: 39.9375em) {
-                  html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns strong {
-                    text-shadow: none; } }
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns span {
-              font-family: "whitney_bookregular";
-              font-size: 1.4rem;
-              line-height: 2.4rem;
-              color: #282828;
-              text-transform: lowercase;
-              display: block;
-              margin-top: -.2rem; }
-              @media screen and (min-width: 40em) {
-                html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns span {
-                  font-size: 3.6rem; } }
-              @media screen and (max-width: 39.9375em) {
-                html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns span {
-                  display: inline; } }
+  @media screen and (max-width: 39.9375em) and (max-width: 39.9375em) {
+    html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns strong {
+      font-size: 2rem; } }
+            @media screen and (max-width: 39.9375em) {
+                html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns strong {
+                  text-shadow: none; } }
+          html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns span {
+            /*Hero Title*/
+            font-family: "whitney_bookregular";
+            font-size: 1.4rem;
+            line-height: 2.4rem;
+            text-transform: uppercase;
+            /*Sub Title*/
+            display: block;
+            margin-top: -.2rem; }
+            @media screen and (min-width: 40em) {
               html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns span {
-                line-height: 1.8rem; }
-          html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row {
-            margin-top: 1.2rem; }
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.explore {
-              margin-top: 7rem; }
-              @media screen and (max-width: 39.9375em) {
-                html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.explore {
-                  margin-top: 0.5rem; } }
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.show-for-small-only {
-              display: none; }
-              @media screen and (max-width: 39.9375em) {
-                html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.show-for-small-only {
-                  display: block;
-                  margin-top: 3rem; } }
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row .outline-btn {
-              margin-bottom: 1.1rem; }
-              @media screen and (max-width: 39.9375em) {
-                html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row .outline-btn.secondary:hover {
-                  color: white;
-                  background-color: transparent; } }
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row .icon {
-              margin-left: 1.3rem;
-              margin-right: 1.3rem; }
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .outline-btn {
-              width: 100%; }
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .dropdown {
-              float: right; }
+                font-size: 3.6rem; } }
             @media screen and (max-width: 39.9375em) {
-              html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions {
-                margin-top: 2rem; } }
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .is-dropdown-submenu {
-              border: none;
-              border-radius: 5.5px;
-              box-shadow: 0 1px 7.5px rgba(0, 0, 0, 0.35);
-              padding: .8rem 0 2.5rem; }
-              @media screen and (max-width: 39.9375em) {
-                html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .is-dropdown-submenu {
-                  left: 70%;
-                  top: 40px; } }
+              html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns span {
+                font-size: 2rem; } }
             @media screen and (max-width: 39.9375em) {
-              html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-proportional-grid {
-                margin-bottom: 1.4rem; } }
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-6 {
-              padding-right: 2.5rem;
-              text-align: right; }
-              @media screen and (max-width: 39.9375em) {
-                html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-6 {
-                  padding: 0; }
-                  html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-6 .phone {
-                    width: 53%;
-                    float: right;
-                    margin-right: 1.5rem; } }
+              html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns span {
+                display: inline; } }
+            html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details + .columns span {
+              line-height: 1.8rem; }
+        html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row {
+          margin-top: 1.2rem; }
+          html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.explore {
+            margin-top: 7rem; }
+            @media screen and (max-width: 39.9375em) {
+              html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.explore {
+                margin-top: 0.5rem; } }
+          html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.show-for-small-only {
+            display: none; }
+            @media screen and (max-width: 39.9375em) {
+              html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.show-for-small-only {
+                display: block;
+                margin-top: 3rem; } }
+          html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row .outline-btn {
+            margin-bottom: 1.1rem; }
+            @media screen and (max-width: 39.9375em) {
+              html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row .outline-btn.secondary:hover {
+                color: white;
+                background-color: transparent; } }
+          html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row .icon {
+            margin-left: 1.3rem;
+            margin-right: 1.3rem; }
+          html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .outline-btn {
+            width: 100%; }
+          html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .dropdown {
+            float: right; }
+          @media screen and (max-width: 39.9375em) {
+            html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions {
+              margin-top: 2rem; } }
+          html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .is-dropdown-submenu {
+            border: none;
+            border-radius: 5.5px;
+            box-shadow: 0 1px 7.5px rgba(0, 0, 0, 0.35);
+            padding: .8rem 0 2.5rem; }
+            @media screen and (max-width: 39.9375em) {
+              html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .is-dropdown-submenu {
+                left: 70%;
+                top: 40px; } }
+          @media screen and (max-width: 39.9375em) {
+            html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-proportional-grid {
+              margin-bottom: 1.4rem; } }
+          html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-6 {
+            padding-right: 2.5rem;
+            text-align: right; }
+            @media screen and (max-width: 39.9375em) {
+              html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-6 {
+                padding: 0; }
+                html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-6 .phone {
+                  width: 53%;
+                  float: right;
+                  margin-right: 1.5rem; } }
     @media screen and (max-width: 39.9375em) and (max-width: 39.9375em) {
       html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-6 .phone {
         margin-right: 0; } }
-              @media screen and (max-width: 39.9375em) {
-                    html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-6 .phone .show-for-small-only {
-                      padding-right: 1.5rem;
-                      float: right; }
-                  html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-6 .email {
-                    width: 55%;
-                    float: left;
-                    margin-left: 1.5rem; } }
+            @media screen and (max-width: 39.9375em) {
+                  html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-6 .phone .show-for-small-only {
+                    padding-right: 1.5rem;
+                    float: right; }
+                html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-6 .email {
+                  width: 55%;
+                  float: left;
+                  margin-left: 1.5rem; } }
     @media screen and (max-width: 39.9375em) and (max-width: 39.9375em) {
       html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-6 .email {
         margin-left: 0; } }
-              @media screen and (max-width: 39.9375em) {
-                    html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-6 .email .show-for-small-only {
-                      padding-left: 1.5rem;
-                      float: left; } }
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .medium-5 {
-              text-align: right; }
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-12 {
-              text-align: left;
-              padding-left: 2.5rem; }
-              @media screen and (max-width: 39.9375em) {
-                html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-12 {
-                  padding: 0;
-                  text-align: center; } }
-              @media screen and (max-width: 39.9375em) {
-                html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-12 .outline-btn {
-                  max-width: 100%; } }
-            @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-              html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .columns.medium-centered {
-                padding-left: 2.75rem;
-                padding-right: 2.75rem; } }
             @media screen and (max-width: 39.9375em) {
-              html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .columns.medium-centered {
-                padding: 0; } }
+                  html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-6 .email .show-for-small-only {
+                    padding-left: 1.5rem;
+                    float: left; } }
+          html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .medium-5 {
+            text-align: right; }
+          html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-12 {
+            text-align: left;
+            padding-left: 2.5rem; }
             @media screen and (max-width: 39.9375em) {
-              html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .columns.medium-centered + :not(.medium-centered) {
-                padding-left: 0; } }
-            @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-              html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .columns.medium-centered + :not(.medium-centered) {
-                padding-left: 0; } }
+              html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-12 {
+                padding: 0;
+                text-align: center; } }
             @media screen and (max-width: 39.9375em) {
-              html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .columns:not(.medium-centered) {
-                margin-top: 0; } }
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .columns:not(.medium-centered) .outline-btn {
-              margin-bottom: 0; }
+              html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .small-12 .outline-btn {
+                max-width: 100%; } }
+          @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+            html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .columns.medium-centered {
+              padding-left: 2.75rem;
+              padding-right: 2.75rem; } }
+          @media screen and (max-width: 39.9375em) {
+            html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .columns.medium-centered {
+              padding: 0; } }
+          @media screen and (max-width: 39.9375em) {
+            html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .columns.medium-centered + :not(.medium-centered) {
+              padding-left: 0; } }
+          @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+            html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .columns.medium-centered + :not(.medium-centered) {
+              padding-left: 0; } }
+          @media screen and (max-width: 39.9375em) {
+            html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .columns:not(.medium-centered) {
+              margin-top: 0; } }
+          html.IGv2 .section.personnel.profile > .row + .row .columns .row + .row.form-actions .columns:not(.medium-centered) .outline-btn {
+            margin-bottom: 0; }
   html.IGv2 .section.hero {
     background-color: #F3F4F5; }
-  html.IGv2 .explore {
-    text-align: center; }
-    @media screen and (max-width: 39.9375em) {
-      html.IGv2 .explore p {
-        margin-bottom: 0rem; } }
-    html.IGv2 .explore p .fa {
-      display: block;
-      font-size: 5rem;
-      top: -10px;
-      position: relative; }
-      @media screen and (max-width: 39.9375em) {
-        html.IGv2 .explore p .fa {
-          margin-top: -.2rem; } }
+    html.IGv2 .section.hero .portrait.show-for-small-only {
+      width: 100vw !important;
+      height: 20rem !important;
+      margin-bottom: 3rem !important;
+      top: -1.2rem; }
+      html.IGv2 .section.hero .portrait.show-for-small-only img {
+        overflow: hidden;
+        height: auto !important;
+        top: -125px; }
+    html.IGv2 .section.hero .expanded-bio {
+      display: none; }
+    html.IGv2 .section.hero .row:nth-child(2) p {
+      margin-bottom: 0; }
+    html.IGv2 .section.hero .row:nth-child(2) .underline {
+      border-top: 1px solid #D3D4D5;
+      padding-top: 0.2rem; }
+    html.IGv2 .section.hero .row:nth-child(2) .tp_08 {
+      color: #A86728; }
+    html.IGv2 .section.hero .row:nth-child(2) .tp_11 {
+      color: #A86728; }
+    html.IGv2 .section.hero .form-actions {
+      margin-top: 3rem; }
+      html.IGv2 .section.hero .form-actions div:last-of-type .columns {
+        width: 48%; }
+        html.IGv2 .section.hero .form-actions div:last-of-type .columns:first-child {
+          margin-right: 0.5rem; }
+        html.IGv2 .section.hero .form-actions div:last-of-type .columns:last-child {
+          margin-left: 0.5rem; }
   html.IGv2 .section.about {
     background-color: #6F645E; }
     html.IGv2 .section.about h2, html.IGv2 .section.about h3, html.IGv2 .section.about p {
       color: #FFFFFF; }
     html.IGv2 .section.about .about-title {
+      /*Hero Title*/
       font-family: "whitney_bookregular";
       font-size: 2.4rem;
       line-height: 3rem;
-      color: #282828;
+      /*Accordion Menu*/
       text-align: center;
       text-transform: uppercase;
       color: #FFFFFF;
@@ -6207,6 +6258,10 @@ html.IGv2 {
         html.IGv2 .section.about .about-title {
           font-size: 3.6rem;
           line-height: 4.6rem; } }
+      @media screen and (max-width: 39.9375em) {
+        html.IGv2 .section.about .about-title {
+          font-size: 2.4rem;
+          line-height: 3rem; } }
       @media screen and (min-width: 64em) {
         html.IGv2 .section.about .about-title {
           margin-top: 100px; } }
@@ -6319,15 +6374,20 @@ html.IGv2 {
             html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1:first-child, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3:first-child, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p:first-child, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:first-child {
               float: left; } }
           html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
+            /*Hero Title*/
             font-family: "whitney_lightregular";
             font-size: 2.8rem;
             line-height: 3.7rem;
-            color: #282828;
+            /*Content Title*/
             margin: 0 0 -.1rem; }
             @media screen and (min-width: 64em) {
               html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
                 font-size: 5.2rem;
                 line-height: 7.2rem; } }
+            @media screen and (max-width: 39.9375em) {
+              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
+                font-size: 2.8rem;
+                line-height: 3.7rem; } }
             @media screen and (max-width: 39.9375em) {
               html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
                 line-height: 3.7rem; } }
@@ -6358,14 +6418,18 @@ html.IGv2 {
                 display: inline-block; }
                 @media screen and (max-width: 39.9375em) {
                   html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 {
+                    /*Hero Title*/
                     font-family: "whitney_bookregular";
                     font-size: 1.4rem;
                     line-height: 2.4rem;
-                    color: #282828;
-                    text-transform: lowercase; } }
+                    text-transform: uppercase;
+                    /*Sub Title*/ } }
   @media screen and (max-width: 39.9375em) and (min-width: 40em) {
     html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 {
       font-size: 3.6rem; } }
+  @media screen and (max-width: 39.9375em) and (max-width: 39.9375em) {
+    html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 {
+      font-size: 2rem; } }
                 @media screen and (max-width: 39.9375em) {
                     html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 span {
                       font-size: 1.6rem; }
@@ -6430,13 +6494,17 @@ html.IGv2 {
             html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.social-icons a {
               margin: 1.25rem; }
           html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 {
+            /*Hero Title*/
             font-family: "whitney_bookregular";
             font-size: 1.6rem;
-            color: #282828;
+            /*Body Copy*/
             margin-bottom: 0rem; }
             @media screen and (min-width: 64em) {
               html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 {
                 font-size: 2.2rem; } }
+            @media screen and (max-width: 39.9375em) {
+              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 {
+                font-size: 1.4rem; } }
             @media screen and (min-width: 40em) {
               html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 {
                 margin-bottom: .4rem; } }
@@ -6446,26 +6514,28 @@ html.IGv2 {
                 html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08 .icon, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 .icon {
                   margin-bottom: .4rem; } }
           html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_06, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_04 {
+            /*Hero Title*/
             font-family: "whitney_scmedium";
             font-size: 1.8rem;
             line-height: 2.4rem;
-            color: #282828;
             text-transform: lowercase;
+            /*Callout Body Copy*/
             margin-bottom: 1.2rem; }
             @media screen and (min-width: 64em) {
               html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_06, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_04 {
                 font-size: 2.2rem; } }
             @media screen and (max-width: 39.9375em) {
               html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_06, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_04 {
-                font-size: 1.6rem; } }
+                font-size: 1.4rem; } }
             @media screen and (max-width: 39.9375em) {
               html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_06, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_04 {
                 letter-spacing: 1px;
                 line-height: 1.6rem; } }
           html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_09 {
+            /*Hero Title*/
             font-family: "whitney_bookregular";
             font-size: 1.6rem;
-            color: #282828; }
+            /*Body Copy Bold*/ }
             @media screen and (min-width: 64em) {
               html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_09 {
                 font-size: 1.8rem;
@@ -6500,8 +6570,108 @@ html.IGv2 {
       left: 0; }
     html.IGv2 .personnel-bio-overlay .slick-arrow.carousel-next {
       right: 0; }
+  html.IGv2 .personnel-bio-overlay {
+    max-width: 91.4rem;
+    margin: 0 auto; }
+    html.IGv2 .personnel-bio-overlay .carousel-slides {
+      margin: 2rem 3rem 0;
+      padding: 0 0 .2rem;
+      width: 38.1rem; }
+      @media screen and (min-width: 40em) {
+        html.IGv2 .personnel-bio-overlay .carousel-slides {
+          margin: .8rem 3.8rem 0; } }
+      html.IGv2 .personnel-bio-overlay .carousel-slides h3 {
+        /*Hero Title*/
+        font-family: "whitney_bookregular";
+        font-size: 2.4rem;
+        line-height: 3rem;
+        /*Accordion Menu*/
+        margin-top: 1.8rem;
+        margin-bottom: 1.2rem; }
+        @media screen and (min-width: 64em) {
+          html.IGv2 .personnel-bio-overlay .carousel-slides h3 {
+            font-size: 3.6rem;
+            line-height: 4.6rem; } }
+        @media screen and (max-width: 39.9375em) {
+          html.IGv2 .personnel-bio-overlay .carousel-slides h3 {
+            font-size: 2.4rem;
+            line-height: 3rem; } }
+        @media screen and (min-width: 40em) {
+          html.IGv2 .personnel-bio-overlay .carousel-slides h3 {
+            margin-top: 3.8rem;
+            margin-bottom: 1.8rem; } }
+      html.IGv2 .personnel-bio-overlay .carousel-slides p {
+        /*Hero Title*/
+        font-family: "whitney_bookregular";
+        font-size: 1.6rem;
+        /*Body Copy Bold*/ }
+        @media screen and (min-width: 64em) {
+          html.IGv2 .personnel-bio-overlay .carousel-slides p {
+            font-size: 1.8rem;
+            line-height: 2.8rem; } }
+        @media screen and (max-width: 39.9375em) {
+          html.IGv2 .personnel-bio-overlay .carousel-slides p {
+            font-size: 1.4rem;
+            line-height: 1.9rem; } }
+        @media screen and (max-width: 39.9375em) {
+          html.IGv2 .personnel-bio-overlay .carousel-slides p {
+            font-size: 1.6rem;
+            line-height: 2.5rem; } }
+      @media screen and (min-width: 40em) {
+        html.IGv2 .personnel-bio-overlay .carousel-slides .underline-link {
+          margin-top: .2rem; } }
+    html.IGv2 .personnel-bio-overlay .slick-arrow {
+      position: absolute;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+      z-index: 100;
+      cursor: pointer; }
+    html.IGv2 .personnel-bio-overlay .slick-dots {
+      bottom: -5.1rem;
+      left: 0; }
+      @media screen and (min-width: 40em) {
+        html.IGv2 .personnel-bio-overlay .slick-dots {
+          bottom: -6.4rem; } }
+      html.IGv2 .personnel-bio-overlay .slick-dots li {
+        width: 1rem;
+        height: 1rem; }
+        html.IGv2 .personnel-bio-overlay .slick-dots li.slick-active button {
+          background-color: #282828; }
+        html.IGv2 .personnel-bio-overlay .slick-dots li button {
+          background-color: #a7a6a4;
+          border-radius: 50%;
+          padding: 0;
+          width: 100%;
+          height: 100%; }
+          html.IGv2 .personnel-bio-overlay .slick-dots li button::before {
+            content: ""; }
+  html.IGv2 .personnel-bio-overlay .slick-arrow.carousel-prev {
+    left: 0; }
+    @media screen and (min-width: 40em) {
+      html.IGv2 .personnel-bio-overlay .slick-arrow.carousel-prev {
+        left: 2rem; } }
+    @media screen and (min-width: 64em) {
+      html.IGv2 .personnel-bio-overlay .slick-arrow.carousel-prev {
+        left: 6rem; } }
+  html.IGv2 .personnel-bio-overlay .slick-arrow.carousel-next {
+    right: 0; }
+    @media screen and (min-width: 40em) {
+      html.IGv2 .personnel-bio-overlay .slick-arrow.carousel-next {
+        right: 2rem; } }
+    @media screen and (min-width: 64em) {
+      html.IGv2 .personnel-bio-overlay .slick-arrow.carousel-next {
+        right: 6rem; } }
+  html.IGv2 .block-link {
+    cursor: pointer; }
+    html.IGv2 .block-link:hover .portrait {
+      border-color: #282828; }
   html.IGv2 .section.careers {
     background-color: #D3D4D5; }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .section.careers .illustration {
+        margin-bottom: 3rem;
+        margin-top: 3rem; } }
     html.IGv2 .section.careers .row .row {
       margin: 0; }
       html.IGv2 .section.careers .row .row:first-child {
@@ -6597,6 +6767,11 @@ html.IGv2 {
           line-height: 4.8rem; } }
     html.IGv2 .section.careers p.tp_09 {
       line-height: 3rem; }
+      @media screen and (max-width: 39.9375em) {
+        html.IGv2 .section.careers p.tp_09 {
+          line-height: 2.3rem; } }
+    html.IGv2 .section.careers p.tp_08 {
+      text-align: center; }
     @media screen and (min-width: 40em) {
       html.IGv2 .section.careers .form-actions div:nth-child(1) {
         text-align: right;
@@ -6607,10 +6782,12 @@ html.IGv2 {
   html.IGv2 .section.inquiries {
     background-color: #F3F4F5; }
     html.IGv2 .section.inquiries h3 {
-      margin-bottom: 2.6rem; }
+      margin-bottom: 2.6rem;
+      color: #605B57; }
       @media screen and (max-width: 39.9375em) {
         html.IGv2 .section.inquiries h3 {
-          margin-bottom: 1.6rem; } }
+          margin-bottom: 1.6rem;
+          text-align: center; } }
       @media screen and (min-width: 64em) {
         html.IGv2 .section.inquiries h3 {
           line-height: 6rem; } }
@@ -6707,7 +6884,8 @@ html.IGv2 {
   html.IGv2 .section.cta {
     text-align: center;
     background-color: #D3A574;
-    padding-bottom: 6.2rem; }
+    padding-bottom: 6.2rem;
+    color: #FFFFFF; }
     html.IGv2 .section.cta .row:nth-child(2) {
       margin: 0 auto;
       max-width: 87rem; }
@@ -6734,100 +6912,12 @@ html.IGv2 {
         line-height: 2.8rem; } }
     html.IGv2 .section.cta .outline-btn {
       margin-top: 5.3rem;
-      width: auto; }
+      width: auto;
+      color: #FFFFFF;
+      background-color: transparent;
+      border-color: #FFFFFF; }
       @media screen and (max-width: 39.9375em) {
         html.IGv2 .section.cta .outline-btn {
           margin-top: 2.9rem; } }
       html.IGv2 .section.cta .outline-btn:hover {
-        background-color: transparent;
-        color: #282828; }
-  html.IGv2 .personnel-bio-overlay {
-    max-width: 91.4rem;
-    margin: 0 auto; }
-    html.IGv2 .personnel-bio-overlay .carousel-slides {
-      margin: 2rem 3rem 0;
-      padding: 0 0 .2rem;
-      width: 38.1rem; }
-      @media screen and (min-width: 40em) {
-        html.IGv2 .personnel-bio-overlay .carousel-slides {
-          margin: .8rem 3.8rem 0; } }
-      html.IGv2 .personnel-bio-overlay .carousel-slides h3 {
-        font-family: "whitney_bookregular";
-        font-size: 2.4rem;
-        line-height: 3rem;
-        color: #282828;
-        margin-top: 1.8rem;
-        margin-bottom: 1.2rem; }
-        @media screen and (min-width: 64em) {
-          html.IGv2 .personnel-bio-overlay .carousel-slides h3 {
-            font-size: 3.6rem;
-            line-height: 4.6rem; } }
-        @media screen and (min-width: 40em) {
-          html.IGv2 .personnel-bio-overlay .carousel-slides h3 {
-            margin-top: 3.8rem;
-            margin-bottom: 1.8rem; } }
-      html.IGv2 .personnel-bio-overlay .carousel-slides p {
-        font-family: "whitney_bookregular";
-        font-size: 1.6rem;
-        color: #282828; }
-        @media screen and (min-width: 64em) {
-          html.IGv2 .personnel-bio-overlay .carousel-slides p {
-            font-size: 1.8rem;
-            line-height: 2.8rem; } }
-        @media screen and (max-width: 39.9375em) {
-          html.IGv2 .personnel-bio-overlay .carousel-slides p {
-            font-size: 1.4rem;
-            line-height: 1.9rem; } }
-        @media screen and (max-width: 39.9375em) {
-          html.IGv2 .personnel-bio-overlay .carousel-slides p {
-            font-size: 1.6rem;
-            line-height: 2.5rem; } }
-      @media screen and (min-width: 40em) {
-        html.IGv2 .personnel-bio-overlay .carousel-slides .underline-link {
-          margin-top: .2rem; } }
-    html.IGv2 .personnel-bio-overlay .slick-arrow {
-      position: absolute;
-      top: 50%;
-      -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-      z-index: 100;
-      cursor: pointer; }
-    html.IGv2 .personnel-bio-overlay .slick-dots {
-      bottom: -5.1rem;
-      left: 0; }
-      @media screen and (min-width: 40em) {
-        html.IGv2 .personnel-bio-overlay .slick-dots {
-          bottom: -6.4rem; } }
-      html.IGv2 .personnel-bio-overlay .slick-dots li {
-        width: 1rem;
-        height: 1rem; }
-        html.IGv2 .personnel-bio-overlay .slick-dots li.slick-active button {
-          background-color: #282828; }
-        html.IGv2 .personnel-bio-overlay .slick-dots li button {
-          background-color: #a7a6a4;
-          border-radius: 50%;
-          padding: 0;
-          width: 100%;
-          height: 100%; }
-          html.IGv2 .personnel-bio-overlay .slick-dots li button::before {
-            content: ""; }
-  html.IGv2 .personnel-bio-overlay .slick-arrow.carousel-prev {
-    left: 0; }
-    @media screen and (min-width: 40em) {
-      html.IGv2 .personnel-bio-overlay .slick-arrow.carousel-prev {
-        left: 2rem; } }
-    @media screen and (min-width: 64em) {
-      html.IGv2 .personnel-bio-overlay .slick-arrow.carousel-prev {
-        left: 6rem; } }
-  html.IGv2 .personnel-bio-overlay .slick-arrow.carousel-next {
-    right: 0; }
-    @media screen and (min-width: 40em) {
-      html.IGv2 .personnel-bio-overlay .slick-arrow.carousel-next {
-        right: 2rem; } }
-    @media screen and (min-width: 64em) {
-      html.IGv2 .personnel-bio-overlay .slick-arrow.carousel-next {
-        right: 6rem; } }
-  html.IGv2 .block-link {
-    cursor: pointer; }
-    html.IGv2 .block-link:hover .portrait {
-      border-color: #282828; }
+        border-color: #A86728; }
