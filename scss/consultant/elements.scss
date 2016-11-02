@@ -7,11 +7,10 @@ h1 {
 h2 {
 	@include font("tp_05");
 	text-align: center;
-	color: $pwmDarkBrown;
 }
 
 h3 {
-	@include font("tp_01");
+	@include font("tp_02");
 }
 
 h4 {
@@ -85,7 +84,7 @@ h4 {
 	}
 
 	img {
-		height: 23rem;
+		// height: 23rem;
 		max-width: none;
 		transform: translateX(-50%);
 		-ms-transform: translateX(-50%);
@@ -261,14 +260,10 @@ h4 {
 		display: none;
 	}
 }
-
-.full-width{
-	width: 100vw;
-	position: relative;
-	left: 50%;
-	right: 50%;
-	margin-left: -50vw;
-	margin-right: -50vw;
+.show-for-large-only{
+	@media #{$large-up}{
+		display: block!important;
+	}
 }
 
 /*------Buttons----------*/
