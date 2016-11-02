@@ -6288,7 +6288,13 @@ html.IGv2 {
       height: auto;
       padding: 22px;
       z-index: 200;
-      position: relative; }
+      position: relative;
+      transform: translateX(0);
+      -ms-transform: translateX(0);
+      -webkit-transform: translateX(0);
+      -moz-transform: translateX(0);
+      -o-transform: translateX(0);
+      left: auto; }
     html.IGv2 .team-member .portrait:after {
       content: '';
       display: block;
@@ -6316,8 +6322,13 @@ html.IGv2 {
   html.IGv2 .team-member .tp_09 {
     padding: 22px 0 0;
     line-height: 1.5em; }
-  html.IGv2 .team-member .button-link {
-    margin: 22px 60px 0; }
+  html.IGv2 .team-member .outline-btn.secondary {
+    margin: 22px 0 0;
+    color: #FFFFFF;
+    border-color: #FFFFFF; }
+    html.IGv2 .team-member .outline-btn.secondary:hover, html.IGv2 .team-member .outline-btn.secondary:focus {
+      background-color: #FFFFFF;
+      color: #A86728; }
   html.IGv2 .personnel-bio-overlay {
     max-width: 86rem;
     padding: 0;

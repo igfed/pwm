@@ -501,6 +501,12 @@
 			padding:22px;
 			z-index: 200;
 			position: relative;
+			transform: translateX(0);
+			-ms-transform: translateX(0);
+			-webkit-transform: translateX(0);
+			-moz-transform: translateX(0);
+			-o-transform: translateX(0);
+			left: auto;
 		}
 
 		&:after {
@@ -541,8 +547,15 @@
 		padding: 22px 0 0;
     	line-height: 1.5em;
 	}
-	.button-link {
-		margin: 22px 60px 0;
+	.outline-btn.secondary {
+		margin: 22px 0 0;
+		color: $pwmWhite;
+    	border-color: $pwmWhite;
+
+    	&:hover, &:focus {
+    		background-color: $pwmWhite;
+    		color: $pwmBronze;
+    	}
 	}
 }
 
