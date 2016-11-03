@@ -427,12 +427,15 @@
 	
 
 	.portrait.show-for-large-only{
-		width: 38vw;
+		// width: 56.5rem;
+		// height: 87rem;
+		width: 100%;
 		height: auto;
 		img{
-			// height: 87rem;
-			height: 100%;
-			width: 100%;
+
+			@media #{$large-up}{
+				height: 87rem;
+			}
 		}
 	}
 
@@ -450,6 +453,7 @@
 		}
 
 		&:nth-child(2){
+
 			p{
 				margin-bottom: 0;
 			}
@@ -501,33 +505,13 @@
 	h2, h3, p {
 		color: $pwmWhite;
 	}
-	.about-title {
-		@include font("tp_03");
-		text-align: center;
-		text-transform: uppercase;
-		color: $pwmWhite;
+
+	.section-title{
 		position: relative;
 		margin-top: 30px;
-
-		&:after {
-			content: '';
-			display: block;
-			bottom: 0;
-			width: 150px;
-			height: 1px;
-			border-bottom: thin solid $pwmWhite;
-			margin: 15px auto 0;
-		}
-
 		@media #{$large-up}{
 			padding-top: 27.5rem;
 		}
-
-		h3 {
-        @media #{$large-up} {
-	            letter-spacing: -1px;
-	        }
-	    }
 	}
 }
 
@@ -999,6 +983,12 @@
 .section.events {
 	background-color: $pwmGrey;
 
+	.section-title{
+		&:after {
+			border-bottom: thin solid $pwmBrown;
+		}
+	}
+
 	@media #{$medium-up}{
 		padding-top: 12rem;
 		padding-bottom: 12rem;
@@ -1067,7 +1057,30 @@
 
 /*-----------------6.General Inquires---------------*/
 .section.inquiries {
+	padding-top:12rem;
+	padding-bottom: 16rem;
 	background-color: $pwmGreyLight;
+
+	.map-anchor{
+		float: left;
+		width: 18rem;
+
+		@media #{$small-only}{
+			float: none;
+		}
+
+		.map-container{
+			width: 18rem;
+			height: 18rem;
+			border-radius: 11.3rem;
+		}
+	}
+
+	.section-title{
+		&:after {
+			border-bottom: thin solid $pwmBrown;
+		}
+	}
 
 	h2{
 		color: $pwmDarkBrown;

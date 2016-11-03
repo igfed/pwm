@@ -4458,7 +4458,7 @@ table.hover tr:nth-of-type(even):hover {
 
 .footer {
   color: #fff;
-  background-color: #0d263c;
+  background-color: #282828;
   padding: 68px 0 0 0; }
   @media screen and (max-width: 64em) {
     .footer {
@@ -4489,7 +4489,7 @@ table.hover tr:nth-of-type(even):hover {
       width: 56px;
       height: 56px;
       border-radius: 50%;
-      border: 2px solid #0d263c;
+      border: 2px solid #282828;
       text-align: center; }
       .footer .footer-backTop > .backTop-link:hover {
         border: 2px solid #fff; }
@@ -4582,7 +4582,7 @@ table.hover tr:nth-of-type(even):hover {
           content: "\00a0";
           width: 18px;
           display: inline-block;
-          border-left: 2px solid #0d263c; }
+          border-left: 2px solid #282828; }
         .footer .tab-row .footer-accordion-item .submenu-link:hover {
           background: #314659; }
           .footer .tab-row .footer-accordion-item .submenu-link:hover:before {
@@ -4610,7 +4610,7 @@ table.hover tr:nth-of-type(even):hover {
       width: 48px;
       height: 48px;
       border-radius: 50%;
-      border: 2px solid #0d263c;
+      border: 2px solid #282828;
       text-align: center;
       padding: 0px;
       position: relative; }
@@ -5140,6 +5140,14 @@ html.IGv2 {
       height: 1.8rem;
       top: .2rem;
       left: -.3rem; }
+  html.IGv2 .section-title:after {
+    content: '';
+    display: block;
+    bottom: 0;
+    width: 150px;
+    height: 1px;
+    border-bottom: thin solid #FFFFFF;
+    margin: 15px auto 0; }
   html.IGv2 .row {
     max-width: 120rem; }
     @media screen and (max-width: 39.9375em) {
@@ -6243,11 +6251,11 @@ html.IGv2 {
           height: 57rem !important;
           top: -8rem; } }
     html.IGv2 .section.hero .portrait.show-for-large-only {
-      width: 38vw;
+      width: 100%;
       height: auto; }
-      html.IGv2 .section.hero .portrait.show-for-large-only img {
-        height: 100%;
-        width: 100%; }
+      @media screen and (min-width: 64em) {
+        html.IGv2 .section.hero .portrait.show-for-large-only img {
+          height: 87rem; } }
     html.IGv2 .section.hero .expanded-bio {
       display: none; }
     @media screen and (min-width: 64em) {
@@ -6279,39 +6287,12 @@ html.IGv2 {
     background-color: #6F645E; }
     html.IGv2 .section.about h2, html.IGv2 .section.about h3, html.IGv2 .section.about p {
       color: #FFFFFF; }
-    html.IGv2 .section.about .about-title {
-      /*Hero Title*/
-      font-family: "whitney_bookregular";
-      font-size: 2.4rem;
-      line-height: 3rem;
-      /*Accordion Menu*/
-      text-align: center;
-      text-transform: uppercase;
-      color: #FFFFFF;
+    html.IGv2 .section.about .section-title {
       position: relative;
       margin-top: 30px; }
       @media screen and (min-width: 64em) {
-        html.IGv2 .section.about .about-title {
-          font-size: 3.6rem;
-          line-height: 4.6rem; } }
-      @media screen and (max-width: 39.9375em) {
-        html.IGv2 .section.about .about-title {
-          font-size: 2.4rem;
-          line-height: 3rem; } }
-      html.IGv2 .section.about .about-title:after {
-        content: '';
-        display: block;
-        bottom: 0;
-        width: 150px;
-        height: 1px;
-        border-bottom: thin solid #FFFFFF;
-        margin: 15px auto 0; }
-      @media screen and (min-width: 64em) {
-        html.IGv2 .section.about .about-title {
+        html.IGv2 .section.about .section-title {
           padding-top: 27.5rem; } }
-      @media screen and (min-width: 64em) {
-        html.IGv2 .section.about .about-title h3 {
-          letter-spacing: -1px; } }
   html.IGv2 .section.team {
     background-color: #6F645E; }
   html.IGv2 .team-member .portrait {
@@ -6718,6 +6699,8 @@ html.IGv2 {
       border-color: #282828; }
   html.IGv2 .section.events {
     background-color: #D3D4D5; }
+    html.IGv2 .section.events .section-title:after {
+      border-bottom: thin solid #6F645E; }
     @media screen and (min-width: 40em) {
       html.IGv2 .section.events {
         padding-top: 12rem;
@@ -6754,7 +6737,21 @@ html.IGv2 {
       html.IGv2 .section.events > .row > .columns > .row:last-of-type .columns:first-of-type .tp_09 {
         float: right; } }
   html.IGv2 .section.inquiries {
+    padding-top: 12rem;
+    padding-bottom: 16rem;
     background-color: #F3F4F5; }
+    html.IGv2 .section.inquiries .map-anchor {
+      float: left;
+      width: 18rem; }
+      @media screen and (max-width: 39.9375em) {
+        html.IGv2 .section.inquiries .map-anchor {
+          float: none; } }
+      html.IGv2 .section.inquiries .map-anchor .map-container {
+        width: 18rem;
+        height: 18rem;
+        border-radius: 11.3rem; }
+    html.IGv2 .section.inquiries .section-title:after {
+      border-bottom: thin solid #6F645E; }
     html.IGv2 .section.inquiries h2 {
       color: #605B57; }
     html.IGv2 .section.inquiries h3 {
