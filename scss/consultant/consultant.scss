@@ -576,6 +576,12 @@
 					left: 50%;
 				}
 			}
+			h3, p, .outline-btn.secondary {
+
+				@media #{$medium-up} {
+					margin-left: 40px;
+				}
+			}
 		}
 	h3, p {
 		color: $pwmWhite;

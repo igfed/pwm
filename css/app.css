@@ -6337,6 +6337,9 @@ html.IGv2 {
   html.IGv2 .team-member:nth-child(even) .portrait:after {
     right: 0;
     left: 50%; }
+  @media screen and (min-width: 40em) {
+    html.IGv2 .team-member:nth-child(even) h3, html.IGv2 .team-member:nth-child(even) p, html.IGv2 .team-member:nth-child(even) .outline-btn.secondary {
+      margin-left: 40px; } }
   html.IGv2 .team-member h3, html.IGv2 .team-member p {
     color: #FFFFFF;
     margin: 0;
