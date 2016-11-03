@@ -6231,6 +6231,10 @@ html.IGv2 {
     @media screen and (max-width: 39.9375em) {
       html.IGv2 .section.hero {
         padding-top: 0; } }
+    @media screen and (min-width: 64em) {
+      html.IGv2 .section.hero {
+        padding-left: 0;
+        padding-right: 0; } }
     @media screen and (max-width: 39.9375em) {
       html.IGv2 .section.hero .hide-for-large-only .portrait {
         height: 20rem !important;
@@ -6256,6 +6260,8 @@ html.IGv2 {
       @media screen and (min-width: 64em) {
         html.IGv2 .section.hero .portrait.show-for-large-only img {
           height: 87rem; } }
+    html.IGv2 .section.hero .portrait-hero {
+      padding-left: 20px; }
     html.IGv2 .section.hero .expanded-bio {
       display: none; }
     @media screen and (min-width: 64em) {
