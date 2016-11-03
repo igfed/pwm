@@ -273,8 +273,16 @@ h4 {
 	}
 }
 .show-for-large-only{
+	display:none;
 	@media #{$large-up}{
 		display: block!important;
+	}
+}
+
+.show-for-medium-only{
+	display:none;
+	@media #{$medium-only}{
+		display: block;
 	}
 }
 

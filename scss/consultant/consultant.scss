@@ -1205,7 +1205,9 @@
 
 			&:first-of-type{
 				.outline-btn{
-					float: right;
+					@media #{$medium-only}{
+						float: right;
+					}
 				}
 			}
 
@@ -1217,6 +1219,7 @@
 
 				@media #{$medium-only} {
 					padding-left: 2.5rem;
+					text-align: center;
 				}
 
 				@media #{$large-up} {
@@ -1251,6 +1254,7 @@
 			}
 		}
 	}
+
 	
 	@media #{$small-only}{
 
