@@ -6815,6 +6815,14 @@ html.IGv2 {
       @media screen and (max-width: 39.9375em) {
         html.IGv2 .section.inquiries .dropdown {
           float: none; } }
+      @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        html.IGv2 .section.inquiries .dropdown {
+          float: left; } }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      html.IGv2 .section.inquiries .contact {
+        clear: both; } }
+    html.IGv2 .section.inquiries .contact .columns:first-of-type .outline-btn {
+      float: right; }
     @media screen and (max-width: 39.9375em) {
       html.IGv2 .section.inquiries .contact .columns:last-child {
         margin-top: 4.2rem;

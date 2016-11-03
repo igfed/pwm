@@ -1189,10 +1189,26 @@
 		@media #{$small-only} {
 			float: none;
 		}
+
+		@media #{$medium-only}{
+			float: left;
+		}
 	}
 
 	.contact{
+
+		@media #{$medium-only}{
+			clear: both;
+		}
+
 		.columns{
+
+			&:first-of-type{
+				.outline-btn{
+					float: right;
+				}
+			}
+
 			&:last-child {
 
 				@media #{$small-only} {
