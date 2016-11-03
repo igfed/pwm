@@ -6238,10 +6238,8 @@ html.IGv2 {
     @media screen and (max-width: 39.9375em) {
       html.IGv2 .section.hero {
         padding-top: 0; } }
-    @media screen and (min-width: 64em) {
-      html.IGv2 .section.hero {
-        padding-left: 0;
-        padding-right: 0; } }
+    html.IGv2 .section.hero .hero-image {
+      margin-right: -10rem; }
     @media screen and (max-width: 39.9375em) {
       html.IGv2 .section.hero .hide-for-large-only .portrait {
         height: 20rem !important;
@@ -6296,6 +6294,8 @@ html.IGv2 {
           margin-right: 0.5rem; }
         html.IGv2 .section.hero .form-actions div:last-of-type .columns:last-child {
           margin-left: 0.5rem; }
+      html.IGv2 .section.hero .form-actions .small-proportional-grid .large-7 {
+        padding-right: 1rem; }
   html.IGv2 .section.about {
     background-color: #6F645E; }
     html.IGv2 .section.about h2, html.IGv2 .section.about h3, html.IGv2 .section.about p {
@@ -6717,7 +6717,11 @@ html.IGv2 {
     background-color: #D3D4D5; }
     html.IGv2 .section.events .section-title:after {
       border-bottom: thin solid #6F645E; }
-    @media screen and (min-width: 40em) {
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      html.IGv2 .section.events {
+        padding-top: 4rem;
+        padding-bottom: 8.4rem; } }
+    @media screen and (min-width: 64em) {
       html.IGv2 .section.events {
         padding-top: 12rem;
         padding-bottom: 12rem; } }
@@ -6725,12 +6729,15 @@ html.IGv2 {
       html.IGv2 .section.events .illustration {
         margin-bottom: 3rem;
         margin-top: 3rem; } }
-    @media screen and (min-width: 40em) {
+    @media screen and (min-width: 64em) {
       html.IGv2 .section.events > .row > .columns {
         padding-top: 10rem; } }
     @media screen and (min-width: 40em) and (max-width: 63.9375em) {
       html.IGv2 .section.events > .row > .columns .illustration {
         float: right; } }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      html.IGv2 .section.events > .row > .columns .row {
+        padding-top: 3rem; } }
     @media screen and (min-width: 64em) {
       html.IGv2 .section.events > .row > .columns > .row:first-of-type {
         width: 45%;
@@ -6753,15 +6760,17 @@ html.IGv2 {
       html.IGv2 .section.events > .row > .columns > .row:last-of-type .columns:first-of-type .tp_09 {
         float: right; } }
   html.IGv2 .section.inquiries {
-    padding-top: 12rem;
-    padding-bottom: 16rem;
     background-color: #F3F4F5; }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      html.IGv2 .section.inquiries {
+        padding-top: 4rem;
+        padding-bottom: 8.4rem; } }
+    @media screen and (min-width: 64em) {
+      html.IGv2 .section.inquiries {
+        padding-top: 12rem;
+        padding-bottom: 16rem; } }
     html.IGv2 .section.inquiries .map-anchor {
-      float: left;
       width: 18rem; }
-      @media screen and (max-width: 39.9375em) {
-        html.IGv2 .section.inquiries .map-anchor {
-          float: none; } }
       html.IGv2 .section.inquiries .map-anchor .map-container {
         width: 18rem;
         height: 18rem;
@@ -6788,34 +6797,38 @@ html.IGv2 {
       html.IGv2 .section.inquiries .info-toggle-content > div {
         padding-top: 3.3rem;
         padding-bottom: 7.3rem; } }
-    html.IGv2 .section.inquiries .row .row {
-      margin: 0; }
+    @media screen and (min-width: 64em) {
+      html.IGv2 .section.inquiries .row .columns .maps > .medium-5 {
+        padding-right: 8rem; } }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      html.IGv2 .section.inquiries .row .columns .maps > .medium-5 {
+        padding-right: 3rem; } }
+    @media screen and (min-width: 40em) {
+      html.IGv2 .section.inquiries .row .columns .maps > .medium-6 {
+        padding-top: 3rem; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .section.inquiries .row .columns + .columns {
+        margin-top: 1.7rem; } }
+    html.IGv2 .section.inquiries .row + .row {
+      margin-top: 10rem; }
       @media screen and (max-width: 39.9375em) {
-        html.IGv2 .section.inquiries .row .row .columns + .columns {
-          margin-top: 1.7rem; } }
-      html.IGv2 .section.inquiries .row .row + .row {
-        margin-top: 10rem; }
-        @media screen and (max-width: 39.9375em) {
-          html.IGv2 .section.inquiries .row .row + .row {
-            margin-top: 7.3rem; }
-            html.IGv2 .section.inquiries .row .row + .row:last-child {
-              margin-top: 1rem; } }
-      html.IGv2 .section.inquiries .row .row:last-child {
-        padding-top: 3rem; }
-        html.IGv2 .section.inquiries .row .row:last-child .dropdown.menu > li.is-dropdown-submenu-parent span {
-          position: relative; }
-          html.IGv2 .section.inquiries .row .row:last-child .dropdown.menu > li.is-dropdown-submenu-parent span .fa {
-            position: absolute;
-            left: -2rem;
-            top: 50%;
-            -ms-transform: translateY(-50%);
-                transform: translateY(-50%);
-            margin-top: .2rem; }
-      html.IGv2 .section.inquiries .row .row .columns {
-        padding-top: 0; }
-        @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-          html.IGv2 .section.inquiries .row .row .columns:first-child {
-            padding-right: 3.5rem; } }
+        html.IGv2 .section.inquiries .row + .row {
+          margin-top: 7.3rem; }
+          html.IGv2 .section.inquiries .row + .row:last-child {
+            margin-top: 1rem; } }
+    html.IGv2 .section.inquiries .row:last-child {
+      padding-top: 3rem; }
+      html.IGv2 .section.inquiries .row:last-child .dropdown.menu > li.is-dropdown-submenu-parent span {
+        position: relative; }
+        html.IGv2 .section.inquiries .row:last-child .dropdown.menu > li.is-dropdown-submenu-parent span .fa {
+          position: absolute;
+          left: -2rem;
+          top: 50%;
+          -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+          margin-top: .2rem; }
+    html.IGv2 .section.inquiries .row .columns {
+      padding-top: 0; }
     html.IGv2 .section.inquiries .dropdown {
       float: right; }
       html.IGv2 .section.inquiries .dropdown .outline-btn {
@@ -6831,37 +6844,71 @@ html.IGv2 {
     @media screen and (min-width: 40em) and (max-width: 63.9375em) {
       html.IGv2 .section.inquiries .contact {
         clear: both; } }
-    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-      html.IGv2 .section.inquiries .contact .columns:first-of-type .outline-btn {
-        float: right; } }
-    @media screen and (max-width: 39.9375em) {
-      html.IGv2 .section.inquiries .contact .columns:last-child {
-        margin-top: 4.2rem;
-        text-align: center; } }
+    @media screen and (min-width: 64em) {
+      html.IGv2 .section.inquiries .contact {
+        width: 60rem; } }
+    html.IGv2 .section.inquiries .contact .columns:first-of-type {
+      padding-right: 1.5rem; }
+      @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        html.IGv2 .section.inquiries .contact .columns:first-of-type .outline-btn {
+          float: right; } }
+    html.IGv2 .section.inquiries .contact .columns:nth-child(2) {
+      padding-left: 1.5rem; }
+      @media screen and (min-width: 64em) {
+        html.IGv2 .section.inquiries .contact .columns:nth-child(2) .dropdown {
+          float: left; } }
+    @media screen and (min-width: 40em) {
+      html.IGv2 .section.inquiries .contact .columns:nth-child(3) {
+        padding-top: 5rem; }
+        html.IGv2 .section.inquiries .contact .columns:nth-child(3):after {
+          content: '';
+          display: block;
+          bottom: 0;
+          width: 150px;
+          height: 1px;
+          border-bottom: thin solid #6F645E;
+          margin: 15px auto 0; }
+        html.IGv2 .section.inquiries .contact .columns:nth-child(3):before {
+          content: '';
+          display: block;
+          bottom: 0;
+          width: 150px;
+          height: 1px;
+          border-bottom: thin solid #6F645E;
+          margin: 15px auto 1rem; } }
+    html.IGv2 .section.inquiries .contact .columns:nth-child(3) a {
+      color: #6F645E; }
+      html.IGv2 .section.inquiries .contact .columns:nth-child(3) a:hover {
+        color: #A86728; }
+    html.IGv2 .section.inquiries .contact .columns:last-child {
+      text-align: center; }
+      @media screen and (max-width: 39.9375em) {
+        html.IGv2 .section.inquiries .contact .columns:last-child {
+          margin-top: 4.2rem;
+          text-align: center; } }
   @media screen and (max-width: 39.9375em) and (min-width: 40em) and (max-width: 63.9375em) {
     html.IGv2 .section.inquiries .contact .columns:last-child {
-      padding-left: 2.5rem;
-      text-align: center; } }
+      padding-left: 2.5rem; } }
   @media screen and (max-width: 39.9375em) and (min-width: 64em) {
     html.IGv2 .section.inquiries .contact .columns:last-child {
       padding-left: 5rem; } }
   @media screen and (max-width: 39.9375em) and (min-width: 40em) and (max-width: 63.9375em) {
     html.IGv2 .section.inquiries .contact .columns:last-child a {
       line-height: 33px; } }
-    @media screen and (max-width: 39.9375em) {
-        html.IGv2 .section.inquiries .contact .columns:last-child a:hover {
-          text-decoration: underline; }
-        html.IGv2 .section.inquiries .contact .columns:last-child::after {
-          display: none; }
-        html.IGv2 .section.inquiries .contact .columns:last-child::before {
-          content: "Email";
-          margin-bottom: 0.2rem;
-          font-weight: 400;
-          display: block;
-          font-family: "whitney_scmedium";
-          font-size: 1.4rem;
-          text-transform: lowercase;
-          letter-spacing: 1px; } }
+      @media screen and (max-width: 39.9375em) {
+          html.IGv2 .section.inquiries .contact .columns:last-child a:hover {
+            text-decoration: underline; }
+          html.IGv2 .section.inquiries .contact .columns:last-child::after {
+            display: none; }
+          html.IGv2 .section.inquiries .contact .columns:last-child::before {
+            content: "Email";
+            margin-bottom: 0.2rem;
+            font-weight: 400;
+            display: block;
+            font-family: "whitney_scmedium";
+            font-size: 1.4rem;
+            text-transform: lowercase;
+            letter-spacing: 1px; } }
     @media screen and (max-width: 39.9375em) {
       html.IGv2 .section.inquiries .is-submenu-item.is-dropdown-submenu-item a {
         padding: 1rem 11% 1rem !important; } }
