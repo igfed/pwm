@@ -5199,9 +5199,16 @@ html.IGv2 {
   @media screen and (min-width: 64em) {
     html.IGv2 .hide-for-large-only {
       display: none; } }
-  @media screen and (min-width: 64em) {
-    html.IGv2 .show-for-large-only {
-      display: block !important; } }
+  html.IGv2 .show-for-large-only {
+    display: none; }
+    @media screen and (min-width: 64em) {
+      html.IGv2 .show-for-large-only {
+        display: block !important; } }
+  html.IGv2 .show-for-medium-only {
+    display: none; }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      html.IGv2 .show-for-medium-only {
+        display: block; } }
   html.IGv2 a.outline-btn {
     background: #A86728 none repeat scroll 0 0;
     border: 2px solid #A86728;
@@ -6824,15 +6831,17 @@ html.IGv2 {
     @media screen and (min-width: 40em) and (max-width: 63.9375em) {
       html.IGv2 .section.inquiries .contact {
         clear: both; } }
-    html.IGv2 .section.inquiries .contact .columns:first-of-type .outline-btn {
-      float: right; }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      html.IGv2 .section.inquiries .contact .columns:first-of-type .outline-btn {
+        float: right; } }
     @media screen and (max-width: 39.9375em) {
       html.IGv2 .section.inquiries .contact .columns:last-child {
         margin-top: 4.2rem;
         text-align: center; } }
   @media screen and (max-width: 39.9375em) and (min-width: 40em) and (max-width: 63.9375em) {
     html.IGv2 .section.inquiries .contact .columns:last-child {
-      padding-left: 2.5rem; } }
+      padding-left: 2.5rem;
+      text-align: center; } }
   @media screen and (max-width: 39.9375em) and (min-width: 64em) {
     html.IGv2 .section.inquiries .contact .columns:last-child {
       padding-left: 5rem; } }
