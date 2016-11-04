@@ -223,7 +223,7 @@
             $(document).foundation();
             $('.block-link').blockLink();
             $('.day-of-week').chooseDayOfWeek();
-            $('.info-toggle-small, .info-toggle').infoToggle();
+            // $('.info-toggle-small, .info-toggle').infoToggle();
             initSlider($('.js-homepage-carousel'));
             $(window).on('hashchange', handleOverlay);
             handleOverlay();
