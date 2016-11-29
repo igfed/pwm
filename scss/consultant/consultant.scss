@@ -437,6 +437,7 @@
 
 	}
 
+
 	.hero-image{
 		margin-right: -10rem;
 		z-index: 77777;
@@ -444,6 +445,22 @@
 
 	.empty-space{
 		height: 4rem;
+	}
+
+	.consultant-wrapper{
+		.active-show-bio{
+
+			margin-top: 3rem;
+
+			@media #{$medium-up}{
+				display: block;
+
+				.show-bio-btn{
+					display: none;
+					
+				}
+			}
+		}
 	}
 
 	.hide-for-large-only{
@@ -671,6 +688,18 @@
 
 	margin-bottom: 3rem;
 
+	a{
+		color: white;
+	}
+
+	.social-icons{
+		text-align: center;
+		margin-top: 4rem;
+	}
+
+	.active-show-bio{
+		margin-top: 3rem;
+	}
 
 	.portrait-block{
 		background-color: $pwmBeige;
@@ -805,12 +834,50 @@
 		padding: 0 5rem;
 		margin: 0 auto;
 		box-sizing: content-box;
-		height: calc(100% - 3.9rem);
+		// height: calc(100% - 3.9rem);
+		height: auto;
 	}
 
 	@media #{$xlarge-up} {
 		padding: 0 9rem;
 	}
+
+	.show-bio-content{
+		display: block;
+	}
+
+	.portrait-bio{
+		width: auto;
+		margin-left: 0!important;
+		margin-bottom: 0!important;
+
+		@media #{$medium-up}{
+			margin-top: 5rem;
+		}
+	}
+
+	.social-icons{
+		text-align: center!important;
+	}
+
+	.details{
+		width: auto;
+
+		.show-for-small-only{
+			:not(:first-child){
+				clear: none!important;
+			}
+		}
+	}
+
+	.social-icons{
+		position: relative!important;
+	}
+
+	a{
+		color: #0a0a0a;
+	}
+
 
     .slick-list {
     	height: 100%;
@@ -890,7 +957,7 @@
 					}
 
 					div {
-						margin-bottom: 5.5rem;
+						// margin-bottom: 5.5rem;
 
 						&:not(:first-child) {
 							clear: both;
@@ -945,7 +1012,7 @@
 										@include horizontal-separator("&", .1rem, 2.2rem, 80%);
 
 										&::after {
-											border-color: $igBlue;
+											border-color: $pwmBronze;
 										}
 									}
 								}
@@ -1033,7 +1100,7 @@
 					}
 
 					.overlay-hide {
-						display: none;
+						display: none!important;
 					}
 				}
 			}

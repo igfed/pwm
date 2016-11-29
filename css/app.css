@@ -5003,6 +5003,8 @@ html.IGv2 {
       html.IGv2 h4 {
         font-size: 2.4rem;
         line-height: 3rem; } }
+  html.IGv2 a::after {
+    border-color: #A86728; }
   html.IGv2 .illustration {
     background-color: #6F645E;
     background-position-y: 0;
@@ -5415,11 +5417,13 @@ html.IGv2 {
               transform: translateX(-50%); } }
     html.IGv2 .dropdown.menu > li.is-dropdown-submenu-parent {
       display: block; }
+      html.IGv2 .dropdown.menu > li.is-dropdown-submenu-parent a::after {
+        border-color: #A86728 transparent transparent; }
       html.IGv2 .dropdown.menu > li.is-dropdown-submenu-parent.is-active a.outline-btn::after {
         -ms-transform: rotate(180deg);
             transform: rotate(180deg); }
       html.IGv2 .dropdown.menu > li.is-dropdown-submenu-parent.is-active a.outline-btn.secondary::after {
-        border-color: #fff transparent transparent; }
+        border-color: #A86728 transparent transparent; }
       @media screen and (max-width: 39.9375em) {
         html.IGv2 .dropdown.menu > li.is-dropdown-submenu-parent.is-active a.outline-btn.secondary.small-icon {
           background-color: transparent; } }
@@ -5513,7 +5517,7 @@ html.IGv2 {
           html.IGv2 .dropdown.menu .is-dropdown-submenu li a:hover::after {
             left: calc(22.25% - 0.8rem);
             top: calc(35% + .3rem);
-            border-color: #282828; }
+            border-color: #A86728; }
       html.IGv2 .dropdown.menu .is-dropdown-submenu li + li {
         text-align: left; }
     @media screen and (max-width: 39.9375em) {
@@ -6294,6 +6298,13 @@ html.IGv2 {
       z-index: 77777; }
     html.IGv2 .section.hero .empty-space {
       height: 4rem; }
+    html.IGv2 .section.hero .consultant-wrapper .active-show-bio {
+      margin-top: 3rem; }
+      @media screen and (min-width: 40em) {
+        html.IGv2 .section.hero .consultant-wrapper .active-show-bio {
+          display: block; }
+          html.IGv2 .section.hero .consultant-wrapper .active-show-bio .show-bio-btn {
+            display: none; } }
     html.IGv2 .section.hero .hide-for-large-only {
       margin-top: 3rem; }
       html.IGv2 .section.hero .hide-for-large-only .portrait {
@@ -6386,6 +6397,13 @@ html.IGv2 {
         float: left; } }
   html.IGv2 .team-member {
     margin-bottom: 3rem; }
+    html.IGv2 .team-member a {
+      color: white; }
+    html.IGv2 .team-member .social-icons {
+      text-align: center;
+      margin-top: 4rem; }
+    html.IGv2 .team-member .active-show-bio {
+      margin-top: 3rem; }
     html.IGv2 .team-member .portrait-block {
       background-color: #D3A574;
       z-index: 100;
@@ -6468,10 +6486,29 @@ html.IGv2 {
         padding: 0 5rem;
         margin: 0 auto;
         box-sizing: content-box;
-        height: calc(100% - 3.9rem); } }
+        height: auto; } }
     @media screen and (min-width: 75em) {
       html.IGv2 .personnel-bio-overlay {
         padding: 0 9rem; } }
+    html.IGv2 .personnel-bio-overlay .show-bio-content {
+      display: block; }
+    html.IGv2 .personnel-bio-overlay .portrait-bio {
+      width: auto;
+      margin-left: 0 !important;
+      margin-bottom: 0 !important; }
+      @media screen and (min-width: 40em) {
+        html.IGv2 .personnel-bio-overlay .portrait-bio {
+          margin-top: 5rem; } }
+    html.IGv2 .personnel-bio-overlay .social-icons {
+      text-align: center !important; }
+    html.IGv2 .personnel-bio-overlay .details {
+      width: auto; }
+      html.IGv2 .personnel-bio-overlay .details .show-for-small-only :not(:first-child) {
+        clear: none !important; }
+    html.IGv2 .personnel-bio-overlay .social-icons {
+      position: relative !important; }
+    html.IGv2 .personnel-bio-overlay a {
+      color: #0a0a0a; }
     html.IGv2 .personnel-bio-overlay .slick-list {
       height: 100%; }
       html.IGv2 .personnel-bio-overlay .slick-list .slick-track {
@@ -6539,75 +6576,73 @@ html.IGv2 {
             @media screen and (min-width: 64em) {
               html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
                 margin: -1.9rem 0 -.3rem; } }
-          html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div {
-            margin-bottom: 5.5rem; }
-            html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) {
-              clear: both; }
+          html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) {
+            clear: both; }
+            @media screen and (max-width: 39.9375em) {
+              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) {
+                margin-bottom: 0; } }
+            @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) {
+                margin-left: 5rem; } }
+            @media screen and (min-width: 64em) {
+              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) {
+                clear: none;
+                margin-top: 2.2rem; } }
+            html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 {
+              display: inline-block; }
               @media screen and (max-width: 39.9375em) {
-                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) {
-                  margin-bottom: 0; } }
-              @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) {
-                  margin-left: 5rem; } }
-              @media screen and (min-width: 64em) {
-                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) {
-                  clear: none;
-                  margin-top: 2.2rem; } }
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 {
-                display: inline-block; }
-                @media screen and (max-width: 39.9375em) {
-                  html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 {
-                    /*Hero Title*/
-                    font-family: "whitney_bookregular";
-                    font-size: 2.4rem;
-                    line-height: 2.4rem;
-                    text-transform: uppercase;
-                    /*Sub Title*/ } }
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 {
+                  /*Hero Title*/
+                  font-family: "whitney_bookregular";
+                  font-size: 2.4rem;
+                  line-height: 2.4rem;
+                  text-transform: uppercase;
+                  /*Sub Title*/ } }
   @media screen and (max-width: 39.9375em) and (min-width: 64em) {
     html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 {
       font-size: 3.6rem; } }
   @media screen and (max-width: 39.9375em) and (max-width: 39.9375em) {
     html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 {
       font-size: 2rem; } }
-                @media screen and (max-width: 39.9375em) {
-                    html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 span {
-                      font-size: 1.6rem; }
-                      html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 span .fa {
-                        display: inline-block;
-                        border: 2px solid #282828;
-                        width: 2.9rem;
-                        height: 2.9rem;
-                        border-radius: 50%;
-                        line-height: 2.4rem;
-                        font-size: 1.3rem;
-                        margin-right: .2rem; }
-                        html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 span .fa.fa-phone {
-                          font-size: 1.8rem; } }
+              @media screen and (max-width: 39.9375em) {
+                  html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 span {
+                    font-size: 1.6rem; }
+                    html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 span .fa {
+                      display: inline-block;
+                      border: 2px solid #282828;
+                      width: 2.9rem;
+                      height: 2.9rem;
+                      border-radius: 50%;
+                      line-height: 2.4rem;
+                      font-size: 1.3rem;
+                      margin-right: .2rem; }
+                      html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 span .fa.fa-phone {
+                        font-size: 1.8rem; } }
+              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 + a {
+                position: relative;
+                margin-left: 5.2rem; }
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 + a::after {
+                  border-left: 0.2rem solid #c1cbd0;
+                  content: "";
+                  height: 80%;
+                  left: -2.7rem;
+                  position: absolute;
+                  top: 10%; }
+              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 + a::after {
+                margin-left: -0.2rem; }
+              @media screen and (max-width: 39.9375em) {
                 html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 + a {
                   position: relative;
-                  margin-left: 5.2rem; }
+                  margin-left: 2.2rem; }
                   html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 + a::after {
-                    border-left: 0.2rem solid #c1cbd0;
+                    border-left: 0.1rem solid #c1cbd0;
                     content: "";
                     height: 80%;
-                    left: -2.7rem;
+                    left: -1.15rem;
                     position: absolute;
                     top: 10%; }
                 html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 + a::after {
-                  margin-left: -0.2rem; }
-                @media screen and (max-width: 39.9375em) {
-                  html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 + a {
-                    position: relative;
-                    margin-left: 2.2rem; }
-                    html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 + a::after {
-                      border-left: 0.1rem solid #c1cbd0;
-                      content: "";
-                      height: 80%;
-                      left: -1.15rem;
-                      position: absolute;
-                      top: 10%; }
-                  html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 + a::after {
-                    border-color: #282828; } }
+                  border-color: #A86728; } }
           html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.social-icons {
             text-align: center;
             margin-bottom: 1.2rem; }
@@ -6701,7 +6736,7 @@ html.IGv2 {
           html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div .overlay-only {
             display: block; }
           html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div .overlay-hide {
-            display: none; }
+            display: none !important; }
     @media screen and (max-width: 39.9375em) {
       html.IGv2 .personnel-bio-overlay .slick-arrow {
         display: none !important; } }

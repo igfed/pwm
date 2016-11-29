@@ -17,6 +17,11 @@ h4 {
 	@include font("tp_03");
 }
 
+a{
+	&::after{
+		border-color: $pwmBronze;
+	}
+}
 /*------Graphics---------*/
 
 .illustration {
@@ -596,6 +601,12 @@ a.outline-btn {
 	> li.is-dropdown-submenu-parent {
 		display: block;
 
+		a{
+			&::after{
+				border-color: $pwmBronze transparent transparent;
+			}
+		}
+
 		&.is-active {
 			a.outline-btn {
 				&::after {
@@ -605,7 +616,7 @@ a.outline-btn {
 				&.secondary {
 
 					&::after {
-						border-color: #fff transparent transparent;
+						border-color: $pwmBronze transparent transparent;
 					}
 
 					@media #{$small-only} {
@@ -675,7 +686,7 @@ a.outline-btn {
 		    			&::after {
 		    				left: calc(22.25% - 0.8rem);
 		    				top: calc(35% + .3rem);
-		    				border-color: $igGreen;
+		    				border-color: $pwmBronze;
 		    			}
 		    		}
 		    	}

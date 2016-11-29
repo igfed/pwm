@@ -163,7 +163,7 @@
              <div class="section hero personnel profile">
                 <div class="row">
                     <div class="small-12 columns consultant-wrapper">
-                        <div class="row hide-for-large-only">
+                        <div class="row hide-for-large-only overlay-hide">
                             <div class="portrait">
                                     <img src="img/profile-photos/daniel-hardman.png" alt="Daniel Hardman" />
                             </div>
@@ -171,6 +171,9 @@
                         <div class="row">
                             <div class="small-12 large-6 columns details">
                                 <div class="small-12 columns">
+                                  <div class="portrait overlay-only">
+                                    <img src="img/profile-photos/daniel-hardman.png" alt="Daniel Hardman" />
+                                  </div>
                                   <p class="tp_11 hide-for-small-only">35</p>
                                   <p class="tp_13 hide-for-small-only">years at Investors Group</p>
                                   <h1>Daniel Hardman</h1>
@@ -187,9 +190,7 @@
                                     </p>
                                   </div>
 
-                                  <p class="tp_20 underline hide-for-small-only show-bio">show bio<i class="fa fa-angle-down"></i></p>
-
-<!--                                   <p class="tp_21 underline hide-for-small-only overlay-hide">show bio</p> -->
+                                  <p class="tp_20 underline hide-for-small-only show-bio overlay-hide">show bio<i class="fa fa-angle-down"></i></p>
 
                               </div>
 
@@ -239,10 +240,11 @@
                               </div>
                               <div class="small-12 columns show-for-small-only">
                                 <div class="small-6 columns">
-                                  <a class="outline-btn secondary show-overlay" href="#bio-daniel-hardman" type="button">View Bio</a>
+                                  <a class="outline-btn secondary show-overlay overlay-hide" href="#bio-daniel-hardman" type="button">View Bio</a>
 
-<!--                                   <a class="outline-btn secondary overlay-hide" type="button">View Bio</a> -->
-
+                                </div>
+                                <div class="small-6 columns overlay-only">
+                                  <a class="outline-btn secondary dropdown-button overlay-show" type="button">Email</a>
                                 </div>
                                 <div class="small-6 columns">
                                   <a class="outline-btn secondary dropdown-button" type="button">Phone</a>
@@ -251,8 +253,8 @@
                         </div>
                             </div>
                              <div class="large-6 columns hero-image">
-                              <div class="portrait-hero show-for-large-only">
-                                  <img src="img/profile-photos/daniel-hardman-small.png" alt="Daniel Hardman" />
+                              <div class="portrait-hero show-for-large-only overlay-hide">
+                                  <img src="img/profile-photos/daniel-hardman.png" alt="Daniel Hardman" />
                               </div>
                               <div class="empty-space"></div>
                         </div>
@@ -280,23 +282,22 @@
                             <div class="small-12 medium-12 large-12 columns team-member block-link">
                               <div class="small-12 medium-6 columns portrait-section">
                                 <!-- <div class="portrait-block"></div> -->
-                                <div class="portrait">
+                                <div class="portrait overlay-hide">
                                     <img src="img/profile-photos/donna-paulsen-small.png" alt="Donna Paulsen" />
                                 </div>
                                 <div class="clear"></div>
                               </div>
                               <div class="small-12 medium-6 columns portrait-bio">
+                                <div class="portrait overlay-only">
+                                    <img src="img/profile-photos/donna-paulsen-small.png" alt="Donna Paulsen" />
+                                </div>
                                  <h3>Donna Paulsen</h3>
                                 <p class="tp_08">Comm (Hons), CFP, CLU</p>
                                 <p class="tp_06">executive financial consultant</p>
                                 <p class="tp_09">Planificateur financier, Représentant en épargne collective, Conseiller en sécurité financière, Conseiller en assurance et en rentes collectives</p>
 
-                                <a href="#bio-donna-paulsen" class="outline-btn secondary hide-for-large-only  show-overlay" type="button">View Bio</a>
+                                <a href="#bio-donna-paulsen" class="outline-btn secondary hide-for-large-only  show-overlay overlay-hide" type="button">View Bio</a>
                                 <div class="show-bio-content">
-<!-- =======
-                                <a href="#bio-angela-martin" class="outline-btn secondary overlay-hide" type="button">View Bio</a>
-                                <div class="overlay-only">
->>>>>>> origin/master -->
                                     <a href="tel:+15555555555" class="tp_09">
                                         <span class="show-for-small-only"><i aria-hidden="true" class="fa fa-phone"></i> Phone</span>
                                         <span class="hide-for-small-only">555-555-5555</span>
@@ -315,11 +316,14 @@
                                     </p>
 
                                 </div>
-                                <a class="tp_20 underline show-for-large-only show-bio">show bio<i class="fa fa-angle-down"></i></a>
+                                <a class="tp_20 underline show-for-large-only show-bio overlay-hide">
+                                  <span class="show-bio-btn">show</span><span class="hide-bio-btn">hide</span> bio
+
+                                  <i class="fa fa-angle-down"></i></a>
                               </div>
                             </div>
                             <div class="small-12 medium-12 large-12 large-offset-2 columns block-link team-member">
-                              <div class="small-12 medium-6 columns portrait-section">
+                              <div class="small-12 medium-6 columns portrait-section overlay-hide">
                                 <!-- <div class="portrait-block"></div> -->
                                 <div class="portrait">
                                     <img src="img/profile-photos/harvey-specter-small.png" alt="Harvey Specter" />
@@ -327,17 +331,16 @@
                                 <div class="clear"></div>
                               </div>
                                 <div class="small-12 medium-6 columns portrait-bio">
+                                  <div class="portrait overlay-only">
+                                    <img src="img/profile-photos/harvey-specter-small.png" alt="Harvey Specter" />
+                                </div>
                                 <h3>Harvey Specter</h3>
                                 <p class="tp_08">Comm (Hons), CFP, CLU</p>
                                 <p class="tp_06">associate consultant</p>
 
                                  <p class="tp_09">Planificateur financier, Représentant en épargne collective, Conseiller en sécurité financière, Conseiller en assurance et en rentes collectives</p>
-                                  <a href="#bio-jim-halpert" class="outline-btn secondary hide-for-large-only show-overlay" type="button">View Bio</a>
+                                  <a href="#bio-jim-halpert" class="outline-btn secondary hide-for-large-only show-overlay overlay-hide" type="button">View Bio</a>
                                 <div class="show-bio-content">
-<!-- =======
-                                <a href="#bio-jim-halpert" class="outline-btn secondary overlay-hide" type="button">View Bio</a>
-                                <div class="overlay-only">
->>>>>>> origin/master -->
                                     <a href="tel:+15555555555" class="tp_09">
                                         <span class="show-for-small-only"><i aria-hidden="true" class="fa fa-phone"></i> Phone</span>
                                         <span class="hide-for-small-only">555-555-5555</span>
@@ -356,23 +359,25 @@
                                   </p>
 
                                 </div>
-                                <a class="tp_20 underline show-for-large-only show-bio">show bio<i class="fa fa-angle-down"></i></a>
+                                <a class="tp_20 underline show-for-large-only show-bio overlay-hide">show bio<i class="fa fa-angle-down"></i></a>
                               </div>
                             </div>
                             <div class="small-12 medium-12 large-12 columns block-link team-member">
-                              <div class="small-12 medium-6 columns portrait-section">
-                                <!-- <div class="portrait-block"></div> -->
+                              <div class="small-12 medium-6 columns portrait-section overlay-hide">
                                 <div class="portrait">
                                     <img src="img/profile-photos/rachel-zane-small.png" alt="Rachel Zane" />
                                 </div>
                                 <div class="clear"></div>
                               </div>
                               <div class="small-12 medium-6 columns portrait-bio">
+                                <div class="portrait overlay-only">
+                                    <img src="img/profile-photos/rachel-zane-small.png" alt="Rachel Zane" />
+                                </div>
                                 <h3>Rachel Zane</h3>
                                 <p class="tp_08">Comm (Hons), CFP, CLU</p>
                                 <p class="tp_06">associate consultant</p>
                                 <p class="tp_09">Planificateur financier, Représentant en épargne collective, Conseiller en sécurité financière, Conseiller en assurance et en rentes collectives</p>
-                                <a href="#bio-pam-beesly" class="outline-btn secondary hide-for-large-only  show-overlay" type="button">View Bio</a>
+                                <a href="#bio-pam-beesly" class="outline-btn secondary hide-for-large-only  show-overlay overlay-hide" type="button">View Bio</a>
                                 <div class="show-bio-content">
 
                                   <a href="tel:+15555555555" class="tp_09">
@@ -393,7 +398,7 @@
                                   </p>
 
                                 </div>
-                                <a href="#bio-pam-beesly" class="tp_20 underline show-for-large-only show-bio">show bio<i class="fa fa-angle-down"></i></a>
+                                <a href="#bio-pam-beesly" class="tp_20 underline show-for-large-only show-bio overlay-hide">show bio<i class="fa fa-angle-down"></i></a>
                             </div>
                           </div>
                           </div>
