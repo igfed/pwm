@@ -1,5 +1,12 @@
+$(function showBioToggle(){
+     $('.show-bio').click(function() {
+       $(this).closest('div').find('.show-bio-content').toggleClass("active-show-bio");
+    });
+}());  
+
 (function ($) {
     'use strict';
+
 
     $.fn.infoToggle = function() {
         this.each(function() {
@@ -72,8 +79,12 @@
 
             init();
 
-            function init() {
-                $blockLink.on('click', handleClick);
+            // function init() {
+            //     $blockLink.on('click', handleClick);
+            // }
+
+            function init(){
+                $('a.show-overlay').on('click', handleClick);
             }
 
             //-----
@@ -122,8 +133,6 @@
                 $input.on('change keyup focus blur mousedown', assessInputState);
                 assessInputState();
             }
-
-            //-----
 
             function assessInputState() {
                 if ($input.is(':focus') || $input.val() !== '') {
@@ -204,8 +213,10 @@
     function GuiModule(overlayReference) {
         var personnelLinkSelector = '.personnel a.underline-link[href^="#bio-"], .personnel a.outline-btn[href^="#bio-"]',
             $personnelLinks = $(personnelLinkSelector),
-            $personnelDetails = $('.personnel .details, .personnel .block-link'),
-            $personnelOverlayMarkup = $('.personnel .details, .personnel .block-link'),
+            // $personnelDetails = $('.personnel .details, .personnel .block-link'),
+            $personnelDetails = $('.personnel .consultant-wrapper, .personnel .block-link'),
+            // $personnelOverlayMarkup = $('.personnel .details, .personnel .block-link'),
+            $personnelOverlayMarkup = $('.personnel .consultant-wrapper, .personnel .block-link'),
             personnelDetailsOverlayClass = 'personnel-bio-overlay personnel',
             $personnelDetailsMarkup,
             personnelDetailsCarouselInited = false,
@@ -222,8 +233,9 @@
         function init() {
             $(document).foundation();
             $('.block-link').blockLink();
+            // $('.portrait-bio').blockLink();
             $('.day-of-week').chooseDayOfWeek();
-            $('.info-toggle-small, .info-toggle').infoToggle();
+            // $('.info-toggle-small, .info-toggle').infoToggle();
             initSlider($('.js-homepage-carousel'));
             $(window).on('hashchange', handleOverlay);
             handleOverlay();
@@ -379,6 +391,7 @@
         //-----
 
         function geocodeAddress(address, map) {
+
             geocoder.geocode({'address': address}, function(results, status) {
                 if (status === 'OK') {
                     setAddressOnMap(results[0].geometry.location, map);
@@ -410,7 +423,7 @@
                             lat: parseFloat(icon.attr('data-lat')),
                             lng: parseFloat(icon.attr('data-lng'))
                         },
-                        targetAddress = parentContainer.find('h3').html(),
+                        targetAddress = parentContainer.find('.map-address').html(),
                         targetString,
                         zoom = icon.attr('data-zoom') ? parseInt(icon.attr('data-zoom')) : 15,
                         map = new google.maps.Map(icon.get(0), {
@@ -610,4 +623,11 @@
             videoPlayer.play();
         }
     }
+
 })();
+
+$(function textTransformLowercase(){
+     $('.consultant_name, .maps h3').text(function (_, val) {
+    return val.toLowerCase();
+    });
+}());   

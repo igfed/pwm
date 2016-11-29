@@ -112,6 +112,7 @@
 							}
 
 							h1 {
+
 								@media #{$small-only} {
 									+ p {
 										margin-bottom: -.2rem;
@@ -139,38 +140,38 @@
 								}
 							}
 
-							.underline{
+							// .underline{
 
-								@include vertical-separator("&", .1rem, .5rem, 30%);
+							// 	@include vertical-separator("&", .1rem, .5rem, 30%);
 								
-								&::after {
-									border-color: rgba(13,38,60,0.3);
-									width: 334px;
-									margin: 0 auto;
-									left:0;
-									right:0;
+							// 	&::after {
+							// 		border-color: rgba(13,38,60,0.3);
+							// 		width: 334px;
+							// 		margin: 0 auto;
+							// 		left:0;
+							// 		right:0;
 
-									@media #{$medium-only}{
-										width: 250px;
-										padding-top:0;
-										padding-bottom: 0;
-									}
+							// 		@media #{$medium-only}{
+							// 			width: 250px;
+							// 			padding-top:0;
+							// 			padding-bottom: 0;
+							// 		}
 
-									@media #{$small-only}{
-										width: 230px;
-										padding-top:0;
-									}
-								}
+							// 		@media #{$small-only}{
+							// 			width: 230px;
+							// 			padding-top:0;
+							// 		}
+							// 	}
 
-								margin-bottom: 0.5rem;
-								padding-bottom: 0.5rem;
+							// 	margin-bottom: 0.5rem;
+							// 	padding-bottom: 0.5rem;
 
-								@media #{$small-only}{
-										padding-top:0.5;
-										padding-bottom:0;
-									}
+							// 	@media #{$small-only}{
+							// 			padding-top:0.5;
+							// 			padding-bottom:0;
+							// 		}
 
-							}
+							// }
 
 							.tp_08{
 
@@ -398,34 +399,136 @@
 		padding-top:0;
 	}
 
+	h1{	
+
+		@media #{$large-up}{
+			margin-top: 4rem;
+		}
+
+		@media #{$medium-up}{
+
+			@include vertical-separator("&", .1rem, .5rem, 30%);
+			
+			&::after {
+				border-color: $pwmBronzeFaded;
+				margin: 0 auto;
+				left:0;
+				right:0;
+				width: 150px;
+				}
+
+
+			margin-bottom: 0.5rem;
+			padding-bottom: 0.5rem;
+
+		}
+
+		@media #{$medium-only}{
+			margin-top: 3.5rem;
+
+			&::after{
+				top: -2.4rem;
+			}
+		}
+
+		@media #{$small-only}{
+			line-height: 1.5rem;
+		}
+
+	}
+
 	.hero-image{
 		margin-right: -10rem;
+		z-index: 77777;
+	}
+
+	.empty-space{
+		height: 4rem;
 	}
 
 	.hide-for-large-only{
+		margin-top: 3rem;
+
 		.portrait{
+			height: auto!important;
 			@media #{$small-only}{
-				height: 20rem!important;
-				margin-bottom: 3rem!important;
-				top: -1.2rem;
-				width: 100vw;
-				position: relative;
-				left: 50%;
-				right: 50%;
-				margin-left: -50vw;
-				margin-right: -50vw;
+				// height: 20rem!important;
+				// margin-bottom: 3rem!important;
+				// top: -1.2rem;
+				// width: 100vw;
+				// position: relative;
+				// left: 50%;
+				// right: 50%;
+				// margin-left: -50vw;
+				// margin-right: -50vw;
 			}
 
 			img{
-				overflow: hidden;
-				height: auto!important;
-				top: -125px;
+				// overflow: hidden;
+				// height: auto!important;
+				// top: -125px;
 
 				@media #{$medium-only}{
-					height: 57rem!important;
-					top: -8rem;
+					// height: 57rem!important;
+					// top: -8rem;
 				}
 			}
+		}
+	}
+
+	.details{
+		.small-12{
+			@media #{$large-up}{
+				margin-bottom: 6rem;
+			}
+
+			.primary{
+				@media #{$small-only}{
+					margin-top: 5rem;
+				}
+			}
+
+			&.show-for-small-only{
+				margin-top: 1rem;
+			}
+
+			.outline-btn.overlay-hide{
+				margin-bottom: 3rem;
+			}
+		}
+	}
+
+	.tp_08{
+
+		color: $pwmBronze;
+
+		@media #{$small-only}{
+			margin-bottom: 0;
+
+		}
+	}
+
+	.tp_11{
+		margin-bottom: 0;
+
+		@media #{$large-up}{
+			line-height: 8rem;
+		}
+	}
+
+	.tp_13{
+		width: 17rem;
+		margin: 0 auto;
+		line-height: 2.5rem;
+		margin-bottom: 2rem;
+	}
+
+	.tp_20{
+		margin-top: 3rem;
+		line-height: 4rem;
+
+		@media #{$medium-only}{
+			margin-top: 4rem;
 		}
 	}
 	
@@ -446,17 +549,14 @@
 		padding-left: 20px;
 	}
 
-	.expanded-bio{
-		display: none;
-	}
 
 	>.row{
 
 		>.columns{
 
-			@media #{$large-up}{
-				height: 56rem;
-			}
+			// @media #{$large-up}{
+			// 	height: 55rem;
+			// }
 		}
 
 		&:nth-child(2){
@@ -487,6 +587,7 @@
 		}
 
 	}
+
 
 	.form-actions{
 		margin-top: 3rem;
@@ -523,8 +624,21 @@
 		position: relative;
 		margin-top: 30px;
 		@media #{$large-up}{
-			padding-top: 27.5rem;
+			padding-top: 11rem;
 		}
+	}
+
+	.tp_02{
+		padding-top:7rem;
+		padding-bottom:2rem;
+
+		@media #{$small-only}{
+			padding-top: 2.5rem;
+		}
+	}
+
+	.tp_07{
+		margin-bottom: 0;
 	}
 }
 
@@ -532,9 +646,39 @@
 
 .section.team{
 	background-color: $pwmBrown;
+
+		.row {
+
+			.columns {
+					.row {
+
+						.columns {
+
+							&:last-child{
+
+								@media #{$medium-up}{
+									float: left;
+									// margin-top: -25rem;
+								}
+							}
+						}
+					}
+			}
+		}
 }
 
 .team-member {
+
+	margin-bottom: 3rem;
+
+
+	.portrait-block{
+		background-color: $pwmBeige;
+		z-index: 100;
+		width: 20rem;
+		height: 40rem;
+		position: absolute;
+	}
 
 	.portrait {
 		position: relative;
@@ -545,8 +689,13 @@
 		margin: 12px 0;
 		padding: 0 19px;
 
+		// width: 35rem;
+		// height: 37rem;
+		// right: -5rem;
+		// top: 1rem;
+
 		img {
-			max-width: 100%;
+			// max-width: 100%;
 			height: auto;
 			padding:22px;
 			z-index: 200;
@@ -557,6 +706,10 @@
 			-moz-transform: translateX(0);
 			-o-transform: translateX(0);
 			left: auto;
+
+			// top: -12rem;
+			// left: -10rem;
+			// width: 50rem;
 		}
 
 		&:after {
@@ -571,10 +724,15 @@
 			z-index: 100;
 		}
 	}
+
 	&:nth-child(even) {
+
+		.portrait-section{
+			float: right;
+		}
 			.portrait {
 				@media #{$medium-up} {
-					margin-top: 320px;
+					// margin-top: 320px;
 				}
 
 				&:after {
@@ -613,7 +771,28 @@
     		color: $pwmBronze;
     	}
 	}
+
+	.show-for-large-only{
+		&.show-bio{
+			color: $pwmWhite;
+			padding-top: 5rem;
+
+			&::after{
+				border-color: $pwmWhiteFaded;
+				top: 3.5rem;
+			}
+
+			i{
+				margin-top: -0.3rem;
+
+				&::after{
+					border-color: $pwmWhiteFaded;
+				}
+			}
+		}
+	}
 }
+
 
 .personnel-bio-overlay {
 	max-width: 86rem;
@@ -1004,7 +1183,7 @@
 
 	.section-title{
 		&:after {
-			border-bottom: thin solid $pwmBrown;
+			border-bottom: thin solid $pwmBrownFaded;
 		}
 	}
 
@@ -1020,9 +1199,52 @@
 
 	.illustration{
 
+		width: 150px;
+		height: 150px;
+
 		@media #{$small-only}{
 			margin-bottom: 3rem;
 			margin-top: 3rem;
+		}
+
+		&:after{
+
+			font-family: 'whitney_lightregular';
+			text-transform: uppercase;
+			color: $pwmWhite;
+			content: 'June 6-8 2016';
+		    display: block;
+		    position: absolute;
+		    background-color: #D3A574;
+		    border-radius: 50%;
+		    z-index: 100;
+		    text-align: center;
+
+			@media #{$medium-up}{
+				font-size: 1.2rem;
+				top: 57%;
+			    bottom: 0;
+			    left: 68%;
+			    right: -14px;
+			    padding-top:16px;
+			}
+
+		    @media #{$small-only}{
+		    	font-size: 1rem;
+		    	margin-left: 10rem;
+		    	margin-top: 9rem;
+		    	line-height: 6rem;
+		    }
+		}
+
+	}
+
+	.underline{
+		text-align: center;
+
+		&::after{
+			width: 8rem;
+			border-color: $pwmBrownFaded;
 		}
 	}
 
@@ -1055,6 +1277,8 @@
 				.columns:first-of-type{
 					.tp_09{
 
+						margin-top: 4rem;
+
 						@media #{$small-only}{
 							text-align: center;
 						}
@@ -1073,6 +1297,9 @@
 
 				.columns:first-of-type{
 					.tp_09{
+
+						margin-top: 4rem;
+
 						@media #{$small-only}{
 							text-align: center;
 						}
@@ -1101,6 +1328,18 @@
 		padding-bottom: 16rem;
 	}
 
+	.outline-btn{
+		&.secondary{
+			color: $pwmDarkBrown;
+			border-color: $pwmDarkBrown;
+
+			&:hover{
+				background-color: $pwmDarkBrown;
+				color: $pwmWhite;
+			}
+		}
+	}
+
 	.map-anchor{
 		width: 18rem;
 
@@ -1113,7 +1352,7 @@
 
 	.section-title{
 		&:after {
-			border-bottom: thin solid $pwmBrown;
+			border-bottom: thin solid $pwmBrownFaded;
 		}
 	}
 
@@ -1272,7 +1511,7 @@
 						bottom: 0;
 						width: 150px;
 						height: 1px;
-						border-bottom: thin solid $pwmBrown;
+						border-bottom: thin solid $pwmBrownFaded;
 						margin: 15px auto 0;
 					}
 
@@ -1282,7 +1521,7 @@
 						bottom: 0;
 						width: 150px;
 						height: 1px;
-						border-bottom: thin solid $pwmBrown;
+						border-bottom: thin solid $pwmBrownFaded;
 						margin: 15px auto 1rem;
 					}
 				}

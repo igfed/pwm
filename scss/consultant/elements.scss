@@ -100,6 +100,83 @@ h4 {
 	}
 }
 
+.underline{
+
+	@include vertical-separator("&", .1rem, .5rem, 30%);
+	
+	&::after {
+		border-color: $pwmBronzeFaded;
+		width: 334px;
+		margin: 0 auto;
+		left:0;
+		right:0;
+
+		@media #{$medium-only}{
+			width: 250px;
+			padding-top:0;
+			padding-bottom: 0;
+		}
+
+		@media #{$small-only}{
+			width: 230px;
+			padding-top:0;
+		}
+	}
+
+
+	margin-bottom: 0.5rem;
+	padding-bottom: 0.5rem;
+
+	@media #{$small-only}{
+			padding-top:0.5rem;
+			padding-bottom:0;
+		}
+
+}
+
+.show-bio{
+
+		&::after{
+			width: 250px;
+		}
+
+
+	color: $pwmBronze;
+
+	i{
+		position: absolute;
+		margin-top: 0.2rem;
+		margin-left: 1.5rem;
+		font-size: 2.5rem;
+		margin-top: 0.6rem;
+
+			&:after{
+			content: "";
+		    display: block;
+		    border-left: 0.1rem solid $pwmBronzeFaded;
+		    height: 61%;
+		    position: absolute;
+		   	top: 0.5rem;
+		   	left: -0.5rem;
+		}
+	}
+
+}
+
+.show-bio-content{
+	display: none;
+}
+
+.active-show-bio{
+
+	@media #{$large-up}{
+		display: block;
+	}
+}
+
+
+
+
 .underline-link {
 	cursor: pointer;
     display: inline-block;
@@ -189,7 +266,7 @@ h4 {
 		bottom: 0;
 		width: 150px;
 		height: 1px;
-		border-bottom: thin solid $pwmWhite;
+		border-bottom: thin solid $pwmWhiteFaded;
 		margin: 15px auto 0;
 	}
 }
@@ -269,7 +346,7 @@ h4 {
 
 .hide-for-large-only{
 	@media #{$large-up}{
-		display: none;
+		display: none!important;
 	}
 }
 .show-for-large-only{
@@ -469,23 +546,23 @@ a.outline-btn {
     	}
 
     	/*Icon*/
-		&::after {
-		    border-color: #0d263c transparent transparent;
-		    border-width: .6rem .6rem 0;
-		    right: 1rem;
-		    margin-top: -.4rem;
-    		transition: transform .3s ease 0s, border-color .3s ease 0s;
-		}
+		// &::after {
+		//     border-color: #0d263c transparent transparent;
+		//     border-width: .6rem .6rem 0;
+		//     right: 1rem;
+		//     margin-top: -.4rem;
+  //   		transition: transform .3s ease 0s, border-color .3s ease 0s;
+		// }
 
-		&::before {
-			content: "";
-			display: block;
-		    border-left: 0.1rem solid #45757a;
-		    height: 55%;
-		    position: absolute;
-		    right: 2.8rem;
-		    top: 20%;
-		}
+		// &::before {
+		// 	content: "";
+		// 	display: block;
+		//     border-left: 0.1rem solid #45757a;
+		//     height: 55%;
+		//     position: absolute;
+		//     right: 2.8rem;
+		//     top: 20%;
+		// }
 	
 		&.small-icon {
 			&:hover{
@@ -581,6 +658,8 @@ a.outline-btn {
 						margin-bottom: 0.2rem;
 						font-weight: 400;
 		    			display: block;
+						@include font("tp_23");
+
 		    		}
 
 		    		span {

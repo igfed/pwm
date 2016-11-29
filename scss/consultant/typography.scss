@@ -30,7 +30,7 @@ $WSB: 'whitney_semiboldregular';
     } @else if $face == 'tp_02' {
         font-family: $WL;
         font-size:4rem;
-        line-height:3.7rem;
+        line-height:5rem;
 
         @media #{$large-up} {
             font-size:5.2rem;

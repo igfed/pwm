@@ -4682,7 +4682,7 @@ html.IGv2 {
     /*Hero Title*/
     font-family: "whitney_lightregular";
     font-size: 4rem;
-    line-height: 3.7rem;
+    line-height: 5rem;
     /*Content Title*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 .tp_02 {
@@ -4979,7 +4979,7 @@ html.IGv2 {
     /*Hero Title*/
     font-family: "whitney_lightregular";
     font-size: 4rem;
-    line-height: 3.7rem;
+    line-height: 5rem;
     /*Content Title*/ }
     @media screen and (min-width: 64em) {
       html.IGv2 h3 {
@@ -5066,6 +5066,61 @@ html.IGv2 {
       @media screen and (max-width: 39.9375em) {
         html.IGv2 .portrait img {
           height: 14rem; } }
+  html.IGv2 .underline {
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem; }
+    html.IGv2 .underline {
+      position: relative;
+      margin-top: 0.5rem; }
+      html.IGv2 .underline::after {
+        border-top: 0.1rem solid #c1cbd0;
+        content: "";
+        width: 30%;
+        top: -0.3rem;
+        position: absolute;
+        left: 35%; }
+    html.IGv2 .underline::after {
+      border-color: rgba(168, 105, 53, 0.2);
+      width: 334px;
+      margin: 0 auto;
+      left: 0;
+      right: 0; }
+      @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        html.IGv2 .underline::after {
+          width: 250px;
+          padding-top: 0;
+          padding-bottom: 0; } }
+      @media screen and (max-width: 39.9375em) {
+        html.IGv2 .underline::after {
+          width: 230px;
+          padding-top: 0; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .underline {
+        padding-top: 0.5rem;
+        padding-bottom: 0; } }
+  html.IGv2 .show-bio {
+    color: #A86728; }
+    html.IGv2 .show-bio::after {
+      width: 250px; }
+    html.IGv2 .show-bio i {
+      position: absolute;
+      margin-top: 0.2rem;
+      margin-left: 1.5rem;
+      font-size: 2.5rem;
+      margin-top: 0.6rem; }
+      html.IGv2 .show-bio i:after {
+        content: "";
+        display: block;
+        border-left: 0.1rem solid rgba(168, 105, 53, 0.2);
+        height: 61%;
+        position: absolute;
+        top: 0.5rem;
+        left: -0.5rem; }
+  html.IGv2 .show-bio-content {
+    display: none; }
+  @media screen and (min-width: 64em) {
+    html.IGv2 .active-show-bio {
+      display: block; } }
   html.IGv2 .underline-link {
     cursor: pointer;
     display: inline-block;
@@ -5146,7 +5201,7 @@ html.IGv2 {
     bottom: 0;
     width: 150px;
     height: 1px;
-    border-bottom: thin solid #FFFFFF;
+    border-bottom: thin solid rgba(255, 255, 255, 0.2);
     margin: 15px auto 0; }
   html.IGv2 .row {
     max-width: 120rem; }
@@ -5198,7 +5253,7 @@ html.IGv2 {
       display: none; } }
   @media screen and (min-width: 64em) {
     html.IGv2 .hide-for-large-only {
-      display: none; } }
+      display: none !important; } }
   html.IGv2 .show-for-large-only {
     display: none; }
     @media screen and (min-width: 64em) {
@@ -5344,20 +5399,6 @@ html.IGv2 {
       /*Media Query*/ }
       html.IGv2 .dropdown.menu a.outline-btn.dropdown-button {
         padding-right: 4rem; }
-      html.IGv2 .dropdown.menu a.outline-btn::after {
-        border-color: #0d263c transparent transparent;
-        border-width: .6rem .6rem 0;
-        right: 1rem;
-        margin-top: -.4rem;
-        transition: transform .3s ease 0s, border-color .3s ease 0s; }
-      html.IGv2 .dropdown.menu a.outline-btn::before {
-        content: "";
-        display: block;
-        border-left: 0.1rem solid #45757a;
-        height: 55%;
-        position: absolute;
-        right: 2.8rem;
-        top: 20%; }
       html.IGv2 .dropdown.menu a.outline-btn.small-icon {
         /*Media Query*/ }
         html.IGv2 .dropdown.menu a.outline-btn.small-icon:hover {
@@ -5431,7 +5472,18 @@ html.IGv2 {
         html.IGv2 .dropdown.menu .is-dropdown-submenu li a strong {
           margin-bottom: 0.2rem;
           font-weight: 400;
-          display: block; }
+          display: block;
+          /*Hero Title*/
+          font-family: "whitney_scmedium";
+          font-size: 1.4rem;
+          line-height: 2.4rem;
+          color: #282828;
+          text-transform: lowercase;
+          /*Hyperlink*/ }
+          @media screen and (min-width: 64em) {
+            html.IGv2 .dropdown.menu .is-dropdown-submenu li a strong {
+              font-size: 1.8rem;
+              line-height: 2.8rem; } }
         html.IGv2 .dropdown.menu .is-dropdown-submenu li a span {
           /*Hero Title*/
           font-family: "whitney_bookregular";
@@ -6031,38 +6083,6 @@ html.IGv2 {
             @media screen and (max-width: 39.9375em) {
               html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .portrait img {
                 height: 14rem; } }
-        html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .underline {
-          margin-bottom: 0.5rem;
-          padding-bottom: 0.5rem; }
-          html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .underline {
-            position: relative;
-            margin-top: 0.5rem; }
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .underline::after {
-              border-top: 0.1rem solid #c1cbd0;
-              content: "";
-              width: 30%;
-              top: -0.3rem;
-              position: absolute;
-              left: 35%; }
-          html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .underline::after {
-            border-color: rgba(13, 38, 60, 0.3);
-            width: 334px;
-            margin: 0 auto;
-            left: 0;
-            right: 0; }
-            @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-              html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .underline::after {
-                width: 250px;
-                padding-top: 0;
-                padding-bottom: 0; } }
-            @media screen and (max-width: 39.9375em) {
-              html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .underline::after {
-                width: 230px;
-                padding-top: 0; } }
-          @media screen and (max-width: 39.9375em) {
-            html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .underline {
-              padding-top: 0.5;
-              padding-bottom: 0; } }
         @media screen and (min-width: 40em) and (max-width: 63.9375em) {
           html.IGv2 .section.personnel.profile > .row + .row .columns .row > .columns.details .tp_08 {
             margin-top: 2rem;
@@ -6238,27 +6258,77 @@ html.IGv2 {
     @media screen and (max-width: 39.9375em) {
       html.IGv2 .section.hero {
         padding-top: 0; } }
-    html.IGv2 .section.hero .hero-image {
-      margin-right: -10rem; }
+    @media screen and (min-width: 64em) {
+      html.IGv2 .section.hero h1 {
+        margin-top: 4rem; } }
+    @media screen and (min-width: 40em) {
+      html.IGv2 .section.hero h1 {
+        margin-bottom: 0.5rem;
+        padding-bottom: 0.5rem; }
+        html.IGv2 .section.hero h1 {
+          position: relative;
+          margin-top: 0.5rem; }
+          html.IGv2 .section.hero h1::after {
+            border-top: 0.1rem solid #c1cbd0;
+            content: "";
+            width: 30%;
+            top: -0.3rem;
+            position: absolute;
+            left: 35%; }
+        html.IGv2 .section.hero h1::after {
+          border-color: rgba(168, 105, 53, 0.2);
+          margin: 0 auto;
+          left: 0;
+          right: 0;
+          width: 150px; } }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      html.IGv2 .section.hero h1 {
+        margin-top: 3.5rem; }
+        html.IGv2 .section.hero h1::after {
+          top: -2.4rem; } }
     @media screen and (max-width: 39.9375em) {
+      html.IGv2 .section.hero h1 {
+        line-height: 1.5rem; } }
+    html.IGv2 .section.hero .hero-image {
+      margin-right: -10rem;
+      z-index: 77777; }
+    html.IGv2 .section.hero .empty-space {
+      height: 4rem; }
+    html.IGv2 .section.hero .hide-for-large-only {
+      margin-top: 3rem; }
       html.IGv2 .section.hero .hide-for-large-only .portrait {
-        height: 20rem !important;
-        margin-bottom: 3rem !important;
-        top: -1.2rem;
-        width: 100vw;
-        position: relative;
-        left: 50%;
-        right: 50%;
-        margin-left: -50vw;
-        margin-right: -50vw; } }
-    html.IGv2 .section.hero .hide-for-large-only .portrait img {
-      overflow: hidden;
-      height: auto !important;
-      top: -125px; }
+        height: auto !important; }
+    @media screen and (min-width: 64em) {
+      html.IGv2 .section.hero .details .small-12 {
+        margin-bottom: 6rem; } }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .section.hero .details .small-12 .primary {
+        margin-top: 5rem; } }
+    html.IGv2 .section.hero .details .small-12.show-for-small-only {
+      margin-top: 1rem; }
+    html.IGv2 .section.hero .details .small-12 .outline-btn.overlay-hide {
+      margin-bottom: 3rem; }
+    html.IGv2 .section.hero .tp_08 {
+      color: #A86728; }
+      @media screen and (max-width: 39.9375em) {
+        html.IGv2 .section.hero .tp_08 {
+          margin-bottom: 0; } }
+    html.IGv2 .section.hero .tp_11 {
+      margin-bottom: 0; }
+      @media screen and (min-width: 64em) {
+        html.IGv2 .section.hero .tp_11 {
+          line-height: 8rem; } }
+    html.IGv2 .section.hero .tp_13 {
+      width: 17rem;
+      margin: 0 auto;
+      line-height: 2.5rem;
+      margin-bottom: 2rem; }
+    html.IGv2 .section.hero .tp_20 {
+      margin-top: 3rem;
+      line-height: 4rem; }
       @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-        html.IGv2 .section.hero .hide-for-large-only .portrait img {
-          height: 57rem !important;
-          top: -8rem; } }
+        html.IGv2 .section.hero .tp_20 {
+          margin-top: 4rem; } }
     html.IGv2 .section.hero .portrait.show-for-large-only {
       width: 100%;
       height: auto; }
@@ -6267,11 +6337,6 @@ html.IGv2 {
           height: 87rem; } }
     html.IGv2 .section.hero .portrait-hero {
       padding-left: 20px; }
-    html.IGv2 .section.hero .expanded-bio {
-      display: none; }
-    @media screen and (min-width: 64em) {
-      html.IGv2 .section.hero > .row > .columns {
-        height: 56rem; } }
     html.IGv2 .section.hero > .row:nth-child(2) p {
       margin-bottom: 0; }
     html.IGv2 .section.hero > .row:nth-child(2) .underline {
@@ -6305,66 +6370,93 @@ html.IGv2 {
       margin-top: 30px; }
       @media screen and (min-width: 64em) {
         html.IGv2 .section.about .section-title {
-          padding-top: 27.5rem; } }
+          padding-top: 11rem; } }
+    html.IGv2 .section.about .tp_02 {
+      padding-top: 7rem;
+      padding-bottom: 2rem; }
+      @media screen and (max-width: 39.9375em) {
+        html.IGv2 .section.about .tp_02 {
+          padding-top: 2.5rem; } }
+    html.IGv2 .section.about .tp_07 {
+      margin-bottom: 0; }
   html.IGv2 .section.team {
     background-color: #6F645E; }
-  html.IGv2 .team-member .portrait {
-    position: relative;
-    border: none;
-    width: 100%;
-    height: auto;
-    box-sizing: border-box;
-    margin: 12px 0;
-    padding: 0 19px; }
-    html.IGv2 .team-member .portrait img {
-      max-width: 100%;
-      height: auto;
-      padding: 22px;
-      z-index: 200;
-      position: relative;
-      transform: translateX(0);
-      -ms-transform: translateX(0);
-      -webkit-transform: translateX(0);
-      -moz-transform: translateX(0);
-      -o-transform: translateX(0);
-      left: auto; }
-    html.IGv2 .team-member .portrait:after {
-      content: '';
-      display: block;
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      right: 50%;
+    @media screen and (min-width: 40em) {
+      html.IGv2 .section.team .row .columns .row .columns:last-child {
+        float: left; } }
+  html.IGv2 .team-member {
+    margin-bottom: 3rem; }
+    html.IGv2 .team-member .portrait-block {
       background-color: #D3A574;
-      z-index: 100; }
-  @media screen and (min-width: 40em) {
-    html.IGv2 .team-member:nth-child(even) .portrait {
-      margin-top: 320px; } }
-  html.IGv2 .team-member:nth-child(even) .portrait:after {
-    right: 0;
-    left: 50%; }
-  @media screen and (min-width: 40em) {
-    html.IGv2 .team-member:nth-child(even) h3, html.IGv2 .team-member:nth-child(even) p, html.IGv2 .team-member:nth-child(even) .outline-btn.secondary {
-      margin-left: 40px; } }
-  html.IGv2 .team-member h3, html.IGv2 .team-member p {
-    color: #FFFFFF;
-    margin: 0;
-    text-align: left;
-    padding: 0;
-    line-height: 1.125; }
-  html.IGv2 .team-member .tp_08 {
-    padding: 3px 0 0; }
-  html.IGv2 .team-member .tp_09 {
-    padding: 22px 0 0;
-    line-height: 1.5em; }
-  html.IGv2 .team-member .outline-btn.secondary {
-    margin: 22px 0 0;
-    color: #FFFFFF;
-    border-color: #FFFFFF; }
-    html.IGv2 .team-member .outline-btn.secondary:hover, html.IGv2 .team-member .outline-btn.secondary:focus {
-      background-color: #FFFFFF;
-      color: #A86728; }
+      z-index: 100;
+      width: 20rem;
+      height: 40rem;
+      position: absolute; }
+    html.IGv2 .team-member .portrait {
+      position: relative;
+      border: none;
+      width: 100%;
+      height: auto;
+      box-sizing: border-box;
+      margin: 12px 0;
+      padding: 0 19px; }
+      html.IGv2 .team-member .portrait img {
+        height: auto;
+        padding: 22px;
+        z-index: 200;
+        position: relative;
+        transform: translateX(0);
+        -ms-transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -o-transform: translateX(0);
+        left: auto; }
+      html.IGv2 .team-member .portrait:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 50%;
+        background-color: #D3A574;
+        z-index: 100; }
+    html.IGv2 .team-member:nth-child(even) .portrait-section {
+      float: right; }
+    html.IGv2 .team-member:nth-child(even) .portrait:after {
+      right: 0;
+      left: 50%; }
+    @media screen and (min-width: 40em) {
+      html.IGv2 .team-member:nth-child(even) h3, html.IGv2 .team-member:nth-child(even) p, html.IGv2 .team-member:nth-child(even) .outline-btn.secondary {
+        margin-left: 40px; } }
+    html.IGv2 .team-member h3, html.IGv2 .team-member p {
+      color: #FFFFFF;
+      margin: 0;
+      text-align: left;
+      padding: 0;
+      line-height: 1.125; }
+    html.IGv2 .team-member .tp_08 {
+      padding: 3px 0 0; }
+    html.IGv2 .team-member .tp_09 {
+      padding: 22px 0 0;
+      line-height: 1.5em; }
+    html.IGv2 .team-member .outline-btn.secondary {
+      margin: 22px 0 0;
+      color: #FFFFFF;
+      border-color: #FFFFFF; }
+      html.IGv2 .team-member .outline-btn.secondary:hover, html.IGv2 .team-member .outline-btn.secondary:focus {
+        background-color: #FFFFFF;
+        color: #A86728; }
+    html.IGv2 .team-member .show-for-large-only.show-bio {
+      color: #FFFFFF;
+      padding-top: 5rem; }
+      html.IGv2 .team-member .show-for-large-only.show-bio::after {
+        border-color: rgba(255, 255, 255, 0.2);
+        top: 3.5rem; }
+      html.IGv2 .team-member .show-for-large-only.show-bio i {
+        margin-top: -0.3rem; }
+        html.IGv2 .team-member .show-for-large-only.show-bio i::after {
+          border-color: rgba(255, 255, 255, 0.2); }
   html.IGv2 .personnel-bio-overlay {
     max-width: 86rem;
     padding: 0;
@@ -6424,7 +6516,7 @@ html.IGv2 {
             /*Hero Title*/
             font-family: "whitney_lightregular";
             font-size: 4rem;
-            line-height: 3.7rem;
+            line-height: 5rem;
             /*Content Title*/
             margin: 0 0 -.1rem; }
             @media screen and (min-width: 64em) {
@@ -6716,7 +6808,7 @@ html.IGv2 {
   html.IGv2 .section.events {
     background-color: #D3D4D5; }
     html.IGv2 .section.events .section-title:after {
-      border-bottom: thin solid #6F645E; }
+      border-bottom: thin solid rgba(96, 91, 87, 0.2); }
     @media screen and (min-width: 40em) and (max-width: 63.9375em) {
       html.IGv2 .section.events {
         padding-top: 4rem;
@@ -6725,10 +6817,43 @@ html.IGv2 {
       html.IGv2 .section.events {
         padding-top: 12rem;
         padding-bottom: 12rem; } }
-    @media screen and (max-width: 39.9375em) {
-      html.IGv2 .section.events .illustration {
-        margin-bottom: 3rem;
-        margin-top: 3rem; } }
+    html.IGv2 .section.events .illustration {
+      width: 150px;
+      height: 150px; }
+      @media screen and (max-width: 39.9375em) {
+        html.IGv2 .section.events .illustration {
+          margin-bottom: 3rem;
+          margin-top: 3rem; } }
+      html.IGv2 .section.events .illustration:after {
+        font-family: 'whitney_lightregular';
+        text-transform: uppercase;
+        color: #FFFFFF;
+        content: 'June 6-8 2016';
+        display: block;
+        position: absolute;
+        background-color: #D3A574;
+        border-radius: 50%;
+        z-index: 100;
+        text-align: center; }
+        @media screen and (min-width: 40em) {
+          html.IGv2 .section.events .illustration:after {
+            font-size: 1.2rem;
+            top: 57%;
+            bottom: 0;
+            left: 68%;
+            right: -14px;
+            padding-top: 16px; } }
+        @media screen and (max-width: 39.9375em) {
+          html.IGv2 .section.events .illustration:after {
+            font-size: 1rem;
+            margin-left: 10rem;
+            margin-top: 9rem;
+            line-height: 6rem; } }
+    html.IGv2 .section.events .underline {
+      text-align: center; }
+      html.IGv2 .section.events .underline::after {
+        width: 8rem;
+        border-color: rgba(96, 91, 87, 0.2); }
     @media screen and (min-width: 64em) {
       html.IGv2 .section.events > .row > .columns {
         padding-top: 10rem; } }
@@ -6743,22 +6868,26 @@ html.IGv2 {
         width: 45%;
         float: left;
         margin-right: 10rem; } }
-    @media screen and (max-width: 39.9375em) {
-      html.IGv2 .section.events > .row > .columns > .row:first-of-type .columns:first-of-type .tp_09 {
-        text-align: center; } }
-    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-      html.IGv2 .section.events > .row > .columns > .row:first-of-type .columns:first-of-type .tp_09 {
-        float: right; } }
+    html.IGv2 .section.events > .row > .columns > .row:first-of-type .columns:first-of-type .tp_09 {
+      margin-top: 4rem; }
+      @media screen and (max-width: 39.9375em) {
+        html.IGv2 .section.events > .row > .columns > .row:first-of-type .columns:first-of-type .tp_09 {
+          text-align: center; } }
+      @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        html.IGv2 .section.events > .row > .columns > .row:first-of-type .columns:first-of-type .tp_09 {
+          float: right; } }
     @media screen and (min-width: 64em) {
       html.IGv2 .section.events > .row > .columns > .row:last-of-type {
         width: 45%;
         float: left; } }
-    @media screen and (max-width: 39.9375em) {
-      html.IGv2 .section.events > .row > .columns > .row:last-of-type .columns:first-of-type .tp_09 {
-        text-align: center; } }
-    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-      html.IGv2 .section.events > .row > .columns > .row:last-of-type .columns:first-of-type .tp_09 {
-        float: right; } }
+    html.IGv2 .section.events > .row > .columns > .row:last-of-type .columns:first-of-type .tp_09 {
+      margin-top: 4rem; }
+      @media screen and (max-width: 39.9375em) {
+        html.IGv2 .section.events > .row > .columns > .row:last-of-type .columns:first-of-type .tp_09 {
+          text-align: center; } }
+      @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        html.IGv2 .section.events > .row > .columns > .row:last-of-type .columns:first-of-type .tp_09 {
+          float: right; } }
   html.IGv2 .section.inquiries {
     background-color: #F3F4F5; }
     @media screen and (min-width: 40em) and (max-width: 63.9375em) {
@@ -6769,6 +6898,12 @@ html.IGv2 {
       html.IGv2 .section.inquiries {
         padding-top: 12rem;
         padding-bottom: 16rem; } }
+    html.IGv2 .section.inquiries .outline-btn.secondary {
+      color: #605B57;
+      border-color: #605B57; }
+      html.IGv2 .section.inquiries .outline-btn.secondary:hover {
+        background-color: #605B57;
+        color: #FFFFFF; }
     html.IGv2 .section.inquiries .map-anchor {
       width: 18rem; }
       html.IGv2 .section.inquiries .map-anchor .map-container {
@@ -6776,7 +6911,7 @@ html.IGv2 {
         height: 18rem;
         border-radius: 11.3rem; }
     html.IGv2 .section.inquiries .section-title:after {
-      border-bottom: thin solid #6F645E; }
+      border-bottom: thin solid rgba(96, 91, 87, 0.2); }
     html.IGv2 .section.inquiries h2 {
       color: #605B57; }
     html.IGv2 .section.inquiries h3 {
@@ -6866,7 +7001,7 @@ html.IGv2 {
           bottom: 0;
           width: 150px;
           height: 1px;
-          border-bottom: thin solid #6F645E;
+          border-bottom: thin solid rgba(96, 91, 87, 0.2);
           margin: 15px auto 0; }
         html.IGv2 .section.inquiries .contact .columns:nth-child(3):before {
           content: '';
@@ -6874,7 +7009,7 @@ html.IGv2 {
           bottom: 0;
           width: 150px;
           height: 1px;
-          border-bottom: thin solid #6F645E;
+          border-bottom: thin solid rgba(96, 91, 87, 0.2);
           margin: 15px auto 1rem; } }
     html.IGv2 .section.inquiries .contact .columns:nth-child(3) a {
       color: #6F645E; }
