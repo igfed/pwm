@@ -6295,6 +6295,8 @@ html.IGv2 {
     @media screen and (max-width: 39.9375em) {
       html.IGv2 .section.hero {
         padding-top: 0; } }
+    html.IGv2 .section.hero .show-bio-content a {
+      color: inherit; }
     @media screen and (min-width: 64em) {
       html.IGv2 .section.hero h1 {
         margin-top: 4rem; } }
@@ -6543,10 +6545,13 @@ html.IGv2 {
         padding: 0 9rem; } }
     html.IGv2 .personnel-bio-overlay .show-bio-content {
       display: block; }
+      html.IGv2 .personnel-bio-overlay .show-bio-content a:nth-child(2):after {
+        border-color: #c1cbd0; }
     html.IGv2 .personnel-bio-overlay .portrait-bio {
       width: auto;
       margin-left: 0 !important;
-      margin-bottom: 0 !important; }
+      margin-bottom: 0 !important;
+      float: none; }
       @media screen and (min-width: 40em) {
         html.IGv2 .personnel-bio-overlay .portrait-bio {
           margin-top: 5rem; } }
