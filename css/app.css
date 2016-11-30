@@ -6457,6 +6457,8 @@ html.IGv2 {
         border: 2px solid white; }
     html.IGv2 .team-member .active-show-bio {
       margin-top: 3rem; }
+      html.IGv2 .team-member .active-show-bio > div p {
+        line-height: 2.5rem; }
     html.IGv2 .team-member .portrait-block {
       background-color: #D3A574;
       z-index: 100;

@@ -750,6 +750,11 @@
 
 	.active-show-bio{
 		margin-top: 3rem;
+		>div{
+			p{
+				line-height: 2.5rem;
+			}
+		}
 	}
 
 	.portrait-block{
