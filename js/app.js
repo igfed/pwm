@@ -695,7 +695,7 @@ $(function showBioToggle(){
 })();
 
 $(function textTransformLowercase(){
-     $('.consultant_name, .maps h3').text(function (_, val) {
+     $('.consultant_name').text(function (_, val) {
     return val.toLowerCase();
     });
 }());   

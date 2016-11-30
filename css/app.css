@@ -6041,6 +6041,8 @@ html.IGv2 {
     html.IGv2 a.map-anchor:hover .map-container .map-icon + div {
       -ms-transform: translateY(-100%);
           transform: translateY(-100%); }
+  html.IGv2 .consultant_name {
+    text-transform: capitalize; }
   html.IGv2 .section.personnel {
     background-color: #F3F4F5; }
     @media screen and (max-width: 39.9375em) {
