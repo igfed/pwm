@@ -402,6 +402,12 @@
 		padding-top:0;
 	}
 
+	.show-bio-content{
+		a{
+			color: inherit;
+		}
+	}
+
 	h1{	
 
 		@media #{$large-up}{
@@ -886,12 +892,21 @@
 
 	.show-bio-content{
 		display: block;
+
+		a{
+			&:nth-child(2){
+				&:after{
+					border-color: #c1cbd0;
+				}
+			}
+		}
 	}
 
 	.portrait-bio{
 		width: auto;
 		margin-left: 0!important;
 		margin-bottom: 0!important;
+		float: none;
 
 		@media #{$medium-up}{
 			margin-top: 5rem;
