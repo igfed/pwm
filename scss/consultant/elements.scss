@@ -145,7 +145,6 @@ a{
 			width: 250px;
 		}
 
-
 	color: $pwmBronze;
 
 	i{
@@ -155,7 +154,8 @@ a{
 		font-size: 2.5rem;
 		margin-top: 0.6rem;
 
-			&:after{
+
+		&:after{
 			content: "";
 		    display: block;
 		    border-left: 0.1rem solid $pwmBronzeFaded;
@@ -164,12 +164,44 @@ a{
 		   	top: 0.5rem;
 		   	left: -0.5rem;
 		}
+
+
 	}
 
 }
 
+.show-bio-btn{
+
+	display: none;
+}
+
+
+.hide-bio{
+	i{
+
+		transform: rotate(180deg);
+	   -webkit-transform: rotate(180deg);
+	   -ms-transform: rotate(180deg);
+
+	   &:after{
+	   	    left: 2rem;
+	   }
+	}
+
+}
+
+.hide-bio-btn{
+	display: none;
+
+}
+
+
 .show-bio-content{
 	display: none;
+			-webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .active-show-bio{
@@ -177,6 +209,7 @@ a{
 	@media #{$large-up}{
 		display: block;
 	}
+
 }
 
 

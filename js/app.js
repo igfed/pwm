@@ -1,6 +1,8 @@
 $(function showBioToggle(){
      $('.show-bio').click(function() {
        $(this).closest('div').find('.show-bio-content').toggleClass("active-show-bio");
+       $(this).toggleClass("hide-bio");
+       $(this).show("hide-bio-btn");
     });
 }());  
 

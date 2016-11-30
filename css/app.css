@@ -5118,8 +5118,19 @@ html.IGv2 {
         position: absolute;
         top: 0.5rem;
         left: -0.5rem; }
-  html.IGv2 .show-bio-content {
+  html.IGv2 .show-bio-btn {
     display: none; }
+  html.IGv2 .hide-bio i {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg); }
+    html.IGv2 .hide-bio i:after {
+      left: 2rem; }
+  html.IGv2 .hide-bio-btn {
+    display: none; }
+  html.IGv2 .show-bio-content {
+    display: none;
+    transition: all 0.5s ease-in-out; }
   @media screen and (min-width: 64em) {
     html.IGv2 .active-show-bio {
       display: block; } }
@@ -6499,6 +6510,9 @@ html.IGv2 {
       @media screen and (min-width: 40em) {
         html.IGv2 .personnel-bio-overlay .portrait-bio {
           margin-top: 5rem; } }
+      html.IGv2 .personnel-bio-overlay .portrait-bio i:active {
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg); }
     html.IGv2 .personnel-bio-overlay .social-icons {
       text-align: center !important; }
     html.IGv2 .personnel-bio-overlay .details {
