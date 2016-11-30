@@ -5234,6 +5234,8 @@ html.IGv2 {
     height: 1px;
     border-bottom: thin solid rgba(255, 255, 255, 0.2);
     margin: 15px auto 0; }
+  html.IGv2 .full-width {
+    width: 100%; }
   html.IGv2 .row {
     max-width: 120rem; }
     @media screen and (max-width: 39.9375em) {
@@ -6334,6 +6336,8 @@ html.IGv2 {
           display: block; }
           html.IGv2 .section.hero .consultant-wrapper .active-show-bio .show-bio-btn {
             display: none; } }
+      html.IGv2 .section.hero .consultant-wrapper .active-show-bio .div.tp_09 {
+        line-height: 2.5rem; }
     html.IGv2 .section.hero .hide-for-large-only {
       margin-top: 3rem; }
       html.IGv2 .section.hero .hide-for-large-only .portrait {
@@ -6407,6 +6411,12 @@ html.IGv2 {
         html.IGv2 .section.hero .form-actions li.is-dropdown-submenu-parent .outline-btn:hover {
           background-color: inherit;
           color: inherit; }
+    html.IGv2 .section.hero .social-icons .facebook, html.IGv2 .section.hero .social-icons .linkedin {
+      top: 1rem;
+      margin-left: 0; }
+    html.IGv2 .section.hero .social-icons .twitter {
+      top: 1.2rem;
+      left: 0; }
   html.IGv2 .section.about {
     background-color: #6F645E; }
     html.IGv2 .section.about h2, html.IGv2 .section.about h3, html.IGv2 .section.about p {
@@ -6572,213 +6582,215 @@ html.IGv2 {
                   align-items: center;
               display: -ms-flexbox;
               display: flex; } }
-          html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div .portrait {
-            border: 0;
-            margin: 4.3rem auto 1.1rem; }
-            @media screen and (max-width: 39.9375em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div .portrait {
-                width: 11rem;
-                height: 14rem; }
-                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div .portrait img {
-                  height: 14rem; } }
-            @media screen and (min-width: 40em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div .portrait {
-                float: left;
-                margin: 0 5rem 2.5rem; } }
-            @media screen and (min-width: 64em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div .portrait {
-                margin-bottom: 5rem; } }
-          @media screen and (min-width: 40em) {
-            html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1:first-child, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3:first-child, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p:first-child, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:first-child {
-              float: left; } }
-          html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
-            /*Hero Title*/
-            font-family: "whitney_lightregular";
-            font-size: 4rem;
-            line-height: 5rem;
-            /*Content Title*/
-            margin: 0 0 -.1rem; }
-            @media screen and (min-width: 64em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
-                font-size: 5.2rem;
-                line-height: 7.2rem; } }
-            @media screen and (max-width: 39.9375em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
-                font-size: 2.8rem;
-                line-height: 3.7rem; } }
-            @media screen and (max-width: 39.9375em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
-                line-height: 3.7rem; } }
-            @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
-                line-height: 2.8rem; } }
-            @media screen and (min-width: 40em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
-                margin: -0.8rem 0 .8rem; } }
-            @media screen and (min-width: 64em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
-                margin: -1.9rem 0 -.3rem; } }
-          html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) {
-            clear: both; }
-            @media screen and (max-width: 39.9375em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) {
-                margin-bottom: 0; } }
-            @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) {
-                margin-left: 5rem; } }
-            @media screen and (min-width: 64em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) {
-                clear: none;
-                margin-top: 2.2rem; } }
-            html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 {
-              display: inline-block; }
+          html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div {
+            width: 100%; }
+            html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div .portrait {
+              border: 0;
+              margin: 4.3rem auto 1.1rem; }
               @media screen and (max-width: 39.9375em) {
-                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 {
-                  /*Hero Title*/
-                  font-family: "whitney_bookregular";
-                  font-size: 2.4rem;
-                  line-height: 2.4rem;
-                  text-transform: uppercase;
-                  /*Sub Title*/ } }
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div .portrait {
+                  width: 11rem;
+                  height: 14rem; }
+                  html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div .portrait img {
+                    height: 14rem; } }
+              @media screen and (min-width: 40em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div .portrait {
+                  float: left;
+                  margin: 0 5rem 2.5rem; } }
+              @media screen and (min-width: 64em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div .portrait {
+                  margin-bottom: 5rem; } }
+            @media screen and (min-width: 40em) {
+              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1:first-child, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3:first-child, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p:first-child, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:first-child {
+                float: left; } }
+            html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
+              /*Hero Title*/
+              font-family: "whitney_lightregular";
+              font-size: 4rem;
+              line-height: 5rem;
+              /*Content Title*/
+              margin: 0 0 -.1rem; }
+              @media screen and (min-width: 64em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
+                  font-size: 5.2rem;
+                  line-height: 7.2rem; } }
+              @media screen and (max-width: 39.9375em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
+                  font-size: 2.8rem;
+                  line-height: 3.7rem; } }
+              @media screen and (max-width: 39.9375em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
+                  line-height: 3.7rem; } }
+              @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
+                  line-height: 2.8rem; } }
+              @media screen and (min-width: 40em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
+                  margin: -0.8rem 0 .8rem; } }
+              @media screen and (min-width: 64em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h1, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div h3 {
+                  margin: -1.9rem 0 -.3rem; } }
+            html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) {
+              clear: both; }
+              @media screen and (max-width: 39.9375em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) {
+                  margin-bottom: 0; } }
+              @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) {
+                  margin-left: 5rem; } }
+              @media screen and (min-width: 64em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) {
+                  clear: none;
+                  margin-top: 2.2rem; } }
+              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 {
+                display: inline-block; }
+                @media screen and (max-width: 39.9375em) {
+                  html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 {
+                    /*Hero Title*/
+                    font-family: "whitney_bookregular";
+                    font-size: 2.4rem;
+                    line-height: 2.4rem;
+                    text-transform: uppercase;
+                    /*Sub Title*/ } }
   @media screen and (max-width: 39.9375em) and (min-width: 64em) {
     html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 {
       font-size: 3.6rem; } }
   @media screen and (max-width: 39.9375em) and (max-width: 39.9375em) {
     html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 {
       font-size: 2rem; } }
-              @media screen and (max-width: 39.9375em) {
-                  html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 span {
-                    font-size: 1.6rem; }
-                    html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 span .fa {
-                      display: inline-block;
-                      border: 2px solid #282828;
-                      width: 2.9rem;
-                      height: 2.9rem;
-                      border-radius: 50%;
-                      line-height: 2.4rem;
-                      font-size: 1.3rem;
-                      margin-right: .2rem; }
-                      html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 span .fa.fa-phone {
-                        font-size: 1.8rem; } }
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 + a {
-                position: relative;
-                margin-left: 5.2rem; }
-                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 + a::after {
-                  border-left: 0.2rem solid #c1cbd0;
-                  content: "";
-                  height: 80%;
-                  left: -2.7rem;
-                  position: absolute;
-                  top: 10%; }
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 + a::after {
-                margin-left: -0.2rem; }
-              @media screen and (max-width: 39.9375em) {
+                @media screen and (max-width: 39.9375em) {
+                    html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 span {
+                      font-size: 1.6rem; }
+                      html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 span .fa {
+                        display: inline-block;
+                        border: 2px solid #282828;
+                        width: 2.9rem;
+                        height: 2.9rem;
+                        border-radius: 50%;
+                        line-height: 2.4rem;
+                        font-size: 1.3rem;
+                        margin-right: .2rem; }
+                        html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 span .fa.fa-phone {
+                          font-size: 1.8rem; } }
                 html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 + a {
                   position: relative;
-                  margin-left: 2.2rem; }
+                  margin-left: 5.2rem; }
                   html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 + a::after {
-                    border-left: 0.1rem solid #c1cbd0;
+                    border-left: 0.2rem solid #c1cbd0;
                     content: "";
                     height: 80%;
-                    left: -1.15rem;
+                    left: -2.7rem;
                     position: absolute;
                     top: 10%; }
                 html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 + a::after {
-                  border-color: #A86728; } }
-          html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.social-icons {
-            text-align: center;
-            margin-bottom: 1.2rem; }
+                  margin-left: -0.2rem; }
+                @media screen and (max-width: 39.9375em) {
+                  html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 + a {
+                    position: relative;
+                    margin-left: 2.2rem; }
+                    html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 + a::after {
+                      border-left: 0.1rem solid #c1cbd0;
+                      content: "";
+                      height: 80%;
+                      left: -1.15rem;
+                      position: absolute;
+                      top: 10%; }
+                  html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div div:not(:first-child) a.tp_09 + a::after {
+                    border-color: #A86728; } }
             html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.social-icons {
-              position: relative;
-              margin-top: 3rem; }
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.social-icons::after {
-                border-top: 0.1rem solid #c1cbd0;
-                content: "";
-                width: 100%;
-                top: -1.55rem;
-                position: absolute;
-                left: 0%; }
-            @media screen and (min-width: 40em) {
+              text-align: center;
+              margin-bottom: 1.2rem; }
               html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.social-icons {
-                position: absolute;
-                bottom: 0;
-                left: 0;
-                right: 0;
-                margin: 0; }
+                position: relative;
+                margin-top: 3rem; }
                 html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.social-icons::after {
-                  display: none; } }
-            html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.social-icons a {
-              margin: 1.25rem; }
-          html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 {
-            /*Hero Title*/
-            font-family: "whitney_bookregular";
-            font-size: 1.6rem;
-            /*Body Copy*/
-            margin-bottom: 0rem; }
-            @media screen and (min-width: 64em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 {
-                font-size: 2.2rem; } }
-            @media screen and (max-width: 39.9375em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 {
-                font-size: 1.4rem; } }
-            @media screen and (min-width: 40em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 {
-                margin-bottom: .4rem; } }
-            html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08 .icon, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 .icon {
-              margin-bottom: 0.6rem; }
-              @media screen and (min-width: 40em) and (max-width: 63.9375em) {
-                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08 .icon, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 .icon {
+                  border-top: 0.1rem solid #c1cbd0;
+                  content: "";
+                  width: 100%;
+                  top: -1.55rem;
+                  position: absolute;
+                  left: 0%; }
+              @media screen and (min-width: 40em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.social-icons {
+                  position: absolute;
+                  bottom: 0;
+                  left: 0;
+                  right: 0;
+                  margin: 0; }
+                  html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.social-icons::after {
+                    display: none; } }
+              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.social-icons a {
+                margin: 1.25rem; }
+            html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 {
+              /*Hero Title*/
+              font-family: "whitney_bookregular";
+              font-size: 1.6rem;
+              /*Body Copy*/
+              margin-bottom: 0rem; }
+              @media screen and (min-width: 64em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 {
+                  font-size: 2.2rem; } }
+              @media screen and (max-width: 39.9375em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 {
+                  font-size: 1.4rem; } }
+              @media screen and (min-width: 40em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 {
                   margin-bottom: .4rem; } }
-          html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_06, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_04 {
-            /*Hero Title*/
-            font-family: "whitney_scmedium";
-            font-size: 1.8rem;
-            line-height: 2.4rem;
-            text-transform: lowercase;
-            /*Callout Body Copy*/
-            margin-bottom: 1.2rem; }
-            @media screen and (min-width: 64em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_06, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_04 {
-                font-size: 2.2rem; } }
-            @media screen and (max-width: 39.9375em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_06, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_04 {
-                font-size: 1.4rem; } }
-            @media screen and (max-width: 39.9375em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_06, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_04 {
-                letter-spacing: 1px;
-                line-height: 1.6rem; } }
-          html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_09 {
-            /*Hero Title*/
-            font-family: "whitney_bookregular";
-            font-size: 1.6rem;
-            /*Body Copy Bold*/ }
-            @media screen and (min-width: 64em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_09 {
-                font-size: 1.8rem;
-                line-height: 2.8rem; } }
-            @media screen and (max-width: 39.9375em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_09 {
-                font-size: 1.4rem;
-                line-height: 1.9rem; } }
-            @media screen and (max-width: 39.9375em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_09 {
-                letter-spacing: 1px;
-                margin-bottom: 1.8rem; } }
-          html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p:last-child {
-            text-align: left;
-            clear: both;
-            line-height: 2.5rem; }
-            @media screen and (max-width: 39.9375em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p:last-child {
-                font-size: 1.6rem;
-                margin-bottom: 6.2rem; } }
-            @media screen and (min-width: 40em) {
-              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p:last-child {
-                line-height: 3rem; } }
-          html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div .overlay-only {
-            display: block; }
-          html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div .overlay-hide {
-            display: none !important; }
+              html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08 .icon, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 .icon {
+                margin-bottom: 0.6rem; }
+                @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+                  html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_08 .icon, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_07 .icon {
+                    margin-bottom: .4rem; } }
+            html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_06, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_04 {
+              /*Hero Title*/
+              font-family: "whitney_scmedium";
+              font-size: 1.8rem;
+              line-height: 2.4rem;
+              text-transform: lowercase;
+              /*Callout Body Copy*/
+              margin-bottom: 1.2rem; }
+              @media screen and (min-width: 64em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_06, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_04 {
+                  font-size: 2.2rem; } }
+              @media screen and (max-width: 39.9375em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_06, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_04 {
+                  font-size: 1.4rem; } }
+              @media screen and (max-width: 39.9375em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_06, html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_04 {
+                  letter-spacing: 1px;
+                  line-height: 1.6rem; } }
+            html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_09 {
+              /*Hero Title*/
+              font-family: "whitney_bookregular";
+              font-size: 1.6rem;
+              /*Body Copy Bold*/ }
+              @media screen and (min-width: 64em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_09 {
+                  font-size: 1.8rem;
+                  line-height: 2.8rem; } }
+              @media screen and (max-width: 39.9375em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_09 {
+                  font-size: 1.4rem;
+                  line-height: 1.9rem; } }
+              @media screen and (max-width: 39.9375em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p.tp_09 {
+                  letter-spacing: 1px;
+                  margin-bottom: 1.8rem; } }
+            html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p:last-child {
+              text-align: left;
+              clear: both;
+              line-height: 2.5rem; }
+              @media screen and (max-width: 39.9375em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p:last-child {
+                  font-size: 1.6rem;
+                  margin-bottom: 6.2rem; } }
+              @media screen and (min-width: 40em) {
+                html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div p:last-child {
+                  line-height: 3rem; } }
+            html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div .overlay-only {
+              display: block; }
+            html.IGv2 .personnel-bio-overlay .slick-list .slick-track .carousel-slides > div .overlay-hide {
+              display: none !important; }
     @media screen and (max-width: 39.9375em) {
       html.IGv2 .personnel-bio-overlay .slick-arrow {
         display: none !important; } }

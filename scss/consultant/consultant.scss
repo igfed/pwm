@@ -463,6 +463,10 @@
 					
 				}
 			}
+
+			.div.tp_09{
+				line-height: 2.5rem;
+			}
 		}
 	}
 
@@ -639,6 +643,18 @@
 					color: inherit;
 				}
 			}
+		}
+	}
+
+	.social-icons{
+		.facebook, .linkedin{
+			top: 1rem;
+			margin-left: 0;
+		}
+
+		.twitter{
+			top: 1.2rem;
+			left: 0;
 		}
 	}
 }
@@ -939,6 +955,7 @@
 				}
 
 				> div {
+					width: 100%;
 					.portrait {
 						border: 0;
 						margin: 4.3rem auto 1.1rem;
