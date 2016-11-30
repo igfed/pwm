@@ -47,12 +47,12 @@ a{
 .social-icons{
 	margin-bottom: 1.1rem;
 	a:hover{
-		    border: 2px solid $igBlue;
-		    width: 48px;
-		    height: 48px;
-		    display: inline-block;
-		    border-radius: 50%;
-		    transition: all ease 0.3s;
+	    border: 2px solid $igBlue;
+	    width: 48px;
+	    height: 48px;
+	    display: inline-block;
+	    border-radius: 50%;
+	    transition: all ease 0.3s;
 
 	}
 	.icon{ 
@@ -284,15 +284,36 @@ a{
 		@include scale(1rem, 2.2rem, 1rem);
 	}
 
-	&.linkedin {
+	&.facebook-white {
+		background-image: url("../img/social/facebook-white.png");
+		@include scale(1rem, 2.2rem, 1rem);
+		margin-left: 0;
+		top: 1rem;
+	}
+
+	&.linkedin{
 		background-image: url("../img/social/linkedin.png");
 		@include scale(2.2rem, 2.1rem, 2.2rem);
+	}
+
+	&.linkedin-white {
+		background-image: url("../img/social/linkedin-white.png");
+		@include scale(2.2rem, 2.1rem, 2.2rem);
+		margin-left: 0;
+		top: 1rem;
 	}
 
 	&.twitter {
 		background-image: url("../img/social/twitter.png");
 		@include scale(2.2rem, 1.8rem, 2.2rem);
     	top: .2rem;
+    	left: -.3rem;
+	}
+
+	&.twitter-white {
+		background-image: url("../img/social/twitter-white.png");
+		@include scale(2.2rem, 1.8rem, 2.2rem);
+    	top: 1.3rem;
     	left: -.3rem;
 	}
 }
@@ -1375,7 +1396,7 @@ a.map-anchor {
 				padding-bottom: 1.7rem;
 				padding-top: .5rem;
 				top: 100%;
-				background-color: $igGreen;
+				background-color: $pwmBeige;
 				text-align: center;
     			width: 100%;
 			    transform: translateY(0);

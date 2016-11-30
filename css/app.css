@@ -5198,15 +5198,33 @@ html.IGv2 {
       background-image: url("../img/social/facebook.png");
       width: 1rem;
       height: 2.2rem; }
+    html.IGv2 .icon.facebook-white {
+      background-image: url("../img/social/facebook-white.png");
+      width: 1rem;
+      height: 2.2rem;
+      margin-left: 0;
+      top: 1rem; }
     html.IGv2 .icon.linkedin {
       background-image: url("../img/social/linkedin.png");
       width: 2.2rem;
       height: 2.1rem; }
+    html.IGv2 .icon.linkedin-white {
+      background-image: url("../img/social/linkedin-white.png");
+      width: 2.2rem;
+      height: 2.1rem;
+      margin-left: 0;
+      top: 1rem; }
     html.IGv2 .icon.twitter {
       background-image: url("../img/social/twitter.png");
       width: 2.2rem;
       height: 1.8rem;
       top: .2rem;
+      left: -.3rem; }
+    html.IGv2 .icon.twitter-white {
+      background-image: url("../img/social/twitter-white.png");
+      width: 2.2rem;
+      height: 1.8rem;
+      top: 1.3rem;
       left: -.3rem; }
   html.IGv2 .section-title:after {
     content: '';
@@ -6013,7 +6031,7 @@ html.IGv2 {
           padding-bottom: 1.7rem;
           padding-top: .5rem;
           top: 100%;
-          background-color: #282828;
+          background-color: #D3A574;
           text-align: center;
           width: 100%;
           -ms-transform: translateY(0);
@@ -6383,6 +6401,12 @@ html.IGv2 {
           margin-left: 0.5rem; }
       html.IGv2 .section.hero .form-actions .small-proportional-grid .large-7 {
         padding-right: 1rem; }
+      html.IGv2 .section.hero .form-actions li.is-dropdown-submenu-parent {
+        width: 23rem;
+        margin: 0 auto; }
+        html.IGv2 .section.hero .form-actions li.is-dropdown-submenu-parent .outline-btn:hover {
+          background-color: inherit;
+          color: inherit; }
   html.IGv2 .section.about {
     background-color: #6F645E; }
     html.IGv2 .section.about h2, html.IGv2 .section.about h3, html.IGv2 .section.about p {
@@ -6413,6 +6437,10 @@ html.IGv2 {
     html.IGv2 .team-member .social-icons {
       text-align: center;
       margin-top: 4rem; }
+      html.IGv2 .team-member .social-icons a {
+        margin-right: 1rem; }
+      html.IGv2 .team-member .social-icons.overlay-hide a:hover {
+        border: 2px solid white; }
     html.IGv2 .team-member .active-show-bio {
       margin-top: 3rem; }
     html.IGv2 .team-member .portrait-block {
@@ -7002,6 +7030,8 @@ html.IGv2 {
             margin-top: 1rem; } }
     html.IGv2 .section.inquiries .row:last-child {
       padding-top: 3rem; }
+      html.IGv2 .section.inquiries .row:last-child .dropdown.menu > li.is-dropdown-submenu-parent a::after {
+        border-color: white transparent transparent; }
       html.IGv2 .section.inquiries .row:last-child .dropdown.menu > li.is-dropdown-submenu-parent span {
         position: relative; }
         html.IGv2 .section.inquiries .row:last-child .dropdown.menu > li.is-dropdown-submenu-parent span .fa {

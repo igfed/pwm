@@ -436,7 +436,67 @@ $(function showBioToggle(){
                             scrollwheel: false,
                             panControl: false,
                             maxZoom: zoom,
-                            minZoom: zoom
+                            minZoom: zoom,
+                            styles:
+                            [
+                              {
+                                "featureType": "landscape",
+                                "stylers": [
+                                  { "visibility": "on" },
+                                  { "color": "#f3f4f5" }
+                                ]
+                              },{
+                                "featureType": "road",
+                                "stylers": [
+                                  { "weight": 0.1 },
+                                  { "color": "#d3a574" },
+                                  { "visibility": "on" }
+                                ]
+                              },{
+                                "featureType": "poi",
+                                "stylers": [
+                                  { "color": "#d3d4d5" }
+                                ]
+                              },{
+                                "featureType": "administrative",
+                                "elementType": "geometry",
+                                "stylers": [
+                                  { "visibility": "off" }
+                                ]
+                              },{
+                                "featureType": "transit",
+                                "stylers": [
+                                  { "visibility": "off" }
+                                ]
+                              },{
+                                "featureType": "water",
+                                "stylers": [
+                                  { "color": "#d3a574" }
+                                ]
+                              },{
+                                "featureType": "poi",
+                                "stylers": [
+                                  { "visibility": "off" }
+                                ]
+                              },{
+                              },{
+                                "featureType": "road.arterial",
+                                "stylers": [
+                                  { "visibility": "on" },
+                                  { "weight": 1.7 },
+                                  { "color": "#605b57" }
+                                ]
+                              },{
+                                "featureType": "road",
+                                "elementType": "labels.text",
+                                "stylers": [
+                                  { "weight": 0.4 },
+                                  { "color": "#d3a574" },
+                                  { "visibility": "on" }
+                                ]
+                              }
+                            ]
+                            
                         });
 
                     if (targetLocation.lat && targetLocation.lng) {
