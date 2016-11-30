@@ -1,8 +1,14 @@
 $(function showBioToggle(){
      $('.show-bio').click(function() {
-       $(this).closest('div').find('.show-bio-content').toggleClass("active-show-bio");
-       $(this).toggleClass("hide-bio");
-       $(this).show("hide-bio-btn");
+        var $this = $(this);
+        var newText = $this.attr('data-alternate-copy');
+        var currentText = $this.html();
+        $this
+            .html(newText)
+            .attr('data-alternate-copy', currentText)
+            .closest('div')
+            .find('.show-bio-content')
+            .toggleClass("active-show-bio");
     });
 }());  
 
