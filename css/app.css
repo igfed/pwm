@@ -5621,7 +5621,8 @@ html.IGv2 {
     width: 4.5rem;
     position: absolute;
     right: 2.3rem;
-    top: 2.6rem; }
+    top: 2.6rem;
+    display: block; }
     @media screen and (max-width: 39.9375em) {
       html.IGv2 .close-button {
         height: 2.5rem;
@@ -5640,6 +5641,8 @@ html.IGv2 {
         top: 2rem; } }
   html.IGv2 form {
     padding: 2rem 1.5rem; }
+    html.IGv2 form .outline-btn {
+      color: white !important; }
     html.IGv2 form img {
       margin-top: 0;
       margin-bottom: 6rem;
@@ -5689,7 +5692,7 @@ html.IGv2 {
         margin-bottom: 2.7rem; }
     html.IGv2 form p.tp_09 {
       margin-bottom: 6.4rem; }
-    html.IGv2 form input[type=text], html.IGv2 form input[type=password], html.IGv2 form input[type=tel], html.IGv2 form input[type=email], html.IGv2 form textarea {
+    html.IGv2 form input[type=text], html.IGv2 form input[type=password], html.IGv2 form input[type=tel], html.IGv2 form input[type=email], html.IGv2 form textarea, html.IGv2 form input[type=number] {
       background-color: transparent;
       border-color: #282828;
       border-width: 0;
@@ -5700,14 +5703,14 @@ html.IGv2 {
       text-transform: none;
       margin-top: .8rem 0 .7rem;
       color: #282828; }
-      html.IGv2 form input[type=text]::-webkit-input-placeholder, html.IGv2 form input[type=password]::-webkit-input-placeholder, html.IGv2 form input[type=tel]::-webkit-input-placeholder, html.IGv2 form input[type=email]::-webkit-input-placeholder, html.IGv2 form textarea::-webkit-input-placeholder {
+      html.IGv2 form input[type=text]::-webkit-input-placeholder, html.IGv2 form input[type=password]::-webkit-input-placeholder, html.IGv2 form input[type=tel]::-webkit-input-placeholder, html.IGv2 form input[type=email]::-webkit-input-placeholder, html.IGv2 form textarea::-webkit-input-placeholder, html.IGv2 form input[type=number]::-webkit-input-placeholder {
         color: #666666; }
-      html.IGv2 form input[type=text]:-ms-input-placeholder, html.IGv2 form input[type=password]:-ms-input-placeholder, html.IGv2 form input[type=tel]:-ms-input-placeholder, html.IGv2 form input[type=email]:-ms-input-placeholder, html.IGv2 form textarea:-ms-input-placeholder {
+      html.IGv2 form input[type=text]:-ms-input-placeholder, html.IGv2 form input[type=password]:-ms-input-placeholder, html.IGv2 form input[type=tel]:-ms-input-placeholder, html.IGv2 form input[type=email]:-ms-input-placeholder, html.IGv2 form textarea:-ms-input-placeholder, html.IGv2 form input[type=number]:-ms-input-placeholder {
         color: #666666; }
-      html.IGv2 form input[type=text]::-moz-placeholder, html.IGv2 form input[type=password]::-moz-placeholder, html.IGv2 form input[type=tel]::-moz-placeholder, html.IGv2 form input[type=email]::-moz-placeholder, html.IGv2 form textarea::-moz-placeholder {
+      html.IGv2 form input[type=text]::-moz-placeholder, html.IGv2 form input[type=password]::-moz-placeholder, html.IGv2 form input[type=tel]::-moz-placeholder, html.IGv2 form input[type=email]::-moz-placeholder, html.IGv2 form textarea::-moz-placeholder, html.IGv2 form input[type=number]::-moz-placeholder {
         color: #666666;
         opacity: 1; }
-      html.IGv2 form input[type=text]:not(textarea), html.IGv2 form input[type=password]:not(textarea), html.IGv2 form input[type=tel]:not(textarea), html.IGv2 form input[type=email]:not(textarea), html.IGv2 form textarea:not(textarea) {
+      html.IGv2 form input[type=text]:not(textarea), html.IGv2 form input[type=password]:not(textarea), html.IGv2 form input[type=tel]:not(textarea), html.IGv2 form input[type=email]:not(textarea), html.IGv2 form textarea:not(textarea), html.IGv2 form input[type=number]:not(textarea) {
         line-height: 4rem; }
     html.IGv2 form label {
       /*Hero Title*/
@@ -5752,7 +5755,7 @@ html.IGv2 {
         position: absolute;
         right: .7rem;
         color: #d42f1a; }
-      html.IGv2 form label input[type=text], html.IGv2 form label input[type=password], html.IGv2 form label input[type=tel], html.IGv2 form label input[type=email], html.IGv2 form label textarea {
+      html.IGv2 form label input[type=text], html.IGv2 form label input[type=password], html.IGv2 form label input[type=tel], html.IGv2 form label input[type=email], html.IGv2 form label textarea, html.IGv2 form label input[type=number] {
         /*Hero Title*/
         font-family: "whitney_bookregular";
         font-size: 1.6rem;
@@ -5762,11 +5765,11 @@ html.IGv2 {
         border: 1px solid transparent;
         border-radius: 6px 6px 3px 3px; }
         @media screen and (min-width: 64em) {
-          html.IGv2 form label input[type=text], html.IGv2 form label input[type=password], html.IGv2 form label input[type=tel], html.IGv2 form label input[type=email], html.IGv2 form label textarea {
+          html.IGv2 form label input[type=text], html.IGv2 form label input[type=password], html.IGv2 form label input[type=tel], html.IGv2 form label input[type=email], html.IGv2 form label textarea, html.IGv2 form label input[type=number] {
             font-size: 1.6rem; } }
-        html.IGv2 form label input[type=text]:focus, html.IGv2 form label input[type=password]:focus, html.IGv2 form label input[type=tel]:focus, html.IGv2 form label input[type=email]:focus, html.IGv2 form label textarea:focus {
+        html.IGv2 form label input[type=text]:focus, html.IGv2 form label input[type=password]:focus, html.IGv2 form label input[type=tel]:focus, html.IGv2 form label input[type=email]:focus, html.IGv2 form label textarea:focus, html.IGv2 form label input[type=number]:focus {
           border-color: #282828; }
-        html.IGv2 form label input[type=text].error + .fa, html.IGv2 form label input[type=password].error + .fa, html.IGv2 form label input[type=tel].error + .fa, html.IGv2 form label input[type=email].error + .fa, html.IGv2 form label textarea.error + .fa {
+        html.IGv2 form label input[type=text].error + .fa, html.IGv2 form label input[type=password].error + .fa, html.IGv2 form label input[type=tel].error + .fa, html.IGv2 form label input[type=email].error + .fa, html.IGv2 form label textarea.error + .fa, html.IGv2 form label input[type=number].error + .fa {
           display: block; }
       html.IGv2 form label span {
         position: relative;
@@ -7187,3 +7190,21 @@ html.IGv2 {
           margin-top: 2.9rem; } }
       html.IGv2 .section.cta .outline-btn:hover {
         border-color: #A86728; }
+  html.IGv2 .date-time {
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+    @media screen and (max-width: 39.9375em) {
+      html.IGv2 .date-time {
+        margin-top: 0.5rem !important;
+        margin-bottom: -1rem; } }
+    html.IGv2 .date-time .tp_05 {
+      font-family: "whitney_scmedium";
+      font-size: 1.4rem;
+      line-height: 2rem;
+      margin-bottom: 0;
+      text-transform: none; }
+      @media screen and (max-width: 39.9375em) {
+        html.IGv2 .date-time .tp_05 {
+          font-size: 1.2rem; }
+          html.IGv2 .date-time .tp_05:last-child {
+            margin-bottom: 0; } }

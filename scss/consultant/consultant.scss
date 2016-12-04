@@ -1797,3 +1797,30 @@
 		}
 	}
 }
+
+.date-time{
+
+	margin-top: 2rem;
+	margin-bottom:2rem;
+
+	@media #{$small-only}{
+		margin-top: 0.5rem!important;
+		margin-bottom: -1rem;
+	}
+
+	.tp_05{
+		font-family: "whitney_scmedium";
+	    font-size: 1.4rem;
+	    line-height: 2rem;
+	    margin-bottom: 0;
+	    text-transform: none;
+
+	    @media #{$small-only}{
+	    	 font-size: 1.2rem;
+
+	    	 &:last-child{
+	    	 	margin-bottom: 0;
+	    	 }
+	    }
+	}
+}

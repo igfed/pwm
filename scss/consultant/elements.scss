@@ -861,6 +861,7 @@ a.outline-btn {
     position: absolute;
     right: 2.3rem;
     top: 2.6rem;
+    display: block;
 
 	@media #{$small-only} {
 		height: 2.5rem;
@@ -888,6 +889,11 @@ a.outline-btn {
 
 form {
 	padding: 2rem 1.5rem;
+
+	.outline-btn{
+		color: white!important;
+	}
+	
 	img{
 		margin-top: 0;
 		margin-bottom: 6rem;
@@ -962,7 +968,7 @@ form {
 		}
 	}
 
-	input[type=text], input[type=password], input[type=tel], input[type=email], textarea {
+	input[type=text], input[type=password], input[type=tel], input[type=email], textarea, input[type=number] {
 		background-color: transparent;
 		border-color: $igBlue;
 		border-width: 0;
@@ -1044,7 +1050,7 @@ form {
 			color: $errorRed;
 		}
 
-		input[type=text], input[type=password], input[type=tel], input[type=email], textarea {
+		input[type=text], input[type=password], input[type=tel], input[type=email], textarea, input[type=number] {
 			@include font('tp_26');
 			margin-bottom: 0;
 		    border: 1px solid transparent;

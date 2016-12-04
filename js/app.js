@@ -694,8 +694,8 @@ $(function showBioToggle(){
 
 })();
 
-$(function textTransformLowercase(){
-     $('.consultant_name').text(function (_, val) {
-    return val.toLowerCase();
-    });
-}());   
+// $(function textTransformLowercase(){
+//      $('.consultant_name').text(function (_, val) {
+//     return val.toLowerCase();
+//     });
+// }());   
