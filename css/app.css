@@ -6020,7 +6020,7 @@ html.IGv2 {
         top: -15%; }
         html.IGv2 a.map-anchor .map-container .map-icon::after {
           content: "";
-          width: 2.8rem;
+          width: 3.6rem;
           height: 3.7rem;
           background-image: url("../img/ui/map-marker.png");
           background-position-y: 0;
